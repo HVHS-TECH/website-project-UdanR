@@ -10,7 +10,7 @@ html, body{background-color: hsl(204, 48%, 53%);}
   outline: 1px solid white;
 
   background-clip: padding-box;
-   animation: slideIn 1.2s cubic-bezier(0.175, 10.885, 0.32, 1.001) forwards;
+   animation: slideIn 1.2s cubic-bezier(0.175, 0.0885, 0.32, 1.001) forwards;
 }
 
 
