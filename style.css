@@ -19,7 +19,6 @@ animation: zoom1 1.2s ease-out forwards;
 }
 nav a{
     font-size: 20px;
-    margin-left: 64px;
   top: 0;
   z-index: 1000;
   padding: 0px 0px;
