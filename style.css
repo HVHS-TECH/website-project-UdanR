@@ -17,9 +17,9 @@ background-color: #97cbff;
 animation: zoom1 1.2s ease-out forwards;
  outline: 1px solid white;
  height: 25px; 
- align-items: center;
 }
 nav a{
+  -webkit-text-fill-color: ;
     font-size: 20px;
   top: 0;
   z-index: 1000;
