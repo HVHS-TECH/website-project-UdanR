@@ -1,6 +1,6 @@
 html, body{background-color: #0F4C75;}
 
-header{
+.site-header{
     color: #0A2540;
   position: sticky;
   top: 0;
@@ -8,6 +8,10 @@ header{
   padding: 0px 0px;
   margin: 0px;
   background-clip: padding-box;
+}
+
+.site-logo{
+    background-color: transparent;
 }
 
 .site-logo img{
