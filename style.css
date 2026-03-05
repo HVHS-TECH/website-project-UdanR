@@ -19,11 +19,11 @@ animation: zoom1 1.2s ease-out forwards;
  height: 25px; 
 }
 nav a{
-  -webkit-text-fill-color: ;
+  -webkit-text-fill-color: rgb(37, 79, 156);
     font-size: 20px;
   top: 0;
   z-index: 1000;
-  
+  text
   margin: 100px;
   background-clip: padding-box;
   transition:0.3s ease;
