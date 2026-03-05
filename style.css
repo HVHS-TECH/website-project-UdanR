@@ -8,23 +8,19 @@ html, body{background-color: hsl(204, 48%, 53%);}
   padding: 0px 0px;
   margin: 0px;
   outline: 1px solid white;
-
   background-clip: padding-box;
-   animation: slideIn 1.2s cubic-bezier(0.675, 1.02, 0.32, 0.8) forwards;
+   animation: zoom1 1.2s ease-out forwards;
 }
 
 
-@keyframes slideIn {
+@keyframes zoom1 {
      0% {
     opacity: 0;
-    transform: translate(-10%, -10%) scale(0.5); /* Start small and lower */
+    transform: scale(0.7);
   }
-  70% {
-    opacity: 1;
-    transform: translate(-5%, -5%) scale(1.05); /* "Pop" slightly larger */
   }
   100% {
-    transform: translate(0, 0) scale(1); /* Settle at normal size */
+    transform: scale(1); 
   }
 }
 
@@ -37,6 +33,17 @@ html, body{background-color: hsl(204, 48%, 53%);}
   margin: 1px;
   outline: 1px solid white;
   background-clip: padding-box;
+  animation: zoom2 1.2s ease-out forwards;
+
+  @keyframes zoom1 {
+     0% {
+    opacity: 0;
+    transform: scale(0.7);
+  }
+  }
+  100% {
+    transform: scale(1); 
+  }
 }
 
 .site-logo{
