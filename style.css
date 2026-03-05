@@ -1,18 +1,19 @@
 html, body{background-color: hsl(204, 48%, 53%);}
 
 .site-header{
-    background-color: #083b6e;
+    background-color: #97cbff;
   position: sticky;
   top: 0;
   z-index: 1000;
   padding: 0px 0px;
   margin: 0px;
-  
+  outline-width: 5px;
+  outline-color: white;
   background-clip: padding-box;
 }
 
 .navigation{
-    background-color: #083b6e;
+    background-color: #97cbff;
   position: sticky;
   top: 0;
   z-index: 1000;
