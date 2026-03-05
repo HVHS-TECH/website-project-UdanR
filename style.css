@@ -21,9 +21,8 @@ html, body{background-color: hsl(204, 48%, 53%);}
   margin: 1px;
   outline: 1px solid white;
   background-clip: padding-box;
+  transition:0.3s ease;
   animation: zoom1 1.2s ease-out forwards;
-
-
 }
 
 @keyframes zoom1 {
