@@ -14,6 +14,8 @@ html, body{background-color: hsl(204, 48%, 53%);}
 
 .navigation{
     background-color: #97cbff;
+    font-size: 20px;
+    margin-left: 64px;
   position: sticky;
   top: 0;
   z-index: 1000;
