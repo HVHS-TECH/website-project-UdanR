@@ -1,7 +1,7 @@
-html, body{background-color: hsl(204, 57%, 39%);}
+html, body{background-color: hsl(204, 48%, 53%);}
 
 .site-header{
-    background-color: #0A2540;
+    background-color: #083b6e;
   position: sticky;
   top: 0;
   z-index: 1000;
