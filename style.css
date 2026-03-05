@@ -63,6 +63,11 @@ nav a:hover{
     mix-blend-mode: multiply;
 }
 
+.search-icon{
+  width: 50px;
+  height: 50px;
+}
+
 .navigation-menu{
 text-decoration: none;
 color: #1F2933;
