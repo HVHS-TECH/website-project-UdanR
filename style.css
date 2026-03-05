@@ -10,6 +10,17 @@ html, body{background-color: hsl(204, 48%, 53%);}
   outline: 1px solid white;
 
   background-clip: padding-box;
+   animation: slideIn 1s ease-out forwards;
+}
+
+/* Define the animation */
+@keyframes slideIn {
+    0% {
+        transform: translateX(-150vw); 
+    }
+    100% {
+        transform: translateX(0);
+    }
 }
 
 .navigation{
