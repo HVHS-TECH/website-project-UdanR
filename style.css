@@ -11,20 +11,22 @@ html, body{background-color: hsl(204, 48%, 53%);}
   background-clip: padding-box;
    animation: zoom1 1.2s ease-out forwards;
 }
-
+nav{
+background-color: #97cbff;    
+ position: sticky;
+animation: zoom1 1.2s ease-out forwards;
+ outline: 1px solid white;
+}
 nav a{
-    background-color: #97cbff;
     font-size: 20px;
     margin-left: 64px;
-  position: sticky;
   top: 0;
   z-index: 1000;
   padding: 0px 0px;
-  margin: 1px;
-  outline: 1px solid white;
+  margin: 100px;
   background-clip: padding-box;
   transition:0.3s ease;
-  animation: zoom1 1.2s ease-out forwards;
+  text-decoration: none;
 }
 
 @keyframes zoom1 {
