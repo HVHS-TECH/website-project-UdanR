@@ -12,7 +12,7 @@ html, body{background-color: hsl(204, 48%, 53%);}
    animation: zoom1 1.2s ease-out forwards;
 }
 
-.navigation{
+nav a{
     background-color: #97cbff;
     font-size: 20px;
     margin-left: 64px;
