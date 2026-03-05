@@ -11,6 +11,9 @@ html, body{background-color: hsl(204, 48%, 53%);}
   outline: 1px solid white;
   background-clip: padding-box;
    animation: zoom1 1.2s ease-out forwards;
+   display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 nav{
 background-color: #97cbff;    
@@ -64,8 +67,10 @@ nav a:hover{
 }
 
 .search-icon{
-  width: 50px;
-  height: 50px;
+  width: 35px;
+  height: 35px;
+  padding-right: 20px;
+  
 }
 
 .navigation-menu{
