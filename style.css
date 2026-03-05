@@ -1,5 +1,9 @@
 html, body{background-color: antiquewhite;}
+
+
+
 .site-logo img{
-    width: 100px;
-    height: 100px;
+    width: 75px;
+    height: 75px;
+    mix-blend-mode: multiply;
 }
