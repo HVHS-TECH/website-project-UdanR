@@ -19,15 +19,23 @@ animation: zoom1 1.2s ease-out forwards;
  height: 25px; 
 }
 nav a{
-  -webkit-text-fill-color: rgb(37, 79, 156);
+  -webkit-text-fill-color: rgb(255, 255, 255);
     font-size: 20px;
   top: 0;
   z-index: 1000;
-  text-
+  font-weight: 500;
   margin: 100px;
   background-clip: padding-box;
-  transition:0.3s ease;
+  transition:0.3s ease-in;
   text-decoration: none;
+}
+
+nav a:hover{
+  text-decoration: underline;
+  font-weight: 800;
+  transition: ease-out;
+    -webkit-text-fill-color: rgb(37, 79, 156);
+
 }
 
 @keyframes zoom1 {
