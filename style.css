@@ -1,2 +1,5 @@
 html, body{background-color: antiquewhite;}
-.site-logo
+.site-logo{
+    width: 10px;
+    height: 10px;
+}
