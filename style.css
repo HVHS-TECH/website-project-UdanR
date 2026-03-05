@@ -5,6 +5,7 @@ html, body{background-color: hsl(204, 48%, 53%);}
   position: sticky;
   top: 0;
   z-index: 1000;
+  border-radius: 5px;
   padding: 0px 0px;
   margin: 0px;
   outline: 1px solid white;
@@ -14,6 +15,7 @@ html, body{background-color: hsl(204, 48%, 53%);}
 nav{
 background-color: #97cbff;    
  position: sticky;
+ border-radius: 5px;
 animation: zoom1 1.2s ease-out forwards;
  outline: 1px solid white;
  height: 25px; 
