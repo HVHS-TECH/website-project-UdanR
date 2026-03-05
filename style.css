@@ -11,6 +11,17 @@ html, body{background-color: hsl(204, 48%, 53%);}
   background-clip: padding-box;
 }
 
+.navigation{
+    background-color: #083b6e;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  padding: 0px 0px;
+  margin: 0px;
+  
+  background-clip: padding-box;
+}
+
 .site-logo{
     background-color: transparent;
 }
