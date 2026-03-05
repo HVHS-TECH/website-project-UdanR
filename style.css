@@ -16,12 +16,15 @@ background-color: #97cbff;
  position: sticky;
 animation: zoom1 1.2s ease-out forwards;
  outline: 1px solid white;
+ height: 25px;
+ justify-content: center; 
 }
 nav a{
+   
     font-size: 20px;
   top: 0;
   z-index: 1000;
-  padding: 0px 0px;
+  
   margin: 100px;
   background-clip: padding-box;
   transition:0.3s ease;
