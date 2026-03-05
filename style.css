@@ -12,18 +12,6 @@ html, body{background-color: hsl(204, 48%, 53%);}
    animation: zoom1 1.2s ease-out forwards;
 }
 
-
-@keyframes zoom1 {
-     0% {
-    opacity: 0;
-    transform: scale(0.7);
-  }
-  }
-  100% {
-    transform: scale(1); 
-  }
-}
-
 .navigation{
     background-color: #97cbff;
   position: sticky;
@@ -33,18 +21,23 @@ html, body{background-color: hsl(204, 48%, 53%);}
   margin: 1px;
   outline: 1px solid white;
   background-clip: padding-box;
-  animation: zoom2 1.2s ease-out forwards;
+  animation: zoom1 1.2s ease-out forwards;
 
-  @keyframes zoom1 {
+
+}
+
+@keyframes zoom1 {
      0% {
     opacity: 0;
     transform: scale(0.7);
   }
-  }
-  100% {
-    transform: scale(1); 
-  }
+  100%{
+    opacity: 1;
+    transform: scale(1);
 }
+}
+
+
 
 .site-logo{
     background-color: transparent;
