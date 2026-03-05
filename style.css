@@ -70,7 +70,7 @@ nav a:hover{
   width: 35px;
   height: 35px;
   padding-right: 20px;
-  
+  filter: invert(100%);
 }
 
 .navigation-menu{
