@@ -21,7 +21,8 @@ animation: zoom1 1.2s ease-out forwards;
  outline: 1px solid white;
  height: 25px; 
 }
-nav a{
+
+.navigate-norm{
   -webkit-text-fill-color: rgb(255, 255, 255);
     font-size: 20px;
   top: 0;
@@ -34,7 +35,7 @@ nav a{
   font-family: 'Courier New', Courier, monospace;
 }
 
-nav a:hover{
+.navigate-norm:hover{
   text-decoration: underline;
   font-weight: 800;
   transition: ease-out;
