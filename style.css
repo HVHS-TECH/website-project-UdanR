@@ -126,12 +126,16 @@ color: #1F2933;
 .seasonbutt:hover .season-dropdown {display: block;}
 .seasonbutt:hover .seasonbutton {background-color: #97cbff;}
 
+.index-main{
+  position: relative;
+  width: 100%;
+}
+
 .index-img{
   max-width: 100%;
   height: auto;
   display: block;
   margin: 0%;
-  position: relative;
 }
 
 #index-title{
@@ -139,6 +143,7 @@ color: #1F2933;
   color: white;
   text-align: center;
   font-family: 'Courier New', Courier, monospace;
+  position: absolute;
 }
 
 #index-catchline{
@@ -146,4 +151,9 @@ color: #1F2933;
   color: white;
   text-align: center;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
