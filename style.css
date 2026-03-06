@@ -126,6 +126,10 @@ color: #1F2933;
 .seasonbutt:hover .season-dropdown {display: block;}
 .seasonbutt:hover .seasonbutton {background-color: #97cbff;}
 
+.index-img{
+  wide
+}
+
 #index-title{
   font-size: 75px;
   color: white;
