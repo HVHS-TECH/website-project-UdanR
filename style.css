@@ -127,7 +127,10 @@ color: #1F2933;
 .seasonbutt:hover .seasonbutton {background-color: #97cbff;}
 
 .index-img{
-  wide
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0%;
 }
 
 #index-title{
