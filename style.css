@@ -123,7 +123,8 @@ color: #1F2933;
 
 
 .season-dropdown a:hover {background-color: #5288be;}
-.seasonbutt:hover .season-dropdown {display: block;}
+.seasonbutt:hover .season-dropdown {display: block;
+transi}
 .seasonbutt:hover .seasonbutton {background-color: #97cbff;}
 
 #index-title{
