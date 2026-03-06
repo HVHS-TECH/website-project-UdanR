@@ -82,7 +82,49 @@ text-decoration: none;
 color: #1F2933;
 }
 
+.seasonbutton {
+  background-color: transparent;
+  color: white;
+  padding: 1px;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
 
+}
+.seasonbutton:hover{
+    color:rgb(37, 79, 156);
+    font-weight: 800px;
+}
+.seasonbutt {
+  position: relative;
+  display: inline-block;
+}
+
+.season-dropdown {
+  display: none;
+  position: absolute;
+  background-color: #97cbff;
+  border-radius: 5px;
+  min-width: 10px;
+  box-shadow: 1px 6px 5px 0px rgba(0,0,0,0.2);
+  outline: 1.5px solid white;
+  z-index: 1;
+}
+
+.season-dropdown a {
+  color: white;
+  padding: 0px 0px;
+  text-decoration: none;
+  display: block;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+
+.season-dropdown a:hover {background-color: #5288be;}
+.seasonbutt:hover .season-dropdown {display: block;}
+.seasonbutt:hover .seasonbutton {background-color: #97cbff;}
 
 #index-title{
   font-size: 75px;
