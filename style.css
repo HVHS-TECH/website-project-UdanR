@@ -86,17 +86,12 @@ color: #1F2933;
 .seasonbutton {
   background-color: transparent;
   color: white;
-  margin: 100px;
-  font-size: 16px;
+  padding: 5px;
+  font-size: 20px;
   font-weight: 500;
   border: none;
   border-radius: 5px;
     font-family: 'Courier New', Courier, monospace;
-  top: 0;
-  z-index: 1000;
-  font-weight: 500;
-  background-clip: padding-box;
-  transition:0.3s ease-in;
 }
 .seasonbutton:hover{
     color:rgb(37, 79, 156);
