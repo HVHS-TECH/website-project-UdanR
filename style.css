@@ -19,7 +19,7 @@ background-color: #97cbff;
  border-radius: 5px;
 animation: zoom1 1.2s ease-out forwards;
  outline: 1px solid white;
- height: 25px; 
+ height: 30px; 
 }
 
 .navigate-norm{
@@ -86,7 +86,7 @@ color: #1F2933;
 .seasonbutton {
   background-color: transparent;
   color: white;
-  padding: 5px;
+  padding: 5px 50px;
   font-size: 20px;
   font-weight: 500px;
   border: none;
@@ -94,7 +94,7 @@ color: #1F2933;
     font-family: 'Courier New', Courier, monospace;
 }
 .seasonbutton:hover{
-    color:rgb(0, 0, 0);
+    color:rgb(37, 79, 156);
     font-weight: 800px;
 }
 .seasonbutt {
