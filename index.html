@@ -13,9 +13,18 @@
             <img src="search.png" class="search-icon" alt="Search-Icon">
 
     </header>
+    
  <nav>
             <a href="index.html">Home</a>
-            <a href="seasons.html">Seasons</a>
+            <div class="dropdown">
+  <button class="dropbtn">Seasons</button>
+  <div class="dropdown-content">
+    <a href="spring.html">Spring</a>
+    <a href="summer.html">Summer</a>
+    <a href="autumn.html">Autumn</a>
+    <a href="winter.html">Winter</a>
+  </div>
+</div>
             <a href="top-picks.html">Top-Picks</a>
         </nav>
 </div>        
@@ -27,7 +36,7 @@
 .dropbtn {
   background-color: transparent;
   color: white;
-  padding: 16px;
+  padding: 1px;
   font-size: 16px;
   border: none;
   border-radius: 5px;
@@ -43,14 +52,14 @@
   position: absolute;
   background-color: #97cbff;
   border-radius: 5px;
-  min-width: 160px;
+  min-width: 16px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
 
 .dropdown-content a {
   color: white;
-  padding: 12px 16px;
+  padding: 1px 1px;
   text-decoration: none;
   display: block;
   font-family: 'Courier New', Courier, monospace;
@@ -67,22 +76,7 @@
 .dropdown:hover .dropbtn {background-color: #97cbff;}
 </style>
 
-<div class="dropdown">
-  <button class="dropbtn">Seasons</button>
-  <div class="dropdown-content">
-    <a href="spring.html">Spring</a>
-    <a href="summer.html">Summer</a>
-    <a href="autumn.html">Autumn</a>
-    <a href="winter.html">Winter</a>
-  </div>
-</div>
 
-<select name="fruits" id="seasons">
-  <option value="index.html">Apple</option>
-  <option value="banana">Banana</option>
-  <option value="orange">Orange</option>
-  <option value="grape">Grape</option>
-</select>
 
 </body>
 </html>
