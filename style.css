@@ -88,13 +88,13 @@ color: #1F2933;
   color: white;
   padding: 5px;
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 500px;
   border: none;
   border-radius: 5px;
     font-family: 'Courier New', Courier, monospace;
 }
 .seasonbutton:hover{
-    color:rgb(37, 79, 156);
+    color:rgb(0, 0, 0);
     font-weight: 800px;
 }
 .seasonbutt {
