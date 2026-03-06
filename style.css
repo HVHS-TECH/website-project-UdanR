@@ -111,10 +111,6 @@ color: #1F2933;
   box-shadow: 1px 6px 5px 0px rgba(0,0,0,0.2);
   outline: 1.5px solid white;
   z-index: 1;
-  max-height: 0;
-  opacity: 0;
-  transition: ease-out ;
-
 }
 
 .season-dropdown a {
@@ -127,10 +123,7 @@ color: #1F2933;
 
 
 .season-dropdown a:hover {background-color: #5288be;}
-.seasonbutt:hover .season-dropdown {display: block;
-max-height: 200px;
-opacity: 1;
-}
+.seasonbutt:hover .season-dropdown {display: block;}
 .seasonbutt:hover .seasonbutton {background-color: #97cbff;}
 
 #index-title{
