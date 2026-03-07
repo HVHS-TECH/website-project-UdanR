@@ -155,14 +155,14 @@ color: #1F2933;
 .carousel-container{
 position:relative;
 display:flex;
-min-width: 0;
-max-width: 100px;
 align-items:center;
 margin:40px;
 }
 
 .carousel{
 display:flex;
+min-width: 0;
+max-width: 255px;
 gap:20px;
 overflow:hidden;
 scroll-behavior:smooth;
