@@ -79,7 +79,21 @@
   </div>
   <button class="arrow right" onclick="scrollCarousel(1)">❯</button>
 </div>
+<script>
+  function scrollCarousel(direction){
 
+const container = document.getElementById("carousel");
+
+const scrollAmount = 250;
+
+container.scrollBy({
+left: direction * scrollAmount,
+behavior: "smooth"
+});
+
+}
+
+</script>
     </main>
 
 
