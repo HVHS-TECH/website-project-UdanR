@@ -159,12 +159,17 @@ display: block;}
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.horizontal-line{
-  border-top: 1px solid #ccc;
-  width: 100%;
-  margin: 1em 0;
-  display: block;
+.horizontal-scrolling {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 1px 20px;
 }
+
+.horizontal-scrolling h1, .horizontal-scrolling a {
+    margin: 0;
+}
+
 
  .view-all{
   text-decoration:none;
