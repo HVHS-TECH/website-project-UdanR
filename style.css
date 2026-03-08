@@ -110,6 +110,8 @@ color: #1F2933;
   position: absolute;
   top: 100%;
   margin-top: -20px;
+  min-width: 100%;
+  padding: 0;
   left: 0;
   background-color: #97cbff;
   border-radius: 5px;
