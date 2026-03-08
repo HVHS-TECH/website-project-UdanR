@@ -152,12 +152,10 @@ color: #1F2933;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.hr{
-  border: none;
-  height: 2px;
-  background-color: white;
-  width: 50%;
-  margin: 20px auto;
+.horizontal-line{
+  border-top: 1px solid #ccc;
+  width: 100%;
+  margin: 1;
 }
 
 .carousel-container{
