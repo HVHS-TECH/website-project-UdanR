@@ -248,8 +248,12 @@ padding-right: 5px;
   background-color: #0F4C75;
   color: white;
   border-radius: 5px;
+  border: 5px;
 }
 
 .scroll-viewmore-info:hover{
-  
+  color: #0F4C75;
+  background-color: white;
+  border:1px solid #0F4C75 ;
+  border-radius: 5px;
 }
