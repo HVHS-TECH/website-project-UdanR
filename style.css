@@ -100,12 +100,13 @@ color: #1F2933;
 .seasonbutt {
   position: relative;
   display: inline-block;
-  padding-bottom: 10px;
 }
 
 .season-dropdown {
   display: none;
   position: absolute;
+  top: 100%;
+  left: 0;
   background-color: #97cbff;
   border-radius: 5px;
   min-width: 10px;
@@ -116,7 +117,7 @@ color: #1F2933;
 
 .season-dropdown a {
   color: white;
-  padding: 5px 15px;
+  
   text-decoration: none;
   display: block;
   font-family: 'Courier New', Courier, monospace;
