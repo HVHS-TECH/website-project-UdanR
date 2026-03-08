@@ -1,13 +1,12 @@
-nav{
+.navigeion{
 background-color: #97cbff;    
  position: sticky;
  border-radius: 5px;
-animation: zoom1 1.2s ease-out forwards;
  outline: 1px solid white;
  height: 30px; 
 }
 
-.navigate-norm{
+.navigeion{
   -webkit-text-fill-color: rgb(255, 255, 255);
     font-size: 20px;
   top: 0;
@@ -20,7 +19,7 @@ animation: zoom1 1.2s ease-out forwards;
   font-family: 'Courier New', Courier, monospace;
 }
 
-.navigate-norm:hover{
+.navigeion:hover{
   text-decoration: underline;
   font-weight: 800;
   transition: ease-out;
