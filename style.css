@@ -122,10 +122,10 @@ color: #1F2933;
 }
 
 .season-dropdown a {
+  display: block;
   color: white;
   padding: 5px 15px;
   text-decoration: none;
-  display: block;
   width: 100%;
   padding: 10px 15px;
   font-family: 'Courier New', Courier, monospace;
