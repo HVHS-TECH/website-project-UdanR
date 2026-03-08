@@ -109,7 +109,6 @@ color: #1F2933;
   left: 0;
   background-color: #97cbff;
   border-radius: 5px;
-  min-width: 10px;
   box-shadow: 1px 6px 5px 0px rgba(0,0,0,0.2);
   outline: 1.5px solid white;
   z-index: 1;
@@ -117,7 +116,7 @@ color: #1F2933;
 
 .season-dropdown a {
   color: white;
-  
+  padding: 5px 15px;
   text-decoration: none;
   display: block;
   font-family: 'Courier New', Courier, monospace;
