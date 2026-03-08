@@ -285,11 +285,12 @@ padding-right: 5px;
     padding-left: 5px;
     padding-right: 5px;
     text-align: right;
+    
 }
 
 .map:hover{
   border: 1px solid #5288be;
   background-color: white;
   color: #5288be;
-  
+
 }
