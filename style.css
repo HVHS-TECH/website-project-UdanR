@@ -100,10 +100,12 @@ color: #1F2933;
 .seasonbutt {
   position: relative;
   display: inline-block;
+  border-bottom: 10px;
 }
 
 .season-dropdown {
   display: none;
+  border-top: 10px solid transparent;
   position: absolute;
   top: 100%;
   left: 0;
