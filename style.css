@@ -162,7 +162,6 @@ margin:40px;
 .carousel{
 display:flex;
 min-width: 0;
-max-width: 255px;
 gap:20px;
 overflow:hidden;
 scroll-behavior:smooth;
