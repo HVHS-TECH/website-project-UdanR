@@ -257,3 +257,29 @@ padding-right: 5px;
   border:1px solid #0F4C75 ;
   border-radius: 5px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.content-container{
+  display: flex;
+  background-color: aliceblue;
+  padding: 10px;
+  border-radius: 5px;
+}
