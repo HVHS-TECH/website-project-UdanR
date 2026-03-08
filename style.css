@@ -84,6 +84,7 @@ color: #1F2933;
 }
 
 .seasonbutton {
+  display: block;
   background-color: transparent;
   color: white;
   padding: 5px 50px;
