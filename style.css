@@ -132,7 +132,8 @@ color: #1F2933;
 }
 
 
-.season-dropdown a:hover {background-color: #5288be;}
+.season-dropdown a:hover {background-color: #5288be;
+display: block;}
 .seasonbutt:hover .season-dropdown {display: block;}
 .seasonbutt:hover .seasonbutton {background-color: #97cbff;}
 
