@@ -17,6 +17,8 @@ background-color: #97cbff;
   transition:0.3s ease-in;
   text-decoration: none;
   font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  
 }
 
 .navigeion:hover{
