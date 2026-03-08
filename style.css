@@ -277,3 +277,18 @@ padding-right: 5px;
 
 
 
+.map{
+    background-color:#5288be;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+}
+
+.map:hover{
+  border: 1px solid #5288be;
+  background-color: white;
+  color: #5288be;
+}
