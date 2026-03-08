@@ -155,7 +155,8 @@ color: #1F2933;
 .horizontal-line{
   border-top: 1px solid #ccc;
   width: 100%;
-  margin: 1;
+  margin: 1em 0;
+  display: block;
 }
 
 .carousel-container{
