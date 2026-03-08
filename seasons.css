@@ -27,3 +27,7 @@ animation: zoom1 1.2s ease-out forwards;
     -webkit-text-fill-color: rgb(37, 79, 156);
 
 }
+
+.map{
+    background-color: red;
+}
