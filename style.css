@@ -166,6 +166,17 @@ display: block;}
   display: block;
 }
 
+ .view-all{
+  text-decoration:none;
+  color:#0F4C75;
+  font-weight:600;
+}
+
+.view-all:hover
+{
+  text-decoration:underline;
+}
+
 .carousel-container{
 position:relative;
 display:flex;
