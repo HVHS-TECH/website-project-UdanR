@@ -244,3 +244,12 @@ padding: 0%;
 padding-right: 5px;
 }
 
+.scroll-viewmore-info{
+  background-color: #0F4C75;
+  color: white;
+  border-radius: 5px;
+}
+
+.scroll-viewmore-info:hover{
+  
+}
