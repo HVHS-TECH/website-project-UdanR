@@ -91,6 +91,7 @@ color: #1F2933;
   font-size: 20px;
   font-weight: 500;
   border: none;
+  cursor: pointer;
   border-radius: 5px;
     font-family: 'Courier New', Courier, monospace;
 }
