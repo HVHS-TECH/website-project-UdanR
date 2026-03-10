@@ -145,6 +145,7 @@ color: #1F2933;
     justify-content: space-between; 
     align-items: center; 
     padding: 1px 20px;
+    background-color: white;
 }
 
 .horizontal-scrolling h1, .horizontal-scrolling a {
