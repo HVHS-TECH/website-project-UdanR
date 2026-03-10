@@ -112,7 +112,8 @@ color: #1F2933;
   display: block;
   position: absolute;
   border-radius: 7px;
-  backdrop
+  justify-content: center;
+  ;
 }
 
 #index-title{
