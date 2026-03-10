@@ -101,6 +101,10 @@ color: #1F2933;
   z-index: -1;
 }
 
+.main-title{
+  
+}
+
 #index-title{
   position: absolute;
   font-size: 75px;
@@ -119,7 +123,7 @@ color: #1F2933;
   color: white;
   text-align: center;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  top: 50%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
