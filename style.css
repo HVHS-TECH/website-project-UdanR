@@ -109,6 +109,7 @@ color: #1F2933;
   font-family: 'Courier New', Courier, monospace;
   z-index: 1;
   top: 50%;
+  left: 50%;
 }
 
 #index-catchline{
