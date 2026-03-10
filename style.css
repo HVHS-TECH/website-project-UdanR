@@ -110,13 +110,18 @@ color: #1F2933;
   z-index: 1;
   top: 50%;
   left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 #index-catchline{
+  position: absolute;
   font-size: 35px;
   color: white;
   text-align: center;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .horizontal-scrolling {
