@@ -106,7 +106,10 @@ color: #1F2933;
   height: 50px;
   top: 50%;
   left: 50%;
-  color
+  background-color: white;
+  -webkit-backdrop-filter: blur();
+  display: block;
+  position: absolute;
 }
 
 #index-title{
