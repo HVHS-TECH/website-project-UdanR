@@ -108,7 +108,7 @@ color: #1F2933;
   left: 27%;
   background-color: rgba(255, 255, 255, 0.3);
   backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(2px);
   display: block;
   position: absolute;
   border-radius: 7px;
