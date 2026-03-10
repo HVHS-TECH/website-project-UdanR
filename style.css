@@ -20,6 +20,7 @@ background-color: #97cbff;
 animation: zoom1 1.2s ease-out forwards;
  outline: 1px solid white;
  height: 30px; 
+ z-index: 800;
 }
 
 .navigate-norm{
@@ -89,8 +90,12 @@ color: #1F2933;
   width: 100%;
 }
 
-.indexmain .index-img img{
+.index-img{
   max-width: 100%;
+}
+
+.index-img img{
+  max-width: fit-content;
   height: auto;
   display: block;
   margin: 0%;
