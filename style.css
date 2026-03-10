@@ -90,15 +90,13 @@ color: #1F2933;
   width: 100%;
 }
 
-.index-img{
-  max-width: 100%;
-}
-
 .index-img img{
-  max-width: fit-content;
+  max-width: 100%;
   height: auto;
+  width: auto;
   display: block;
   margin: 0%;
+  padding: 0%;
   z-index: -1;
 }
 
@@ -107,6 +105,7 @@ color: #1F2933;
   color: white;
   text-align: center;
   font-family: 'Courier New', Courier, monospace;
+  z-index: 1;
 }
 
 #index-catchline{
