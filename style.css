@@ -89,8 +89,9 @@ color: #1F2933;
   width: 100%;
 }
 
-.index-img{
-  max-width: auto;
+.indexmain .index-img img{
+  max-width: 100%;
+  width: 100%;
   height: auto;
   display: block;
   margin: 0%;
