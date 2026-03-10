@@ -113,7 +113,8 @@ color: #1F2933;
   position: absolute;
   border-radius: 7px;
   justify-content: center;
-  box-shadow: black;
+  box-shadow: 0 6px 18px black;
+  border: 0.1px solid white;
 }
 
 #index-title{
