@@ -89,6 +89,7 @@ color: #1F2933;
   position: relative;
   display: inline-block;
   width: 100%;
+  animation: zoom1 1.2s ease-out forwards;
 }
 
 .index-img img{
