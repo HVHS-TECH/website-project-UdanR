@@ -156,6 +156,7 @@ behavior: "smooth"
 .container {
   display: grid;
   grid-template-areas:
+  "viewall viewall viewall"
     "header great-wall-con";
   grid-template-columns: auto auto auto;
   gap: 3px;
@@ -173,6 +174,12 @@ behavior: "smooth"
   margin-right: 15px;
 
 }
+
+.container div. viewall{
+  grid-area: viewall;
+  text-align: right;
+  background-color: transparent;
+}
 .container div.header {
   grid-area: header;
   text-align: center;
@@ -189,12 +196,11 @@ behavior: "smooth"
 }
 
 </style>
-  <a href="top-picks.html" class="view-all">View All →</a>
-
 <div class="container">
   <div class="header"><img src="#"><h2>Eiffel Tower</h2><p>An iconic iron tower rising above Paris, offering breathtaking views of the city.</p></div>
   <div class="great-wall-con"><img src="#"><h2>Great Wall</h2><p>An ancient wall stretching thousands of kilometers across mountains and valleys.</p></div>
   <div class="colosseum-con-1"><img src="#"><h2>Colosseum</h2><p>The largest ancient amphitheater ever built in the Roman Empire.</p></div>
+  <div class="viewall"<a href="top-picks.html" class="view-all">View All →</a></div>
 
 </div>
 
