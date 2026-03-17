@@ -156,15 +156,16 @@ behavior: "smooth"
 .container {
   display: grid;
   grid-template-areas:
-  "grid-topic viewall viewall"
-    "header great-wall-con colosseum-con-1";
-  grid-template-columns: 1fr 1fr 1fr;
+  "grid-topic viewall viewall viewall"
+    "header great-wall-con colosseum-con-1 patra-con";
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 30px auto;
   gap: 3px;
   background-color: #aed9e0;
   padding: 6px;
   margin: 50px;
   border-radius: 5px;
+  padding-bottom: 20px;
   
 }
 .container div {
@@ -205,6 +206,11 @@ behavior: "smooth"
   text-align: center;
 }
 
+.container div.patra-con {
+  grid-area: patra-con;
+  text-align: center;
+}
+
 .container img{
   height:300px;
   width: 250px;
@@ -216,6 +222,8 @@ behavior: "smooth"
   <div class="header"><img src="images/eiffel-tower.png"><h2>Eiffel Tower</h2><p>An iconic iron tower rising above Paris, offering breathtaking views of the city.</p></div>
   <div class="great-wall-con"><img src="#"><h2>Great Wall</h2><p>An ancient wall stretching thousands of kilometers across mountains and valleys.</p></div>
   <div class="colosseum-con-1"><img src="#"><h2>Colosseum</h2><p>The largest ancient amphitheater ever built in the Roman Empire.</p></div>
+  <div class="patra-con"><img src="#"><h2>Patra</h2><h3>📍 Location: Southern Jordan</h3><p>An ancient city carved directly into red desert cliffs.</p></div>
+
 </div>
 
 
