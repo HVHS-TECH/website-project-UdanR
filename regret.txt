@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Summer</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="seasons.css">
+<style>
+    html{
+scroll-behavior: smooth;
+}
+</style>
+<!--this is for the box-->
+<style> 
+.content-container {
+  display: flex;
+  background-color:aliceblue;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.content-container div {
+  background-color: transparent;
+  margin: 10px;
+  padding: 20px;
+  font-size: 24px;
+}
+
+.content-container div div h2{
+    scale: 0.9;
+    margin: 0;
+}
+
+.content-container div p{
+    scale: 0.9;
+    margin: 0;
+}
+
+</style>
+</head>
+<body>
+<header class="site-header">
+        <div class="site-logo">
+            <a href="index.html"><img src="airplane - Freepik.gif" alt="site-logo"></a>
+        </div>
+        <h1 class="site-name">JetSetGo!</h1>
+            <img src="search.png" class="search-icon" alt="Search-Icon">
+
+    </header>
+    <nav>
+      <a href="index.html" class="navigate-norm">Home</a>
+      <a href="seasons.html" class="navigate-norm">Seasons</a>
+      <a href="continents.html" class="navigate-norm">Continents</a>
+      <a href="top-picks.html" class="navigate-norm">Top-Picks</a>
+      <a href="natural-wonders.html" class="navigate-norm">Natural-Wonders</a>
+      <a href="beaches.html" class="navigate-norm">Beaches</a>
+      <a href="mountain.html" class="navigate-norm">Mountains</a>
+    </nav>
+    <main>
+      <div class="index-main">
+      <div class="index-img">
+        <img src="Seasons/Summer/seasons-summer-main-img.png" alt="index-img">
+      </div>    
+      <h1 id="index-title">summer</h1>   
+      <h2 id="index-catchline">Seasons remind us that life is ever-changing—spring brings hope, summer joy, autumn reflection, and winter rest. In their rhythm, we find growth and beauty.</h2> 
+      </div>
+
+      <h1 id="summer1">Summer ☀️</h1>
+      <div class="content-container">
+        <div><img src="images/mount-fuji.png" alt="Mount-Fuji"></div>
+        <div>
+            <div>
+                <h1>Mount Fuji</h1>
+                <h2>📍 Location: Japan</h2>
+                <h2>🌤️ Best Seasons: Summer (Jul-Sep)</h2>
+            </div>
+            <p>Japan’s most famous mountain and a sacred symbol of the country.</p>
+            <p>Mount Fuji stands 3,776 meters tall and is an active volcano. It is one of the most photographed mountains in the world.</p>
+            <a href="https://maps.app.goo.gl/5ezacvCavSmLQZuf7" class="map" target="_blank">Directions</a>
+        </div>
+      </div>
+
+
+      </main>
+      <footer>
+
+      </footer>
+
+<h1>This is a Heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+
+
