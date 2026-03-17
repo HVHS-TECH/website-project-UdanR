@@ -353,3 +353,13 @@ scroll-behavior: smooth;
 </html>
 
 
+seasons
+
+      <div class="index-main">
+      <div class="index-img">
+        <img src="Seasons/Winter/seasons-winter-main-img.png" alt="index-img">
+      </div>    
+      <div class="main-title"></div>
+      <h1 id="index-title">Summer</h1>   
+      <h2 id="index-catchline">Where Summer Never Ends</h2> 
+      </div>
