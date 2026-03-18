@@ -28,3 +28,14 @@ background-color: #97cbff;
 
 }
 
+  width: 660px;
+  height: 500px;
+  background-color: rgba(163, 200, 255, 0.3);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(2px);
+  display: block;
+  position: absolute;
+  border-radius: 7px;
+  justify-content: center;
+  box-shadow: 0 6px 18px black;
+  border: 0.1px solid white;
