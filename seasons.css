@@ -27,7 +27,7 @@ background-color: #97cbff;
     -webkit-text-fill-color: rgb(37, 79, 156);
 
 }
-
+.index-main-box{
   width: 660px;
   height: 500px;
   background-color: rgba(163, 200, 255, 0.3);
@@ -42,3 +42,4 @@ background-color: #97cbff;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
