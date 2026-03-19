@@ -158,6 +158,15 @@ scroll-behavior: smooth;
   transition: all 0.8s ease;
 }
 
+.container > div.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.container > div:not(.viewall) {
+  opacity: 0;
+  transform: translateY(60px);
+}
 
 .card.show {
   opacity: 1;
@@ -226,6 +235,11 @@ scroll-behavior: smooth;
 
 </div>
 
+
+<h1>This is a Heading abc</h1>
+<p>This is a paragraph.</p>
+
+</body>
 <script>
   const observer = new IntersectionObserver ((entries)=>{
     entries.forEach((entry)=>{
@@ -241,11 +255,7 @@ scroll-behavior: smooth;
 document.querySelectorAll(".container > div:not(.viewall)").forEach(el => {
   observer.observe(el);
 });
-</script></script>
-<h1>This is a Heading abc</h1>
-<p>This is a paragraph.</p>
-
-</body>
+</script>
 </html>
 
 
