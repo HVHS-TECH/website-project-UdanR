@@ -45,7 +45,7 @@ background-color: #97cbff;
 
 .index-main-image-slideshow {
   width:100%;
-  height:500px;
+  height:750px;
   overflow:hidden;
   position: relative;
 }
@@ -54,7 +54,7 @@ background-color: #97cbff;
   position:absolute;
   width:100%;
   height: auto;
-  top: 0;
+  top: -10px;
   left: 0;
   opacity: 0;
   animation: fade-anime 16s infinite;
