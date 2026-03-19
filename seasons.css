@@ -33,7 +33,6 @@ background-color: #97cbff;
   background-color: rgba(163, 200, 255, 0.3);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(2px);
-  display: absolute;
   position: absolute;
   border-radius: 7px;
   justify-content: center;
