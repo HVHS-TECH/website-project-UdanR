@@ -228,10 +228,10 @@ scroll-behavior: smooth;
 
 <script>
   const observer = new IntersectionObserver ((entries)=>{
-    entries.forEach((entries)=>{
-      if (entry.Intersecting){
-        console.log(entry.traget)
-        entry.class.classlist.add("show")
+    entries.forEach((entry)=>{
+      if (entry.isIntersecting){
+        console.log(entry.target)
+        entry.target.classlist.add("show")
       }
     })
 
