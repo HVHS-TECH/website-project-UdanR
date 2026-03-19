@@ -238,8 +238,10 @@ scroll-behavior: smooth;
 
   })
 
-  const 
-</script>
+document.querySelectorAll(".container > div:not(.viewall)").forEach(el => {
+  observer.observe(el);
+});
+</script></script>
 <h1>This is a Heading abc</h1>
 <p>This is a paragraph.</p>
 
