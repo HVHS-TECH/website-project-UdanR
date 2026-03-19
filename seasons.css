@@ -38,10 +38,18 @@ background-color: #97cbff;
   justify-content: center;
   box-shadow: 0 6px 18px black;
   border: 0.1px solid white;
+
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  
+}
+
+#index-title{
+  padding-bottom: 300px;
+}
+
+#index-catchline{
+  border: 1150px;
 }
 
 .index-main-image-slideshow {
