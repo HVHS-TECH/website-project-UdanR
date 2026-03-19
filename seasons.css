@@ -49,12 +49,15 @@ background-color: #97cbff;
   height:100%;
   overflow:hidden;
   position: relative;
-  margin:auto;
 }
 
 .index-main-image-slideshow-img{
-  position:absolute
+  position:absolute;
   width:100%;
+  height: auto;
+  top: 0;
+  left: 0;
+  opacity: 0;
   animation: fade-anime 16s infinite;
 }
 
