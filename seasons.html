@@ -153,7 +153,15 @@ scroll-behavior: smooth;
   border-radius: 7px;
   margin-left: 15px;
   margin-right: 15px;
+  opacity: 0;
+  transform: translateY(60px); /* start below */
+  transition: all 0.8s ease;
+}
 
+
+.card.show {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .container div.con-main-topic{
