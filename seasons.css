@@ -67,7 +67,11 @@ background-color: #97cbff;
   top: -10px;
   left: 0;
   opacity: 0;
-  animation: fade-anime 16s infinite;
+  animation: fade-anime 20s infinite;
+}
+
+@keyframes con-slide{
+  from
 }
 
 .index-main-image-slideshow img:nth-child(1){animation-delay:0s}
