@@ -71,7 +71,7 @@ background-color: #97cbff;
 }
 
 @keyframes con-slide{
-  from
+  from{}
 }
 
 .index-main-image-slideshow img:nth-child(1){animation-delay:0s}
