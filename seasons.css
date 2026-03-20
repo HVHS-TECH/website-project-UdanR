@@ -88,7 +88,7 @@ background-color: #97cbff;
 @keyframes move-up{
   from{  
   opacity: 1;
-  transform: translateY(65px); /* start below */
+  transform: translateY(65px);
   transition:  11s ease;}
   to{ 
   opacity: 1;
