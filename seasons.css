@@ -88,7 +88,11 @@ background-color: #97cbff;
 @keyframes move-up{
   from{  
   opacity: 1;
-  transform: translate(-50%, calc(-50% + 65px));  to{ 
+  transform: translate(-50%, calc(-50% + 65px));
+  transform: scale(1.01);  
+  to{ 
   opacity: 1;
     transform: translate(-50%, -50%);
+    transform: scale(1);  
+
 }
