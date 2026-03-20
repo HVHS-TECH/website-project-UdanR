@@ -42,7 +42,7 @@ background-color: #97cbff;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  
+  animation: fade-anime 20s infinite;
 }
 
 #index-title{
