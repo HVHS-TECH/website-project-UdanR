@@ -42,7 +42,7 @@ background-color: #97cbff;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  animation: move-up 20s infinite;
+  animation: move-up 5s forwards;
 }
 
 #index-title{
@@ -88,10 +88,10 @@ background-color: #97cbff;
 @keyframes move-up{
   from{  
   opacity: 1;
-  transform: translateY(100px); /* start below */
+  transform: translateY(65px); /* start below */
   transition:  11s ease;}
   to{ 
   opacity: 1;
-  transform: translateY(0px);
+  transform: translateY(-50%);
   transition: all 0.8s ease;}
 }
