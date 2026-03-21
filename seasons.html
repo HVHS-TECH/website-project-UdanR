@@ -47,7 +47,7 @@ scroll-behavior: smooth;
 .container {
   display: grid;
   grid-template-areas:
-  "viewall viewall viewall viewall"
+  "con-main-test viewall viewall viewall"
     "header great-wall-con colosseum-con-1 patra-con";
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 30px auto;
@@ -59,6 +59,7 @@ scroll-behavior: smooth;
   padding-bottom: 20px;
   
 }
+
 .container div {
   background-color: white;
   padding: 10px;
@@ -68,6 +69,11 @@ scroll-behavior: smooth;
 
 }
 
+.container div.con-main-test{
+  grid-area: con-main-test;
+  text-align: left;
+  background-color: transparent;
+}
 .container div.con-main-topic{
   grid-area: con-main-topic;
   text-align: left;
@@ -121,6 +127,7 @@ scroll-behavior: smooth;
 </style>
 
 <div class="container">
+  <div class="con-main-test"><a href="#" style="font-size: 20px; text-decoration: none; color: white; ">Spring</a></div>
   <div class="viewall"><a href="Seasons/spring.html" class="view-all">View All →</a></div>
   <div class="header"><img src="images/eiffel-tower.png"><h2 class="con-topic">Eiffel Tower</h2><h3 class="con-loc">📍 Location: Paris, France</h3><p>An iconic iron tower rising above Paris, offering breathtaking views of the city.</p></div>
   <div class="great-wall-con"><img src="images/great-wall.png"><h2 class="con-topic">Great Wall</h2><h3 class="con-loc">📍 Location: Northern China</h3><p>An ancient wall stretching thousands of kilometers across mountains and valleys.</p></div>
