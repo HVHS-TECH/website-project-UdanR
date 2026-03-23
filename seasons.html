@@ -136,7 +136,7 @@ scroll-behavior: smooth;
 .container {
   display: grid;
   grid-template-areas:
-  "viewall viewall viewall viewall"
+  "con-main-text viewall viewall viewall"
     "header great-wall-con colosseum-con-1 patra-con";
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 30px auto;
@@ -161,14 +161,15 @@ scroll-behavior: smooth;
 
 
 
+
 .container .show {
   opacity: 1;
   transform: translateY(0px);
   transition: all 0.8s ease;
 }
 
-.container div.con-main-topic{
-  grid-area: con-main-topic;
+.container div.con-main-text{
+  grid-area: con-main-text;
   text-align: left;
   background-color: transparent;
   padding-top:0%;
@@ -221,6 +222,7 @@ scroll-behavior: smooth;
 </style>
 
 <div class="container">
+  <div class="con-main-text show"><p href="Seasons/summer.html">Spring</p></div>
   <div class="viewall show"><a href="Seasons/summer.html" class="view-all">View All →</a></div>
   <div class="header"><img src="images/eiffel-tower.png"><h2 class="con-topic">Mount Fuji</h2><h3 class="con-loc">📍 Location: Japan</h3><p>Japan’s most famous mountain and a sacred symbol of the country.</p></div>
   <div class="great-wall-con"><img src="images/great-wall.png"><h2 class="con-topic">Great Wall</h2><h3 class="con-loc">📍 Location: Northern China</h3><p>An ancient wall stretching thousands of kilometers across mountains and valleys.</p></div>
