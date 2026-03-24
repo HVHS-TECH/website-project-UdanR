@@ -20,15 +20,6 @@
   border-radius: 7px;
   margin-left: 15px;
   margin-right: 15px;
-  opacity: 0;
-  transform: translateX(100px); /* start below */
-  transition:  11s ease;
-}
-
-.container .show {
-  opacity: 1;
-  transform: translateX(0px);
-  transition: all 0.8s ease;
 }
 
 .container div.imges{
