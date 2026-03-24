@@ -1,0 +1,93 @@
+
+.container {
+  display: grid;
+  grid-template-areas:
+  "con-main-text viewall viewall viewall"
+    "header great-wall-con colosseum-con-1 patra-con";
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 36px auto;
+  gap: 3px;
+  background-color: #aed9e0;
+  padding: 6px;
+  margin: 50px;
+  border-radius: 5px;
+  padding-bottom: 20px;
+  
+}
+.container div {
+  background-color: white;
+  padding: 10px;
+  border-radius: 7px;
+  margin-left: 15px;
+  margin-right: 15px;
+  opacity: 0;
+  transform: translateY(100px); /* start below */
+  transition:  11s ease;
+}
+
+.container .show {
+  opacity: 1;
+  transform: translateY(0px);
+  transition: all 0.8s ease;
+}
+
+.container > .div:not(.view-all):not(.con-main-text):hover{
+  color: red;
+}
+
+.container div.con-main-text{
+  grid-area: con-main-text;
+  text-align: left;
+  background-color: transparent;
+  padding-top:0%;
+  margin-top:-22px;
+  font-size: 25px;
+  color: #07004d;
+  font-weight: 600;
+}
+.container div.viewall{
+  grid-area: viewall;
+  text-align: right;
+  background-color: transparent;
+}
+.container div.header {
+  grid-area: header;
+  text-align: center;
+}
+
+.container div.great-wall-con {
+  grid-area: great-wall-con;
+  text-align: center;
+}
+
+.container div.colosseum-con-1 {
+  grid-area: colosseum-con-1;
+  text-align: center;
+}
+
+.container div.patra-con {
+  grid-area: patra-con;
+  text-align: center;
+}
+
+.container img{
+  height:300px;
+  width: 250px;
+  border-radius: 5px;
+
+}
+
+.container img{
+  max-height:300px;
+  max-width: 250px;
+  border-radius: 5px;
+  object-fit: cover;
+
+}
+
+.con-topic{
+  margin-bottom: 0%;
+}
+.con-loc{
+  margin-top: 0%;
+}

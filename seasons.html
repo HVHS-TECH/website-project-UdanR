@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Summer</title>
+<title>Seasons</title>
 <link rel="stylesheet" href="../style.css">
 <link rel="stylesheet" href="../seasons.css">
+<link rel="stylesheet" href="Layout/footer.css">
+<script> src="../Layout/footer.js"</script>
+
 
 <style>html{
 scroll-behavior: smooth;
@@ -111,18 +114,19 @@ scroll-behavior: smooth;
   border-radius: 7px;
   margin-left: 15px;
   margin-right: 15px;
-  opacity: 1;
+  opacity: 0;
   transform: translateY(100px); /* start below */
   transition:  11s ease;
 }
-
-
-
 
 .container .show {
   opacity: 1;
   transform: translateY(0px);
   transition: all 0.8s ease;
+}
+
+.container > .div:not(.view-all):not(.con-main-text):hover{
+  color: red;
 }
 
 .container div.con-main-text{
@@ -179,7 +183,7 @@ scroll-behavior: smooth;
 </style>
 
 <div class="container">
-  <div class="con-main-text show"><p>Spring</p></div>
+  <div class="con-main-text show"><p>Summer</p></div>
   <div class="viewall show"><a href="Seasons/summer.html" class="view-all">View All →</a></div>
   <div class="header"><img src="images/eiffel-tower.png"><h2 class="con-topic">Mount Fuji</h2><h3 class="con-loc">📍 Location: Japan</h3><p>Japan’s most famous mountain and a sacred symbol of the country.</p></div>
   <div class="great-wall-con"><img src="images/great-wall.png"><h2 class="con-topic">Great Wall</h2><h3 class="con-loc">📍 Location: Northern China</h3><p>An ancient wall stretching thousands of kilometers across mountains and valleys.</p></div>
@@ -198,6 +202,16 @@ scroll-behavior: smooth;
 
 <h1>This is a Heading abc</h1>
 <p>This is a paragraph.</p>
+
+
+
+
+<footer>
+  <div class="footer-con">
+  <div class="footer-L"><p>Thanks for visiting!</p><p>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</p></div>
+  <div class="footer-R"><p>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</p></div>
+</div>
+</footer>
 
 </body>
 <script>
