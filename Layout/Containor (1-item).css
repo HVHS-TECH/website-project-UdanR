@@ -51,3 +51,9 @@
 .con-loc{
   margin-top: 0%;
 }
+
+.things-to-do{
+    columns: 2;
+    column-gap: 40px;
+    list-style-type: circle;
+}
