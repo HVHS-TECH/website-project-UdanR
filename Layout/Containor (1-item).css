@@ -27,18 +27,42 @@
   grid-area: imges;
   text-align: center;
   padding: 5px;
+  transform: rotateY('180deg');
+  opacity: 0;
 }
+
+.container div.imges .show{
+  transform: rotateY('360deg');
+  opacity: 1;
+  transition: all 0.8s ease;
+}
+
 .container div.main-content {
   grid-area: main-content;
   text-align: left;
   padding-left: 5px;
+  opacity: 0;
+  transform: translateY(100px);
+}
+
+.container div.main-content .show {
+  opacity: 1;
+  transform: translateY(0px);
+  transition: all 0.8s ease;
 }
 
 .container div.content {
   grid-area: content;
   text-align: center;
+  opacity: 0;
+  transform: rotateX(180deg);
 }
 
+.container div.content .show {
+  transform: rotateX(360deg);
+  opacity: 1;
+  transition: all 0.8s ease;
+}
 
 .container img{
 
@@ -63,9 +87,17 @@
 }
 
 .things-to-do-list{
-    columns: 2;
-    column-gap: 10px;
-    list-style-type: circle;
+  columns: 2;
+  column-gap: 10px;
+  list-style-type: circle;
+  opacity: 0;
+  transform: rotateX(-180deg);
+}
+
+.things-to-do-list .show{
+  transform: rotateX(0deg);
+  opacity: 1;
+  transition: all 0.8s ease;
 }
 
 .map{
@@ -80,12 +112,28 @@
   margin: 4px 2px;
   cursor: pointer; 
   border-radius: 8px;
-  border: 1px #97cbff;
-
+  border: 0px ;
+  opacity: 0;
+  transform: rotateY(180deg);
 }
+
+.map .show{
+  transform: rotateY(360deg);
+  opacity: 1;
+  transition: all 0.8s ease;
+}
+
+
 
 .map :hover{
   background-color: #97cbff;
   color: white;
-  border: 1px #97cbff;
 }
+
+
+
+
+
+
+
+/* Animation */
