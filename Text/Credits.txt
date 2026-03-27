@@ -14,3 +14,10 @@ Continent-Main-South America-Img - https://www.google.com/url?sa=t&source=web&rc
 Continent-Main-North America-Img - https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FTimes_Square&ved=0CBoQjhxqFwoTCODu4ZqnrpMDFQAAAAAdAAAAABAf&opi=89978449
 Continent-Main-Australia-Img - https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fairial.travel%2Fattractions%2Faustralia%2Fthe-rocks%2Fthe-rocks-sydney-Q5LZFoJ2&ved=0CBoQjhxqFwoTCOjJ59inrpMDFQAAAAAdAAAAABBS&opi=89978449
 Continent-Main-Antarctica-Img - https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fwww.antarcticaguide.com%2Fblog%2F5-reasons-include-south-georgia-your-antarctic-cruise&ved=0CBoQjhxqFwoTCJj2y66orpMDFQAAAAAdAAAAABAG&opi=89978449
+
+
+
+Winter.html
+Tromsø - https://europa.tips/en/tromso-urban-skiing-commute
+lofoten islands - https://www.pexels.com/photo/village-on-sea-coast-in-norway-in-winter-18925455/
+lapland - https://commons.wikimedia.org/wiki/File:Sirkka_from_Levi,_Finland.jpg
