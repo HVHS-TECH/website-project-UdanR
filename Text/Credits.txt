@@ -57,3 +57,8 @@ Istanbul - https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fww
 Beijing - https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3A%25C2%25B7%25CB%2599%25C2%25B7ChinaUli2010%25C2%25B7.%25C2%25B7_Beijing_-_Snow_in_the_Forbidden_Town_-_panoramio_(39).jpg&ved=0CBkQjhxqFwoTCPi5her-v5MDFQAAAAAdAAAAABAH&authuser=1&opi=89978449
 Moscow - https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3AWinter_Moscow_cityscape_Red_square.jpg&ved=0CBkQjhxqFwoTCPj4k4j_v5MDFQAAAAAdAAAAABAH&authuser=1&opi=89978449
 Berlin - https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fwww.pexels.com%2Fphoto%2Fthe-brandenburg-gate-in-berlin-12999925%2F&ved=0CBkQjhxqFwoTCOCa6qD_v5MDFQAAAAAdAAAAABAH&authuser=1&opi=89978449
+Marrakech - https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fwww.pexels.com%2Fphoto%2Fvibrant-market-scene-in-marrakech-morocco-35028438%2F&ved=0CBkQjhxqFwoTCIDul7OTxpMDFQAAAAAdAAAAABAG&opi=89978449
+Cairo - https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3ACairo_Opera_House_at_evening_02.jpg&ved=0CBkQjhxqFwoTCOi8nNikxpMDFQAAAAAdAAAAABAI&opi=89978449
+Cape Town - https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3ACape_Town_harbor%2C_Devil%27s_Peak_and_Table_Mountain_in_late_winter_afternoon_light.jpg&ved=0CBkQjhxqFwoTCKiu0pSlxpMDFQAAAAAdAAAAABAG&opi=89978449
+Johannesburg - Need Img
+Nairobi - https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3APt_Lenana_Mt_Kenya.JPG&ved=0CBkQjhxqFwoTCIjO39mmxpMDFQAAAAAdAAAAABAf&opi=89978449
