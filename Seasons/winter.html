@@ -1677,9 +1677,24 @@ scroll-behavior: smooth;
 
 <h1>This is a Heading</h1>
 <p>This is a paragraph.</p>
+<script>
+  const observer = new IntersectionObserver ((entries)=>{
+  entries.forEach((entry)=>{
+    if (entry.isIntersecting){
+      console.log(entry.target)
+      entry.target.classList.add("show")
+    }
+  })
 
+
+})
+
+document.querySelectorAll(".container > div").forEach(el => {
+observer.observe(el);
+});
+</script>
 </body>
-<script src="../Layout/Containor (1-item).js"></script>
+
 </html>
 
 
