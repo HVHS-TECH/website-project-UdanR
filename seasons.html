@@ -220,11 +220,13 @@ scroll-behavior: smooth;
 
   })
 
-document.querySelectorAll(".container > div:not(.viewall)").forEach(el => {
-  observer.observe(el);
-});
+const elementsToObserve = [
+  ...document.querySelectorAll(".container > div:not(.viewall)"),
+  ...document.querySelectorAll(".footer-con > div")
+];
+elementsToObserve.forEach(el => observer.observe(el));
 </script>
-<script src="../Layout/footer.js"></script>
+
 </html>
 
 

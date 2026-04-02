@@ -28,7 +28,7 @@
   transition: 11s ease;
 }
 
-.footer-con .div.show {
+.footer-con div.show {
   opacity: 1;
   transform: translateY(0px);
   transition: all 0.8s ease;
