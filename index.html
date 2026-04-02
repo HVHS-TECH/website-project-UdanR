@@ -3,6 +3,8 @@
 <head>
 <title>JetSetGo</title>
 <link rel="stylesheet" href="../style.css">
+<link rel="stylesheet" href="../Layout/Containor (4-items).css">
+
 <style>html{
 scroll-behavior: smooth;
 }</style>
@@ -152,83 +154,6 @@ behavior: "smooth"
 }
 </script>
 
-<style>
-.container {
-  display: grid;
-  grid-template-areas:
-  "viewall viewall viewall viewall"
-    "header great-wall-con colosseum-con-1 patra-con";
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 30px auto;
-  gap: 3px;
-  background-color: #aed9e0;
-  padding: 6px;
-  margin: 50px;
-  border-radius: 5px;
-  padding-bottom: 20px;
-  
-}
-.container div {
-  background-color: white;
-  padding: 10px;
-  border-radius: 7px;
-  margin-left: 15px;
-  margin-right: 15px;
-
-}
-
-.container div.con-main-topic{
-  grid-area: con-main-topic;
-  text-align: left;
-  background-color: transparent;
-  padding-top:0%;
-  margin-top:0;
-  font-size: 20px;
-  display: block;
-  top: 200px;
-}
-.container div.viewall{
-  grid-area: viewall;
-  text-align: right;
-  background-color: transparent;
-}
-.container div.header {
-  grid-area: header;
-  text-align: center;
-}
-
-.container div.great-wall-con {
-  grid-area: great-wall-con;
-  text-align: center;
-}
-
-.container div.colosseum-con-1 {
-  grid-area: colosseum-con-1;
-  text-align: center;
-}
-
-.container div.patra-con {
-  grid-area: patra-con;
-  text-align: center;
-}
-
-.container img{
-  height:300px;
-  width: 250px;
-  border-radius: 5px;
-
-}
-
-.con-topic{
-  margin-bottom: 0%;
-}
-.con-loc{
-  margin-top: 0%;
-}
-
-
-</style>
-
 <div class="container">
   <div class="viewall"><a href="Seasons/spring.html" class="view-all">View All →</a></div>
   <div class="header"><img src="images/eiffel-tower.png"><h2 class="con-topic">Eiffel Tower</h2><h3 class="con-loc">📍 Location: Paris, France</h3><p>An iconic iron tower rising above Paris, offering breathtaking views of the city.</p></div>
@@ -237,84 +162,6 @@ behavior: "smooth"
   <div class="patra-con"><img src="#"><h2 class="con-topic">Patra</h2><h3 class="con-loc">📍 Location: Southern Jordan</h3><p>An ancient city carved directly into red desert cliffs.</p></div>
 
 </div>
-
-
-<style>
-.container {
-  display: grid;
-  grid-template-areas:
-  "viewall viewall viewall viewall"
-    "header great-wall-con colosseum-con-1 patra-con";
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 30px auto;
-  gap: 3px;
-  background-color: #aed9e0;
-  padding: 6px;
-  margin: 50px;
-  border-radius: 5px;
-  padding-bottom: 20px;
-  
-}
-.container div {
-  background-color: white;
-  padding: 10px;
-  border-radius: 7px;
-  margin-left: 15px;
-  margin-right: 15px;
-
-}
-
-.container div.con-main-topic{
-  grid-area: con-main-topic;
-  text-align: left;
-  background-color: transparent;
-  padding-top:0%;
-  margin-top:0;
-  font-size: 20px;
-  display: block;
-  top: 200px;
-}
-.container div.viewall{
-  grid-area: viewall;
-  text-align: right;
-  background-color: transparent;
-}
-.container div.header {
-  grid-area: header;
-  text-align: center;
-}
-
-.container div.great-wall-con {
-  grid-area: great-wall-con;
-  text-align: center;
-}
-
-.container div.colosseum-con-1 {
-  grid-area: colosseum-con-1;
-  text-align: center;
-}
-
-.container div.patra-con {
-  grid-area: patra-con;
-  text-align: center;
-}
-
-.container img{
-  height:300px;
-  width: 250px;
-  border-radius: 5px;
-
-}
-
-.con-topic{
-  margin-bottom: 0%;
-}
-.con-loc{
-  margin-top: 0%;
-}
-
-
-</style>
 
 <div class="container">
   <div class="viewall"><a href="Seasons/summer.html" class="view-all">View All →</a></div>
@@ -383,6 +230,7 @@ behavior: "smooth"
 </div>
 
 </footer>
+<script src="../Layout/Containor(4-items).js"></script>
 </body>
 </html>
 

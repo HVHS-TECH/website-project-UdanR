@@ -54,6 +54,29 @@ background-color: #97cbff;
   padding-bottom: 50px;
 }
 
+
+.site-logo{
+    background-color: transparent;
+}
+
+.site-logo img{
+    width: 75px;
+    height: 75px;
+    mix-blend-mode: multiply;
+}
+
+.site-name{
+  color: white;
+  
+}
+
+.search-icon{
+  width: 35px;
+  height: 35px;
+  padding-right: 20px;
+  filter: invert(100%);
+}
+
 .index-main-image-slideshow {
   width:100%;
   height:750px;
@@ -69,33 +92,4 @@ background-color: #97cbff;
   left: 0;
   opacity: 0;
   animation: fade-anime 20s infinite;
-}
-
-
-
-.container div img:nth-child(1){animation-delay:0s}
-.container div img:nth-child(2){animation-delay:4s}
-.container div img:nth-child(3){animation-delay:8s}
-@keyframes fade-anime{
-0% {opacity: 0;}
-10% {opacity: 1;}
-30% {opacity: 1;}
-40% {opacity: 0;}
-100% {opacity: 0;}
-}
-
-.index-main-image-slideshow img:nth-child(1){animation-delay:0s}
-.index-main-image-slideshow img:nth-child(2){animation-delay:4s}
-.index-main-image-slideshow img:nth-child(3){animation-delay:8s}
-.index-main-image-slideshow img:nth-child(4){animation-delay:12s}
-
-@keyframes move-up{
-  from{  
-  opacity: 1;
-  transform: translate(-50%, calc(-50% + 65px)) scale(0.9);
-  to{ 
-  opacity: 1;
-    transform: translate(-50%, -50%) scale(1);
-}
-  }
 }

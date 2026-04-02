@@ -9,6 +9,6 @@
 
   })
 
-document.querySelectorAll(".footer-con > div").forEach(el => {
+document.querySelectorAll(".container > div:not(.viewall)").forEach(el => {
   observer.observe(el);
 });
