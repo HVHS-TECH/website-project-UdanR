@@ -805,3 +805,23 @@ winter.html
   <div class="patra-con"><img src="#"><h2 class="con-topic">Patra</h2><h3 class="con-loc">📍 Location: Southern Jordan</h3><p>An ancient city carved directly into red desert cliffs.</p></div>
 
 </div>
+
+
+
+
+
+Containor (4-items).js
+  const observer = new IntersectionObserver ((entries)=>{
+    entries.forEach((entry)=>{
+      if (entry.isIntersecting){
+        console.log(entry.target)
+        entry.target.classList.add("show")
+      }
+    })
+
+
+  })
+
+document.querySelectorAll(".container > div:not(.viewall)").forEach(el => {
+  observer.observe(el);
+});

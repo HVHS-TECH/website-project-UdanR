@@ -2,13 +2,16 @@
     entries.forEach((entry)=>{
       if (entry.isIntersecting){
         console.log(entry.target)
-        entry.target.classList.add("show")
+        entry.target.classList.add("show");
+        observer.unobserve(entry.target);
       }
     })
 
 
   })
 
-document.querySelectorAll(".container > div:not(.viewall)").forEach(el => {
-  observer.observe(el);
-});
+const elementsToObserve = [
+  ...document.querySelectorAll(".container > div:not(.viewall)"),
+  ...document.querySelectorAll(".footer-con > div")
+];
+elementsToObserve.forEach(el => observer.observe(el));
