@@ -124,9 +124,52 @@ Europe.html
 Swiss Alps - https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fwww.pexels.com%2Fphoto%2Fscenic-swiss-alps-winter-landscape-31499114%2F&ved=0CBkQjhxqFwoTCJCs6JDN35MDFQAAAAAdAAAAABB2&authuser=1&opi=89978449
 Lapland - https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fwww.pexels.com%2Fphoto%2Fsunset-over-snowy-forest-in-ruka-finland-28811165%2F&ved=0CBkQjhxqFwoTCNj_5ubN35MDFQAAAAAdAAAAABAH&authuser=1&opi=89978449
 Vienna - https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3AWLM_-_2020_-_Schloss_Belvedere_-_Oberes_Belvedere_im_Winter.jpg&ved=0CBkQjhxqFwoTCJih9oDO35MDFQAAAAAdAAAAABAH&authuser=1&opi=89978449
-Prague - https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3APrague_charles_bridge_winter.jpg&ved=0CBkQjhxqFwoTCJjfk6jO35MDFQAAAAAdAAAAABAH&authuser=1&opi=89978449
+Prague(Winter) - https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3APrague_charles_bridge_winter.jpg&ved=0CBkQjhxqFwoTCJjfk6jO35MDFQAAAAAdAAAAABAH&authuser=1&opi=89978449
 Santorini - https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3AOia%2C_Santorini_HDR_sunset.jpg&ved=0CBkQjhxqFwoTCPDRo8bO35MDFQAAAAAdAAAAABAH&authuser=1&opi=89978449
 Amalfi Coast - https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Feuropa.tips%2Fen%2F2025-positano-13-activities&ved=0CBkQjhxqFwoTCMCIrujO35MDFQAAAAAdAAAAABA9&authuser=1&opi=89978449
 Barcelona - https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3ACityscape_of_Barcelona_city_beach_(Unsplash).jpg&ved=0CBkQjhxqFwoTCMDm4ZLP35MDFQAAAAAdAAAAABAi&authuser=1&opi=89978449
 Nice - https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fwww.pexels.com%2Fphoto%2Faerial-view-of-the-old-port-of-nice-with-yachts-french-riviera-france-21255282%2F&ved=0CBkQjhxqFwoTCMiglsXP35MDFQAAAAAdAAAAABAH&authuser=1&opi=89978449
 Paris - https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fwww.pexels.com%2Fphoto%2Feiffel-tower-in-paris-1780841%2F&ved=0CBkQjhxqFwoTCPCS1I3Q35MDFQAAAAAdAAAAABBY&authuser=1&opi=89978449
+Prague(Autumn) - https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fwww.pexels.com%2Fphoto%2Fscenic-view-of-prague-s-historic-red-tiled-rooftops-28891155%2F&ved=0CBkQjhxqFwoTCJC0xfSj4JMDFQAAAAAdAAAAABAJ&authuser=1&opi=89978449
+Bavaria - https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3AHerbst_in_den_Berchtesgadener_Alpen.jpg&ved=0CBkQjhxqFwoTCMCnw56k4JMDFQAAAAAdAAAAABAH&authuser=1&opi=89978449
+Tuscany - https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3AGood_Morning_Tuscany_(183850307).jpeg&ved=0CBkQjhxqFwoTCOiU7Lak4JMDFQAAAAAdAAAAABAJ&authuser=1&opi=89978449
+Amsterdam - https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3ATulips_of_Amsterdam.jpg&ved=0CBkQjhxqFwoTCOCBvtGk4JMDFQAAAAAdAAAAABAH&authuser=1&opi=89978449
+London - https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fwww.pexels.com%2Fphoto%2Fspring-day-at-london-s-italian-gardens-in-hyde-park-31473894%2F&ved=0CBkQjhxqFwoTCIjBkO-k4JMDFQAAAAAdAAAAABA_&authuser=1&opi=89978449
+Rome - https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fwww.pexels.com%2Fphoto%2Fcolosseum-in-rome-italy-12839802%2F&ved=0CBkQjhxqFwoTCMCTu5Kl4JMDFQAAAAAdAAAAABAH&authuser=1&opi=89978449
+Keukenhof - https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3ATulips_and_tree_at_Keukenhof_gardens.jpg&ved=0CBkQjhxqFwoTCPik7Kyl4JMDFQAAAAAdAAAAABAH&authuser=1&opi=89978449
+Mont Blanc - https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fwww.pexels.com%2Fphoto%2Fbreathtaking-sunlit-peaks-of-mont-blanc-at-sunset-34605837%2F&ved=0CBkQjhxqFwoTCPif7cil4JMDFQAAAAAdAAAAABAJ&authuser=1&opi=89978449
+Matterhorn - https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3AMatterhorn_from_Domh%25C3%25BCtte_-_2.jpg&ved=0CBkQjhxqFwoTCODh3OOl4JMDFQAAAAAdAAAAABAJ&authuser=1&opi=89978449
+Dolomites - https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fwww.pexels.com%2Fphoto%2Fscenic-view-of-alpine-village-with-dolomites-32563289%2F&ved=0CBkQjhxqFwoTCICv3Pql4JMDFQAAAAAdAAAAABAJ&authuser=1&opi=89978449
+Scottish Highlands - https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3AThree_Sisters%2C_Glen_Coe_-_geograph.org.uk_-_2457190.jpg&ved=0CBkQjhxqFwoTCND2qJOm4JMDFQAAAAAdAAAAABAH&authuser=1&opi=89978449
+
+
+
+
+
+
+North America.html
+Banff National Park - https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3AMoraine_Lake_Banff_National_Park.jpg&ved=0CBkQjhxqFwoTCNj52Oyu4JMDFQAAAAAdAAAAABAk&authuser=1&opi=89978449
+New York City - https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fwww.pexels.com%2Fphoto%2Fcentral-park-winter-skyline-new-york-city-29992716%2F&ved=0CBkQjhxqFwoTCIjkl6yv4JMDFQAAAAAdAAAAABAH&authuser=1&opi=89978449
+Aspen - https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3AAspen_Mountain_spring_skiing_over_Aspen.jpg&ved=0CBkQjhxqFwoTCKjBzcuv4JMDFQAAAAAdAAAAABAH&authuser=1&opi=89978449
+Whistler - https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3AWhistler_%2522Roundhouse%2522_(15965970960).jpg&ved=0CBkQjhxqFwoTCKDAk-iv4JMDFQAAAAAdAAAAABAH&authuser=1&opi=89978449
+Hawaii - https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fwww.pexels.com%2Fphoto%2Fsea-landscape-nature-beach-15663533%2F&ved=0CBkQjhxqFwoTCKixv4mw4JMDFQAAAAAdAAAAABA_&authuser=1&opi=89978449
+Yellowstone National Park - https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fwww.pexels.com%2Fphoto%2Fyellowstone-s-grand-prismatic-spring-under-blue-sky-9389613%2F&ved=0CBkQjhxqFwoTCOiAyLyw4JMDFQAAAAAdAAAAABAH&authuser=1&opi=89978449
+Los Angeles - https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fwww.pexels.com%2Fphoto%2Flos-angeles-california-downtown-cityscape-at-day-time-4105120%2F&ved=0CBkQjhxqFwoTCMjlp-Kw4JMDFQAAAAAdAAAAABAH&authuser=1&opi=89978449
+Grand Canyon - https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fwww.pexels.com%2Fphoto%2Fkolorado-river-going-through-the-canyon-in-usa-25237220%2F&ved=0CBkQjhxqFwoTCJDF3Puw4JMDFQAAAAAdAAAAABAH&authuser=1&opi=89978449
+Rocky Mountains - https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fwww.pexels.com%2Fphoto%2Fautumn-trees-growing-along-mountain-path-20270384%2F&ved=0CBkQjhxqFwoTCICUrpWx4JMDFQAAAAAdAAAAABAe&authuser=1&opi=89978449
+New England - https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fwww.pexels.com%2Fphoto%2Fvibrant-fall-foliage-reflection-at-a-massachusetts-lake-35400951%2F&ved=0CBkQjhxqFwoTCIjXobKx4JMDFQAAAAAdAAAAABAk&authuser=1&opi=89978449
+Vancouver - https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3AAutumn_Scene_in_Stanley_Park_-_Vancouver_-_BC_-_Canada_-_14_(26198181889)_(2).jpg&ved=0CBkQjhxqFwoTCPCHpeSx4JMDFQAAAAAdAAAAABAi&authuser=1&opi=89978449
+Toronto - https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3AAutumn_colours_in_the_Don_Valley%2C_Toronto_skyline_in_the_background_-_2018_(45001040215).jpg&ved=0CBkQjhxqFwoTCLDW2pay4JMDFQAAAAAdAAAAABBU&authuser=1&opi=89978449
+Orlando - https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3AWekiwa_Springs_State_Park_-_July_2019.jpg&ved=0CBkQjhxqFwoTCKi49Lay4JMDFQAAAAAdAAAAABAL&authuser=1&opi=89978449
+Washington DC - https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3AWashington_DC_Cherry_Blossoms_-_HDR_(15868564731).jpg&ved=0CBkQjhxqFwoTCIiP7fGy4JMDFQAAAAAdAAAAABAH&authuser=1&opi=89978449
+Cancun - https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3AIsla_Mujeres_aerial_(29729604048).jpg&ved=0CBkQjhxqFwoTCIC-9pyz4JMDFQAAAAAdAAAAABAH&authuser=1&opi=89978449
+Denali - https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3AMt._McKinley%2C_Denali_National_Park.jpg&ved=0CBkQjhxqFwoTCIjs4b6z4JMDFQAAAAAdAAAAABAk&authuser=1&opi=89978449
+Yosemite Valley - https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3AYosemite_Valley_from_Wawona_Tunnel_view%2C_vista_point.jpg&ved=0CBkQjhxqFwoTCLjj4dmz4JMDFQAAAAAdAAAAABAH&authuser=1&opi=89978449
+Whistler Mountain - https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3AWhistler_Mountain_7790%27_North_Cascades.jpg&ved=0CBkQjhxqFwoTCLD8zvSz4JMDFQAAAAAdAAAAABAH&authuser=1&opi=89978449
+
+
+
+
+
+
+South America.html
