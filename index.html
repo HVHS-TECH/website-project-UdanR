@@ -1,18 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <title>JetSetGo</title>
-<link rel="stylesheet" href="../style.css">
-<link rel="stylesheet" href="../Layout/Containor (4-items).css">
+<link rel="stylesheet" href="Layout/header-&-nav.css">
+<link rel="stylesheet" href="Layout/Containor-(4-items).css">
+<link rel="stylesheet" href="Layout/footer.css">
 
 <style>html{
 scroll-behavior: smooth;
 }</style>
+<style>html, body{background-color: hsl(204, 48%, 53%);}
+</style>
 </head>
 <body>
     <header class="site-header">
         <div class="site-logo">
-            <a href="index.html"><img src="airplane - Freepik.gif" alt="site-logo"></a>
+            <a href="index.html"><img src="airplane-Freepik.gif" alt="site-logo"></a>
         </div>
         <h1 class="site-name">JetSetGo!</h1>
             <img src="search.png" class="search-icon" alt="Search-Icon">
@@ -32,149 +35,139 @@ scroll-behavior: smooth;
       <div class="index-img">
         <img src="index-main.png" alt="index-img">
       </div>    
-      <div class="main-title"></div>
-      <h1 id="index-title">Travel Guide</h1>   
-      <h2 id="index-catchline">The world is too big to stay in one place</h2> 
+        <div class="main-title">
+         <h1 id="index-title">Travel Guide</h1>   
+         <h2 id="index-catchline">The world is too big to stay in one place</h2> 
+       </div>
       </div>
 
-<div class="horizontal-scrolling">
-  <h1>Top Picks</h1>
-  <a href="top-picks.html" class="view-all">View All →</a>
-</div>
-
-<div class="carousel-container">
-  <button class="arrow left" onclick="scrollCarousel(-1)">❮</button>
-  <div class="carousel" id="carousel">
-    <div class="place-card">
-      <img src="images/eiffel-tower.png">
-      <h3 class="scrolling-topic">Eiffel Tower</h3>
-      <h4 class="scrolling-topic">Location 📍: Paris, France</h4>
-      <h4 class="scrolling-topic">Season : Spring or Autumn</h4>
-      <p class="short-text"> An Iconuc iron tower rising above Paris, offering breathtaking views of the city.</p>
-      <a href="Continents/europe.html#Eiffel-Tower" >
-        <button class="scroll-viewmore-info">View More</button>
-      </a>
-    </div>
-      <div class="place-card">
-      <img src="images/taj-mahal.png">
-      <h3 class="scrolling-topic">Taj Mahal</h3>
-      <h4 class="scrolling-topic">Location 📍: Agra, India</h4>
-      <h4 class="scrolling-topic">Season : Winter</h4>
-      <p class="short-text"> A stunning white marble mausoleum known as a symbol of eternal love.</p>
-      <a href="Continents/aisa.html#Taj-Mahal">
-        <button class="scroll-viewmore-info">View More</button>
-      </a>
-    </div>
-        <div class="place-card">
-      <img src="images/great-wall.png">
-      <h3 class="scrolling-topic">Great Wall</h3>
-      <h4 class="scrolling-topic">Location 📍: Northern China</h4>
-      <h4 class="scrolling-topic">Season : Spring or Autumn</h4>
-      <p class="short-text"> An ancient wall stretching thousands of kilometers across mountains and valleys.</p>
-    </div>
-        <div class="place-card">
-      <img src="images/colosseum.png">
-      <h3 class="scrolling-topic">Colosseum</h3>
-      <h4 class="scrolling-topic">Location 📍: Rome, Italy</h4>
-      <h4 class="scrolling-topic">Season : Spring or Autumn</h4>
-      <p class="short-text"> The largest ancient amphitheater ever built in the Roman Empire.</p>
-    </div>
-        <div class="place-card">
-      <img src="images/petra.png">
-      <h3 class="scrolling-topic">Petre</h3>
-      <h4 class="scrolling-topic">Location 📍: Southern Jordan</h4>
-      <h4 class="scrolling-topic">Season : Spring or Autumn</h4>
-      <p class="short-text"> An ancient city carved directly into red desert cliffs.</p>
-    </div>
-        <div class="place-card">
-      <img src="images/christ-the-redeemer.png">
-      <h3 class="scrolling-topic">Christ The Redeemer</h3>
-      <h4 class="scrolling-topic">Location 📍: Rio de janeiro, Brazil</h4>
-      <h4 class="scrolling-topic">Season : May-Oct</h4>
-      <p class="short-text"> A towering statue of Jesus overlooking Rio from a mountain peak.</p>
-    </div>
-        <div class="place-card">
-      <img src="images/grand-canyon.png">
-      <h3 class="scrolling-topic">Grand Canyon</h3>
-      <h4 class="scrolling-topic">Location 📍: Arizona, USA</h4>
-      <h4 class="scrolling-topic">Season : Spring or Autumn</h4>
-      <p class="short-text"> A massive canyon carved by the Colorado River with breathtaking layered cliffs.</p>
-    </div>
-        <div class="place-card">
-      <img src="images/victoria-falls.png">
-      <h3 class="scrolling-topic">Victoria Falls</h3>
-      <h4 class="scrolling-topic">Location 📍: Zambia/ Zimbabwe</h4>
-      <h4 class="scrolling-topic">Season : Feb - May</h4>
-      <p class="short-text"> One of the largest and most powerful waterfalls in the world.</p>
-    </div>
-        <div class="place-card">
-      <img src="images/northern-lights.png">
-      <h3 class="scrolling-topic">Northern Lights</h3>
-      <h4 class="scrolling-topic">Location 📍: Norway/ Iceland/ Arctic regions</h4>
-      <h4 class="scrolling-topic">Season : Winter (Sep-Mar)</h4>
-      <p class="short-text"> A magical display of colorful lights dancing across the night sky.</p>
-    </div>
-        <div class="place-card">
-      <img src="images/great-barrier-reef.png">
-      <h3 class="scrolling-topic">Great Barrier Reef</h3>
-      <h4 class="scrolling-topic">Location 📍: Queensland, Australia</h4>
-      <h4 class="scrolling-topic">Season : Jun-Oct</h4>
-      <p class="short-text"> The largest coral reef system on Earth.</p>
-    </div>
-        <div class="place-card">
-      <img src="images/amazon-rainforest.png">
-      <h3 class="scrolling-topic">Amazon Rainforest</h3>
-      <h4 class="scrolling-topic">Location 📍: South America</h4>
-      <h4 class="scrolling-topic">Season : May-Oct</h4>
-      <p class="short-text"> The largest tropical rainforest on the planet.</p>
-    </div>
-        <div class="place-card">
-      <img src="images/mount-fuji.png">
-      <h3 class="scrolling-topic">Mount Fuji</h3>
-      <h4 class="scrolling-topic">Location 📍: Japan</h4>
-      <h4 class="scrolling-topic">Season : Summer (Jul-Sep)</h4>
-      <p class="short-text"> Japan's most famous mountain and a sacred symbol of the country.</p>
-    </div>
-  </div>
-  <button class="arrow right" onclick="scrollCarousel(1)">❯</button>
-</div>
-
-<script>
-  function scrollCarousel(direction){
-
-const container = document.getElementById("carousel");
-
-const scrollAmount = 250;
-
-container.scrollBy({
-left: direction * scrollAmount,
-behavior: "smooth"
-});
-
-}
-</script>
-
 <div class="container">
-  <div class="viewall"><a href="Seasons/spring.html" class="view-all">View All →</a></div>
-  <div class="header"><img src="images/eiffel-tower.png"><h2 class="con-topic">Eiffel Tower</h2><h3 class="con-loc">📍 Location: Paris, France</h3><p>An iconic iron tower rising above Paris, offering breathtaking views of the city.</p></div>
-  <div class="great-wall-con"><img src="#"><h2 class="con-topic">Great Wall</h2><h3 class="con-loc">📍 Location: Northern China</h3><p>An ancient wall stretching thousands of kilometers across mountains and valleys.</p></div>
-  <div class="colosseum-con-1"><img src="#"><h2 class="con-topic">Colosseum</h2><h3 class="con-loc">📍 Location: Rome, Italy</h3><p>The largest ancient amphitheater ever built in the Roman Empire.</p></div>
-  <div class="patra-con"><img src="#"><h2 class="con-topic">Patra</h2><h3 class="con-loc">📍 Location: Southern Jordan</h3><p>An ancient city carved directly into red desert cliffs.</p></div>
-
-</div>
-
-<div class="container">
-  <div class="viewall"><a href="Seasons/summer.html" class="view-all">View All →</a></div>
+  <div class="con-main-text show"><p>Top-Picks</p></div>
+  <div class="viewall show"><a href="top-picks.html" class="view-all">View All →</a></div>
   <div class="header"><img src="images/eiffel-tower.png"><h2 class="con-topic">Mount Fuji</h2><h3 class="con-loc">📍 Location: Japan</h3><p>Japan’s most famous mountain and a sacred symbol of the country.</p></div>
-  <div class="great-wall-con"><img src="#"><h2 class="con-topic">Great Wall</h2><h3 class="con-loc">📍 Location: Northern China</h3><p>An ancient wall stretching thousands of kilometers across mountains and valleys.</p></div>
-  <div class="colosseum-con-1"><img src="#"><h2 class="con-topic">Colosseum</h2><h3 class="con-loc">📍 Location: Rome, Italy</h3><p>The largest ancient amphitheater ever built in the Roman Empire.</p></div>
-  <div class="patra-con"><img src="#"><h2 class="con-topic">Patra</h2><h3 class="con-loc">📍 Location: Southern Jordan</h3><p>An ancient city carved directly into red desert cliffs.</p></div>
+  <div class="great-wall-con"><img src="images/great-wall.png"><h2 class="con-topic">Great Wall</h2><h3 class="con-loc">📍 Location: Northern China</h3><p>An ancient wall stretching thousands of kilometers across mountains and valleys.</p></div>
+  <div class="colosseum-con-1"><img src="images/colosseum.png"><h2 class="con-topic">Colosseum</h2><h3 class="con-loc">📍 Location: Rome, Italy</h3><p>The largest ancient amphitheater ever built in the Roman Empire.</p></div>
+  <div class="patra-con"><img src="images/petra.png"><h2 class="con-topic">Patra</h2><h3 class="con-loc">📍 Location: Southern Jordan</h3><p>An ancient city carved directly into red desert cliffs.</p></div>
+</div>
 
+<div class="container">
+  <div class="con-main-text show"><p>Winter</p></div>
+  <div class="viewall show"><a href="Seasons/winter.html" class="view-all">View All →</a></div>
+  <div class="header"><img src="images/eiffel-tower.png"><h2 class="con-topic">Mount Fuji</h2><h3 class="con-loc">📍 Location: Japan</h3><p>Japan’s most famous mountain and a sacred symbol of the country.</p></div>
+  <div class="great-wall-con"><img src="images/great-wall.png"><h2 class="con-topic">Great Wall</h2><h3 class="con-loc">📍 Location: Northern China</h3><p>An ancient wall stretching thousands of kilometers across mountains and valleys.</p></div>
+  <div class="colosseum-con-1"><img src="images/colosseum.png"><h2 class="con-topic">Colosseum</h2><h3 class="con-loc">📍 Location: Rome, Italy</h3><p>The largest ancient amphitheater ever built in the Roman Empire.</p></div>
+  <div class="patra-con"><img src="images/petra.png"><h2 class="con-topic">Patra</h2><h3 class="con-loc">📍 Location: Southern Jordan</h3><p>An ancient city carved directly into red desert cliffs.</p></div>
+</div>
+
+<div class="container">
+  <div class="con-main-text show"><p>Summer</p></div>
+  <div class="viewall show"><a href="Seasons/summer.html" class="view-all">View All →</a></div>
+  <div class="header"><img src="images/eiffel-tower.png"><h2 class="con-topic">Mount Fuji</h2><h3 class="con-loc">📍 Location: Japan</h3><p>Japan’s most famous mountain and a sacred symbol of the country.</p></div>
+  <div class="great-wall-con"><img src="images/great-wall.png"><h2 class="con-topic">Great Wall</h2><h3 class="con-loc">📍 Location: Northern China</h3><p>An ancient wall stretching thousands of kilometers across mountains and valleys.</p></div>
+  <div class="colosseum-con-1"><img src="images/colosseum.png"><h2 class="con-topic">Colosseum</h2><h3 class="con-loc">📍 Location: Rome, Italy</h3><p>The largest ancient amphitheater ever built in the Roman Empire.</p></div>
+  <div class="patra-con"><img src="images/petra.png"><h2 class="con-topic">Patra</h2><h3 class="con-loc">📍 Location: Southern Jordan</h3><p>An ancient city carved directly into red desert cliffs.</p></div>
+</div>
+
+<div class="container">
+  <div class="con-main-text show"><p>Autumn</p></div>
+  <div class="viewall show"><a href="Seasons/autumn.html" class="view-all">View All →</a></div>
+  <div class="header"><img src="images/eiffel-tower.png"><h2 class="con-topic">Mount Fuji</h2><h3 class="con-loc">📍 Location: Japan</h3><p>Japan’s most famous mountain and a sacred symbol of the country.</p></div>
+  <div class="great-wall-con"><img src="images/great-wall.png"><h2 class="con-topic">Great Wall</h2><h3 class="con-loc">📍 Location: Northern China</h3><p>An ancient wall stretching thousands of kilometers across mountains and valleys.</p></div>
+  <div class="colosseum-con-1"><img src="images/colosseum.png"><h2 class="con-topic">Colosseum</h2><h3 class="con-loc">📍 Location: Rome, Italy</h3><p>The largest ancient amphitheater ever built in the Roman Empire.</p></div>
+  <div class="patra-con"><img src="images/petra.png"><h2 class="con-topic">Patra</h2><h3 class="con-loc">📍 Location: Southern Jordan</h3><p>An ancient city carved directly into red desert cliffs.</p></div>
+</div>
+
+<div class="container">
+  <div class="con-main-text show"><p>Spring</p></div>
+  <div class="viewall show"><a href="Seasons/spring.html" class="view-all">View All →</a></div>
+  <div class="header"><img src="Continents/Asia/Kashmir.jpeg"><h2 class="con-topic">Kashmir</h2><h3 class="con-loc">📍 Location: China</h3><p>Mountain region with blooming flowers, lakes, and stunning scenery.</p><a href="Continents/asia.html#Kashmir"></a></div>
+  <div class="great-wall-con"><img src="Continents/Europe/Rome.jpeg"><h2 class="con-topic">Rome</h2><h3 class="con-loc">📍 Location: Italy</h3><p>Rome is a historic Italian city famed for ancient ruins, art, vibrant culture, and timeless architecture.</p><a href="Seasons/spring.html#Rome"></a></div>
+  <div class="colosseum-con-1"><img src="Continents/North-America/Washington DC.jpeg"><h2 class="con-topic">Washington DC</h2><h3 class="con-loc">📍 Location: United States</h3><p>Washington, D.C. is the U.S. capital, known for iconic monuments, museums, government institutions, and rich historical significance.</p><a href="Seasons/spring.html#Washington DC"></a></div>
+  <div class="patra-con"><img src="Continents/North-America/Orlando.jpeg"><h2 class="con-topic">Orlando</h2><h3 class="con-loc">📍 Location: United States</h3><p>The United States is a diverse country known for vast landscapes, vibrant cities, innovation, and rich cultural influences.</p><a href="Seasons/spring.html#Orlando"></a></div>
+</div>
+
+<div class="container">
+  <div class="con-main-text show"><p>Asia</p></div>
+  <div class="viewall show"><a href="Continents/asia.html" class="view-all">View All →</a></div>
+  <div class="header"><img src="Continents/Asia/Hokkaido.jpeg" alt="Hokkaido"><h2 class="con-topic">Hokkaido</h2><h3 class="con-loc">📍 Location: Hokkaido, Japan</h3><p>Snowy island with ski resorts, festivals, and relaxing hot springs.</p><a href="Continents/asia.html#Hokkaido"></a></div>
+  <div class="great-wall-con"><img src="Continents/Asia/Bali.jpeg" alt="Bali"><h2 class="con-topic">Bali</h2><h3 class="con-loc">📍 Location: Indonesia</h3><p>Tropical island known for its beaches, temples, and vibrant culture.</p><a href="Continents/asia.html#Bali"></a></div>
+  <div class="colosseum-con-1"><img src="Continents/Asia/Kyoto.jpeg" alt="Kyoto"><h2 class="con-topic">Kyoto</h2><h3 class="con-loc">📍 Location: Kyoto, Japan</h3><p>Historic city known for its temples, gardens, and traditional culture.</p><a href="Continents/asia.html#Kyoto"></a></div>
+  <div class="patra-con"><img src="Continents/Asia/Kashmir.jpeg" alt="Kashmir"><h2 class="con-topic">Kashmir</h2><h3 class="con-loc">📍 Location: China</h3><p>Mountain region with blooming flowers, lakes, and stunning scenery.</p><a href="Continents/asia.html#Kashmir"></a></div>
+
+</div>
+
+<div class="container">
+  <div class="con-main-text show"><p>Africa</p></div>
+  <div class="viewall show"><a href="Continents/africa.html" class="view-all">View All →</a></div>
+  <div class="header"><img src="Continents/Africa/Serengeti National Park.jpeg" alt="Serengeti National Park"><h2 class="con-topic">Serengeti National Park</h2><h3 class="con-loc">📍 Location: Tanzania</h3><p>World-famous safari park with huge animal migrations and incredible wildlife viewing opportunities.</p><a href="Continents/africa.html#Serengeti National Park"></a></div>
+  <div class="great-wall-con"><img src="Continents/Africa/Victoria Falls.jpeg" alt="Victoria Falls"><h2 class="con-topic">Victoria Falls</h2><h3 class="con-loc">📍 Location: Zambia/Zimbabwe</h3><p>Victoria Falls is one of the largest and most powerful waterfalls in the world.</p><a href="Continents/africa.html#Victoria Falls"></a></div>
+  <div class="colosseum-con-1"><img src="Continents/Africa/Sahara Desert.jpeg" alt="Sahara Desert"><h2 class="con-topic">Sahara Desert</h2><h3 class="con-loc">📍 Location: North Africa</h3><p>The Sahara Desert is the largest hot desert in the world, known for its vast golden dunes and endless horizons.</p><a href="Continents/africa.html#Sahara Desert"></a></div>
+  <div class="patra-con"><img src="Continents/Africa/Masai Mara National Reserve.jpeg" alt="Masai Mara National Reserve"><h2 class="con-topic">Masai Mara National Reserve</h2><h3 class="con-loc">📍 Location: Kenya</h3><p>Famous safari reserve with rich wildlife and incredible animal viewing.</p><a href="Continents/africa.html#Masai Mara National Reserve"></a></div>
+
+</div>
+
+<div class="container">
+  <div class="con-main-text show"><p>North America</p></div>
+  <div class="viewall show"><a href="Continents/north-america.html" class="view-all">View All →</a></div>
+  <div class="header"><img src="Continents/North-America/New York City.jpeg" alt="New York City"><h2 class="con-topic">New York City</h2><h3 class="con-loc">📍 Location: New York, USA</h3><p>The largest city in the United States, known for its iconic landmarks, vibrant culture, and endless entertainment options.</p><a href="Continents/north-america.html#New York City"></a></div>
+  <div class="great-wall-con"><img src="Continents/North-America/Yellowstone National Park.jpeg" alt="Yellowstone National Park"><h2 class="con-topic">Yellowstone National Park</h2><h3 class="con-loc">📍 Location: United States</h3><p>Famous park with geysers, wildlife, and unique geothermal features.</p><a href="Continents/north-america.html#Yellowstone National Park"></a></div>
+  <div class="colosseum-con-1"><img src="Continents/North-America/Toronto.jpeg" alt="Toronto"><h2 class="con-topic">Toronto</h2><h3 class="con-loc">📍 Location: Ontario, Canada</h3><p>The largest city in Canada, known for its diverse culture, beautiful architecture, and vibrant arts scene.</p><a href="Continents/north-america.html#Toronto"></a></div>
+  <div class="patra-con"><img src="Continents/North-America/Washington DC.jpeg" alt="Washington DC"><h2 class="con-topic">Washington DC</h2><h3 class="con-loc">📍 Location: District of Columbia, USA</h3><p>The capital city of the United States, known for its historical landmarks and political significance.</p><a href="Continents/north-america.html#Washington DC"></a></div>
+
+</div>
+
+<div class="container">
+  <div class="con-main-text show"><p>South America</p></div>
+  <div class="viewall show"><a href="Continents/south-america.html" class="view-all">View All →</a></div>
+  <div class="header"><img src="Continents/South America/Patagonia.jpeg" alt="Patagonia"><h2 class="con-topic">Patagonia</h2><h3 class="con-loc">📍 Location: Chile & Argentina</h3><p>Remote region with mountains, glaciers, and dramatic winter landscapes.</p><a href="Continents/south-america.html#Patagonia"></a></div>
+  <div class="great-wall-con"><img src="Continents/South America/Machu Picchu.jpeg" alt="Machu Picchu"><h2 class="con-topic">Machu Picchu</h2><h3 class="con-loc">📍 Location: Peru</h3><p>Ancient mountain ruins with incredible views and history.</p><a href="Continents/south-america.html#Machu Picchu"></a></div>
+  <div class="colosseum-con-1"><img src="Continents/South America/Buenos Aires(Spring).jpeg" alt="Buenos Aires"><h2 class="con-topic">Buenos Aires</h2><h3 class="con-loc">📍 Location: Argentina</h3><p>Cultural city with tango, food, and vibrant atmosphere.</p><a href="Continents/south-america.html#Buenos Aires"></a></div>
+  <div class="patra-con"><img src="Continents/South America/Mendoza.jpeg" alt="Mendoza"><h2 class="con-topic">Mendoza</h2><h3 class="con-loc">📍 Location: Argentina</h3><p>Wine region with mountains and autumn harvest beauty.</p><a href="Continents/south-america.html#Mendoza"></a></div>
+
+</div>
+
+<div class="container">
+  <div class="con-main-text show"><p>Antarctica</p></div>
+  <div class="viewall show"><a href="Continents/antarctica.html" class="view-all">View All →</a></div>
+  <div class="header"><img src="Continents/Antarctica/South Shetland Islands.png" alt="South Shetland Islands"><h2 class="con-topic">South Shetland Islands</h2><h3 class="con-loc">📍 Location: Antarctica</h3><p>A group of islands located in the Antarctic Ocean, south of the Antarctic Peninsula.</p><a href="Continents/antarctica.html#South Shetland Islands"></a></div>
+  <div class="great-wall-con"><img src="Continents/Antarctica/Antarctic Peninsula.png" alt="Antarctic Peninsula"><h2 class="con-topic">Antarctic Peninsula</h2><h3 class="con-loc">📍 Location: Antarctica</h3><p>A stunning icy wilderness filled with glaciers, penguins, and dramatic landscapes.</p><a href="Continents/antarctica.html#Antarctic Peninsula"></a></div>
+  <div class="colosseum-con-1"><img src="Continents/Antarctica/Deception Island.png" alt="Deception Island"><h2 class="con-topic">Deception Island</h2><h3 class="con-loc">📍 Location: Antarctica</h3><p>A volcanic island in the South Shetland Islands, Antarctica.</p><a href="Continents/antarctica.html#Deception Island"></a></div>
+  <div class="patra-con"><img src="Continents/Antarctica/Paradise Bay.png" alt="Paradise Bay"><h2 class="con-topic">Paradise Bay</h2><h3 class="con-loc">📍 Location: Antarctica</h3><p>A stunning destination in Antarctica, known for its pristine beaches and crystal-clear waters.</p><a href="Continents/antarctica.html#Paradise Bay"></a></div>
+
+</div>
+
+<div class="container">
+  <div class="con-main-text show"><p>Europe</p></div>
+  <div class="viewall show"><a href="Continents/europe.html" class="view-all">View All →</a></div>
+  <div class="header"><img src="Continents/Europe/Lapland.jpeg" alt="Lapland"><h2 class="con-topic">Lapland</h2><h3 class="con-loc">📍 Location: Finland</h3><p>A region in northern Finland known for its pristine wilderness and the chance to see the Northern Lights.</p><a href="Continents/europe.html#Lapland"></a></div>
+  <div class="great-wall-con"><img src="Continents/Europe/Santorini.jpeg" alt="Santorini"><h2 class="con-topic">Santorini</h2><h3 class="con-loc">📍 Location: Greece</h3><p>A volcanic island in the Aegean Sea, known for its stunning sunsets, white-washed buildings, and blue-domed churches.</p><a href="Continents/europe.html#Santorini"></a></div>
+  <div class="colosseum-con-1"><img src="Continents/Europe/Paris.jpeg" alt="Paris"><h2 class="con-topic">Paris</h2><h3 class="con-loc">📍 Location: France, Italy</h3><p>Paris, France’s capital, is famed for its art, romance, iconic landmarks, rich history, and vibrant café culture.</p><a href="Continents/europe.html#Paris"></a></div>
+  <div class="patra-con"><img src="Continents/Europe/Bavaria.jpeg" alt="Bavaria"><h2 class="con-topic">Bavaria</h2><h3 class="con-loc">📍 Location: Germany</h3><p>Bavaria is a scenic German region known for its castles, Alps, traditions, and rich cultural heritage.</p><a href="Continents/europe.html#Bavaria"></a></div>
+
+</div>
+
+<div class="container">
+  <div class="con-main-text show"><p>Australia</p></div>
+  <div class="viewall show"><a href="Continents/australia.html" class="view-all">View All →</a></div>
+  <div class="header"><img src="Continents/Australia/Queenstown.jpeg" alt="Queenstown"><h2 class="con-topic">Queenstown</h2><h3 class="con-loc">📍 Location: New Zealand</h3><p>A top adventure destination surrounded by mountains and lakes.</p><a href="Continents/australia.html#Queenstown"></a></div>
+  <div class="great-wall-con"><img src="Continents/Australia/Great Barrier Reef.jpeg" alt="Great Barrier Reef"><h2 class="con-topic">Great Barrier Reef</h2><h3 class="con-loc">📍 Location: Australia</h3><p>The world's largest coral reef system, stretching over 2,300 kilometers along the coast of Queensland, Australia.</p><a href="Continents/australia.html#Great Barrier Reef"></a></div>
+  <div class="colosseum-con-1"><img src="Continents/Australia/Sydney.jpeg" alt="Sydney"><h2 class="con-topic">Sydney</h2><h3 class="con-loc">📍 Location: New South Wales, Australia</h3><p>The capital and largest city of Australia, known for its rich cultural heritage and beautiful architecture.</p><a href="Continents/australia.html#Sydney"></a></div>
+  <div class="patra-con"><img src="Continents/Australia/Tasmania.jpeg" alt="Tasmania"><h2 class="con-topic">Tasmania</h2><h3 class="con-loc">📍 Location: Australia</h3><p>An island state of Australia known for its rugged landscapes, pristine wilderness, and rich cultural heritage.</p><a href="Continents/australia.html#Tasmania"></a></div>
+
+</div>
+
+<div class="container">
+  <div class="con-main-text show"><p>Mountains</p></div>
+  <div class="viewall show"><a href="Mountains/mountain.html" class="view-all">View All →</a></div>
+  <div class="header"><img src="images/eiffel-tower.png"><h2 class="con-topic">Mount Fuji</h2><h3 class="con-loc">📍 Location: Japan</h3><p>Japan’s most famous mountain and a sacred symbol of the country.</p></div>
+  <div class="great-wall-con"><img src="images/great-wall.png"><h2 class="con-topic">Great Wall</h2><h3 class="con-loc">📍 Location: Northern China</h3><p>An ancient wall stretching thousands of kilometers across mountains and valleys.</p></div>
+  <div class="colosseum-con-1"><img src="images/colosseum.png"><h2 class="con-topic">Colosseum</h2><h3 class="con-loc">📍 Location: Rome, Italy</h3><p>The largest ancient amphitheater ever built in the Roman Empire.</p></div>
+  <div class="patra-con"><img src="images/petra.png"><h2 class="con-topic">Patra</h2><h3 class="con-loc">📍 Location: Southern Jordan</h3><p>An ancient city carved directly into red desert cliffs.</p></div>
 </div>
 
 <a href="Seasons/winter.html">winter</a>
 <a href="Seasons/autumn.html">autumn</a>
-<a href="../Continents\africa.html">Africa</a>
+<a href="Continents\africa.html">Africa</a>
 
 
 
@@ -225,13 +218,15 @@ behavior: "smooth"
 }
 </style>
 
-<div class="footer-con">
-  <div class="footer1"><p>Thanks for visiting!</p><p>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</p></div>
-  <div class="footer2"><p>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</p></div>
+<footer>
+  <div class="footer-con">
+  <div class="footer-L"><p style="font-weight: bold; font-size: 20px;">Thanks for visiting!</p><p style="margin-bottom: 3px; margin-top: -5px;">“Not all those who wander are lost.”Discover places, create memories, live the journey.</p><p style="margin-top: 0%;">Built for explorers. Inspired by the world. Your next adventure starts here.</p><p>© 2026 JetSetGo!. All rights reserved.</p></div>
+  <div class="footer-R"><a href="credits.html" id="footer-credits">Credits</a></div>
 </div>
+</footer>
 
 </footer>
-<script src="../Layout/Containor(4-items).js"></script>
+<script src="Layout/Containor-(4-items).js"></script>
 </body>
 </html>
 

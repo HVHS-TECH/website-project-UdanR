@@ -825,3 +825,1998 @@ Containor (4-items).js
 document.querySelectorAll(".container > div:not(.viewall)").forEach(el => {
   observer.observe(el);
 });
+
+
+
+
+
+
+
+
+
+
+
+
+index.html
+
+<div class="horizontal-scrolling">
+  <h1>Top Picks</h1>
+  <a href="top-picks.html" class="view-all">View All →</a>
+</div>
+
+<div class="carousel-container">
+  <button class="arrow left" onclick="scrollCarousel(-1)">❮</button>
+  <div class="carousel" id="carousel">
+    <div class="place-card">
+      <img src="images/eiffel-tower.png">
+      <h3 class="scrolling-topic">Eiffel Tower</h3>
+      <h4 class="scrolling-topic">Location 📍: Paris, France</h4>
+      <h4 class="scrolling-topic">Season : Spring or Autumn</h4>
+      <p class="short-text"> An Iconuc iron tower rising above Paris, offering breathtaking views of the city.</p>
+      <a href="Continents/europe.html#Eiffel-Tower" >
+        <button class="scroll-viewmore-info">View More</button>
+      </a>
+    </div>
+      <div class="place-card">
+      <img src="images/taj-mahal.png">
+      <h3 class="scrolling-topic">Taj Mahal</h3>
+      <h4 class="scrolling-topic">Location 📍: Agra, India</h4>
+      <h4 class="scrolling-topic">Season : Winter</h4>
+      <p class="short-text"> A stunning white marble mausoleum known as a symbol of eternal love.</p>
+      <a href="Continents/aisa.html#Taj-Mahal">
+        <button class="scroll-viewmore-info">View More</button>
+      </a>
+    </div>
+        <div class="place-card">
+      <img src="images/great-wall.png">
+      <h3 class="scrolling-topic">Great Wall</h3>
+      <h4 class="scrolling-topic">Location 📍: Northern China</h4>
+      <h4 class="scrolling-topic">Season : Spring or Autumn</h4>
+      <p class="short-text"> An ancient wall stretching thousands of kilometers across mountains and valleys.</p>
+    </div>
+        <div class="place-card">
+      <img src="images/colosseum.png">
+      <h3 class="scrolling-topic">Colosseum</h3>
+      <h4 class="scrolling-topic">Location 📍: Rome, Italy</h4>
+      <h4 class="scrolling-topic">Season : Spring or Autumn</h4>
+      <p class="short-text"> The largest ancient amphitheater ever built in the Roman Empire.</p>
+    </div>
+        <div class="place-card">
+      <img src="images/petra.png">
+      <h3 class="scrolling-topic">Petre</h3>
+      <h4 class="scrolling-topic">Location 📍: Southern Jordan</h4>
+      <h4 class="scrolling-topic">Season : Spring or Autumn</h4>
+      <p class="short-text"> An ancient city carved directly into red desert cliffs.</p>
+    </div>
+        <div class="place-card">
+      <img src="images/christ-the-redeemer.png">
+      <h3 class="scrolling-topic">Christ The Redeemer</h3>
+      <h4 class="scrolling-topic">Location 📍: Rio de janeiro, Brazil</h4>
+      <h4 class="scrolling-topic">Season : May-Oct</h4>
+      <p class="short-text"> A towering statue of Jesus overlooking Rio from a mountain peak.</p>
+    </div>
+        <div class="place-card">
+      <img src="images/grand-canyon.png">
+      <h3 class="scrolling-topic">Grand Canyon</h3>
+      <h4 class="scrolling-topic">Location 📍: Arizona, USA</h4>
+      <h4 class="scrolling-topic">Season : Spring or Autumn</h4>
+      <p class="short-text"> A massive canyon carved by the Colorado River with breathtaking layered cliffs.</p>
+    </div>
+        <div class="place-card">
+      <img src="images/victoria-falls.png">
+      <h3 class="scrolling-topic">Victoria Falls</h3>
+      <h4 class="scrolling-topic">Location 📍: Zambia/ Zimbabwe</h4>
+      <h4 class="scrolling-topic">Season : Feb - May</h4>
+      <p class="short-text"> One of the largest and most powerful waterfalls in the world.</p>
+    </div>
+        <div class="place-card">
+      <img src="images/northern-lights.png">
+      <h3 class="scrolling-topic">Northern Lights</h3>
+      <h4 class="scrolling-topic">Location 📍: Norway/ Iceland/ Arctic regions</h4>
+      <h4 class="scrolling-topic">Season : Winter (Sep-Mar)</h4>
+      <p class="short-text"> A magical display of colorful lights dancing across the night sky.</p>
+    </div>
+        <div class="place-card">
+      <img src="images/great-barrier-reef.png">
+      <h3 class="scrolling-topic">Great Barrier Reef</h3>
+      <h4 class="scrolling-topic">Location 📍: Queensland, Australia</h4>
+      <h4 class="scrolling-topic">Season : Jun-Oct</h4>
+      <p class="short-text"> The largest coral reef system on Earth.</p>
+    </div>
+        <div class="place-card">
+      <img src="images/amazon-rainforest.png">
+      <h3 class="scrolling-topic">Amazon Rainforest</h3>
+      <h4 class="scrolling-topic">Location 📍: South America</h4>
+      <h4 class="scrolling-topic">Season : May-Oct</h4>
+      <p class="short-text"> The largest tropical rainforest on the planet.</p>
+    </div>
+        <div class="place-card">
+      <img src="images/mount-fuji.png">
+      <h3 class="scrolling-topic">Mount Fuji</h3>
+      <h4 class="scrolling-topic">Location 📍: Japan</h4>
+      <h4 class="scrolling-topic">Season : Summer (Jul-Sep)</h4>
+      <p class="short-text"> Japan's most famous mountain and a sacred symbol of the country.</p>
+    </div>
+  </div>
+  <button class="arrow right" onclick="scrollCarousel(1)">❯</button>
+</div>
+
+<script>
+  function scrollCarousel(direction){
+
+const container = document.getElementById("carousel");
+
+const scrollAmount = 250;
+
+container.scrollBy({
+left: direction * scrollAmount,
+behavior: "smooth"
+});
+
+}
+</script>
+
+css
+
+.horizontal-scrolling {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 1px 20px;
+}
+
+.horizontal-scrolling h1, .horizontal-scrolling a {
+    margin: 0;
+}
+
+
+ .view-all{
+  text-decoration:none;
+  color:#0F4C75;
+  font-weight:600;
+}
+
+.view-all:hover
+{
+  text-decoration:underline;
+}
+
+.carousel-container{
+position:relative;
+display:flex;
+align-items:center;
+margin:40px;
+}
+
+.carousel{
+display:flex;
+min-width: 0;
+gap:20px;
+overflow:hidden;
+scroll-behavior:smooth;
+}
+
+.place-card{
+min-width:220px;
+background:white;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+text-align:center;
+}
+
+.place-card img{
+width:100%;
+height:150px;
+object-fit:cover;
+border-radius:10px 10px 0 0;
+}
+
+.arrow{
+position:absolute;
+top:50%;
+transform:translateY(-50%);
+background:#0F4C75;
+color:white;
+border:none;
+font-size:24px;
+width:40px;
+height:40px;
+border-radius:50%;
+cursor:pointer;
+}
+
+.left{
+left:-20px;
+}
+
+.right{
+right:-20px;
+}
+
+.scrolling-topic{
+  margin: 0;
+padding: 0%;
+}
+
+.short-text{
+  padding-left: 5px;
+padding-right: 5px;
+margin-bottom: 1;
+}
+
+.scroll-viewmore-info{
+  background-color: #0F4C75;
+  color: white;
+  border-radius: 5px;
+  border: 5px;
+  margin-bottom: 10px;
+}
+
+.scroll-viewmore-info:hover{
+  color: #0F4C75;
+  background-color: white;
+  border:1px solid #0F4C75 ;
+  border-radius: 5px;
+}
+
+Style.css
+
+.site-header{
+    background-color: #97cbff;
+  position: sticky;
+  border-radius: 5px;
+  padding: 0px 0px;
+  margin: 0px;
+  outline: 1px solid white;
+  background-clip: padding-box;
+   animation: zoom1 1.2s ease-out forwards;
+   display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav{
+background-color: #97cbff;    
+ position: sticky;
+ border-radius: 5px;
+animation: zoom1 1.2s ease-out forwards;
+ outline: 1px solid white;
+ height: 30px; 
+ z-index: 800;
+}
+
+@keyframes zoom1 {
+     0% {
+    opacity: 0;
+    transform: scale(0.7);
+  }
+  100%{
+    opacity: 1;
+    transform: scale(1);
+}
+}
+
+
+
+.site-logo{
+    background-color: transparent;
+}
+
+.site-logo img{
+    width: 75px;
+    height: 75px;
+    mix-blend-mode: multiply;
+}
+
+.site-name{
+  color: white;
+  
+}
+
+.search-icon{
+  width: 35px;
+  height: 35px;
+  padding-right: 20px;
+  filter: invert(100%);
+}
+
+
+.index-main{
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  animation: zoom1 1.2s ease-out forwards;
+}
+
+.index-img img{
+  max-width: 100%;
+  height: auto;
+  width: auto;
+  display: block;
+  margin: 0%;
+  padding: 0%;
+  z-index: 0;
+}
+
+.main-title{
+  width: 660px;
+  height: 500px;
+  top: 35%;
+  left: 27%;
+  background-color: rgba(163, 200, 255, 0.3);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(2px);
+  display: block;
+  position: absolute;
+  border-radius: 7px;
+  justify-content: center;
+  box-shadow: 0 6px 18px black;
+  border: 0.1px solid white;
+}
+
+#index-title{
+  position: absolute;
+  font-size: 75px;
+  color: white;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#index-catchline{
+  position: absolute;
+  font-size: 35px;
+  color: white;
+  text-align: center;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.map{
+    background-color:#5288be;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.map:hover{
+  border: 1px solid #5288be;
+  background-color: white;
+  color: #5288be;
+
+}
+
+
+
+
+
+Winter.html
+
+      <div class="container">
+        <div class="imges"><img src="../Seasons\Winter\Tromsø.png" alt="Lapland"></div>
+  <div class="main-content">
+    <h1 class="con-topic">Tromsø</h1>
+    <h2 class="con-loc">📍 Tromsø, Norway</h2>
+    <h2>🌤️ Best Months: November – March</h2>
+  </div>
+  <div class="content">
+    <p>Tromsø is a vibrant Arctic city located above the Arctic Circle, surrounded by dramatic mountains and deep fjords. It is widely considered one of the best places in the world to see the Northern Lights due to its location and frequent clear skies. Despite its remote setting, the city has a lively cultural scene with museums, restaurants, and winter activities that attract travelers from around the globe.</p>
+  </div>
+  <div class="things-to-do">
+    <h4>🎯 Things to do:</h4>
+    <ul class="things-to-do-list">
+      <li>Chase the Northern Lights</li>
+      <li>Dog sledding</li>
+      <li>Fjord tours</li>
+      <li>Arctic Cathedral</li>
+      <li>Cable car views</li>
+      <li>Snowmobiling</li>
+    </ul>
+    </div>
+    <div class="map">
+    <a href="https://maps.app.goo.gl/1uusbL9jRbSRgUhb7" target="_blank">Directions</a>
+  </div>
+      </div>
+
+      <div class="container">
+        <div class="imges"><img src="../Seasons\Winter\lofoten islands.png" alt="Lapland"></div>
+       <div class="main-content">
+         <h1 class="con-topic">Lofoten Islands</h1>
+         <h2 class="con-loc">📍 Northern Norway</h2>
+         <h2 class="con--best-months">🌤️ Best Months: December – March</h2>
+        </div>
+         <div class="content">
+           <p>Dramatic snow-covered peaks rising from the sea under glowing auroras.</p>
+           <p>Lofoten is known for colorful fishing villages, rugged mountains, and incredible winter photography opportunities.</p>
+           </div>
+           <div class="things-to-do">
+            <h4>🎯 Things to do:</h4>
+           <ul class="things-to-do-list">
+             <li>Aurora viewing</li>
+             <li>Photograph</li>
+             <li>Visit fishing villages</li>
+             <li>Kayaking (weather permitting)</li>
+             <li>Hiking viewpoints</li>
+             <li>scenic drives</li>
+           </ul>
+           </div>
+           <div class="map">
+           <a href="https://maps.app.goo.gl/Py9dKxi8Vg2joJaS8" target="_blank">Directions</a>
+        </div>
+      </div>
+
+       <div class="container">
+        <div class="imges"><img src="images/lapland.png" alt="Lapland"></div>
+       <div class="main-content">
+         <h1 class="con-topic">Reykjavik</h1>
+         <h2 class="con-loc">📍 Iceland</h2>
+         <h2 class="con--best-months">🌤️ Best Months: October – March</h2>
+       </div>
+         <div class="content">
+         <p>Iceland’s capital and a perfect base for chasing the Northern Lights.</p>
+         <p>From Reykjavik visitors can explore waterfalls, glaciers, volcanoes, and geothermal lagoons like the Blue Lagoon.</p>
+        </div>
+           <div class="things-to-do">
+            <h4>🎯 Things to do:</h4>
+           <ul class="things-to-do-list">
+             <li>Blue Lagoon</li>
+             <li>Northern Lights</li>
+             <li>Golden Circle</li>
+             <li>city views</li>
+             <li>glacier tours</li>
+             <li>museums</li>
+           </ul>
+           </div>
+           <div class="map"></div>
+         <a href="https://maps.app.goo.gl/wFWqVgoAuE5zubrN6" target="_blank">Directions</a>
+         </div>
+       </div>
+
+      <div class="container">
+        <div class="imges"><img src="../Seasons/Winter/lapland.png" alt="Lapland"></div>
+        <div class="main-content">
+           <h1 class="con-topic">Lapland</h1>
+           <h2 class="con-loc">📍 Finland</h2>
+           <h2 class="con--best-months">🌤️ Best Months: December – March</h2>
+         </div>
+           <div class="content">
+           <p>A magical winter wonderland with snow forests and reindeer.</p>
+           <p>Lapland is famous for Santa Claus Village, snowmobiles, husky sledding, and glass igloo hotels for aurora viewing.</p>
+          </div>
+           <div class="things-to-do">
+            <h4>🎯 Things to do:</h4>
+           <ul class="things-to-do-list">
+             <li>Reindeer sledding</li>
+             <li>Santa Village</li>
+             <li>snowmobiles</li>
+             <li>auroras</li>
+             <li>husky rides</li>
+             <li>igloos</li>
+           </ul>
+           </div>
+           <div class="map">
+           <a href="https://maps.app.goo.gl/Wcnm2FNv5PhDXsoaA" target="_blank">Directions</a>
+         </div>
+      </div>
+
+      <div class="container">
+        <div class="imges"><img src="../Seasons/Winter/Rovaniemi.png" alt="Lapland"></div>
+        <div class="main-content">
+           <h1 class="con-topic">Rovaniemi</h1>
+           <h2 class="con-loc">📍 Finland</h2>
+           <h2 class="con--best-months">🌤️ Best Months: December – March</h2>
+         </div>
+           <div class="content">
+           <p>The official hometown of Santa Claus in snowy Lapland.</p>
+           <p>Visitors cross the Arctic Circle here and enjoy winter safaris and northern lights viewing.</p>
+          </div>
+           <div class="things-to-do">
+            <h4>🎯 Things to do:</h4>
+           <ul class="things-to-do-list">
+             <li>Meet Santa</li>
+             <li>Arctic Circle</li>
+             <li>auroras</li>
+             <li>husky safaris</li>
+             <li>snow activities</li>
+           </ul>
+           </div>
+            <div class="map">
+           <a href="https://maps.app.goo.gl/jVrThDeck1jUKmZk6" target="_blank">Directions</a>
+         </div>
+      </div>
+
+      <div class="container">
+        <div class="imges"><img src="../Seasons/Winter/Abisko.png" alt="Lapland"></div>
+        <div class="main-content">
+           <h1 class="con-topic">Abisko</h1>
+           <h2 class="con-loc">📍 Sweden</h2>
+           <h2 class="con--best-months">🌤️ Best Months: December – March</h2>
+         </div>
+           <div class="content">
+           <p>One of the clearest skies in the world for Northern Lights viewing.</p>
+           <p>Abisko National Park has very low cloud cover, making it a top aurora destination..</p>
+          </div>
+           <div class="things-to-do">
+            <h4>🎯 Things to do:</h4>
+           <ul class="things-to-do-list">
+             <li>Aurora station</li>
+             <li>skiing</li>
+             <li>snowshoeing</li>
+             <li>photography</li>
+             <li>hiking</li>
+           </ul>
+           </div>
+            <div class="map">
+           <a href="https://maps.app.goo.gl/AHAJgz2vD3mXmvqLA" target="_blank">Directions</a>
+         </div>
+      </div>
+
+      <div class="container">
+        <div class="imges"><img src="../Seasons/Winter/fairbanks.png" alt="Lapland"></div>
+        <div class="main-content">
+           <h1 class="con-topic">Fairbanks</h1>
+           <h2 class="con-loc">📍 Alaska, USA</h2>
+           <h2 class="con--best-months">🌤️ Best Months: September – March</h2>
+         </div>
+           <div class="content">
+           <p>A remote Arctic city famous for vivid aurora displays.</p>
+           <p>Visitors can relax in hot springs while watching the Northern Lights.</p>
+          </div>
+           <div class="things-to-do">
+            <h4>🎯 Things to do:</h4>
+           <ul class="things-to-do-list">
+             <li>Northern Lights</li>
+             <li>hot springs</li>
+             <li>dog sledding</li>
+             <li>ice fishing</li>
+             <li>snow tours</li>
+           </ul>
+           </div>
+            <div class="map">
+           <a href="https://maps.app.goo.gl/9nUUB2PUqKyLToJj8" target="_blank">Directions</a>
+         </div>
+      </div>
+
+      <div class="container">
+        <div class="imges"><img src="../Seasons/Winter/yellowknife.png" alt="Lapland"></div>
+        <div class="main-content">
+           <h1 class="con-topic">Yellowknife</h1>
+           <h2 class="con-loc">📍 Northwest Territories, Canada</h2>
+           <h2 class="con--best-months">🌤️ Best Months: November – April</h2>
+         </div>
+           <div class="content">
+           <p>One of the most reliable places to see auroras in the world.</p>
+           <p>The area’s dry climate produces extremely clear skies.</p>
+          </div>
+           <div class="things-to-do">
+            <h4>🎯 Things to do:</h4>
+           <ul class="things-to-do-list">
+             <li>Aurora tours</li>
+             <li>snowmobiling</li>
+             <li>ice roads</li>
+             <li>cultural tours</li>
+             <li>winter camping</li>
+           </ul>
+           </div>
+            <div class="map">
+           <a href="https://maps.app.goo.gl/mhaTaG85Sf6e9YCP9" target="_blank">Directions</a>
+         </div>
+      </div>
+
+      <div class="container">
+        <div class="imges"><img src="../Seasons/Winter/yukon.png" alt="Lapland"></div>
+        <div class="main-content">
+           <h1 class="con-topic">Yukon</h1>
+           <h2 class="con-loc">📍 Canada</h2>
+           <h2 class="con--best-months">🌤️ Best Months: November – March</h2>
+         </div>
+           <div class="content">
+           <p>A wild Arctic landscape perfect for winter adventures and auroras.</p>
+           <p>Yukon offers dog sledding, snowshoeing, and remote wilderness experiences.</p>
+          </div>
+           <div class="things-to-do">
+            <h4>🎯 Things to do:</h4>
+           <ul class="things-to-do-list">
+             <li>Dog sledding</li>
+             <li>auroras</li>
+             <li>snowshoeing</li>
+             <li>wildlife spotting</li>
+             <li>winter hiking</li>
+           </ul>
+           </div>
+            <div class="map">
+           <a href="https://maps.app.goo.gl/vyE3NoNjQWZaHRqJ7" target="_blank">Directions</a>
+         </div>
+      </div>
+
+      <div class="container">
+        <div class="imges"><img src="../Seasons/Winter/Svalbard.png" alt="Lapland"></div>
+        <div class="main-content">
+           <h1 class="con-topic">Svalbard</h1>
+           <h2 class="con-loc">📍 Norway (Arctic Ocean)</h2>
+           <h2 class="con--best-months">🌤️ Best Months: December – February</h2>
+         </div>
+           <div class="content">
+           <p>A remote polar archipelago with glaciers and Arctic wildlife.</p>
+           <p>Visitors may see polar bears, frozen fjords, and the magical polar night.</p>
+          </div>
+           <div class="things-to-do">
+            <h4>🎯 Things to do:</h4>
+           <ul class="things-to-do-list">
+             <li>Snowmobiling</li>
+             <li>glacier tours</li>
+             <li>wildlife viewing</li>
+             <li>polar night</li>
+             <li>expeditions</li>
+           </ul>
+           </div>
+            <div class="map">
+           <a href="https://maps.app.goo.gl/4LaADMEvkxXkMbGU7" target="_blank">Directions</a>
+         </div>
+      </div>
+
+      <h1>⛷️ Winter Mountain & Ski Destinations</h1>
+
+      <div class="container">
+        <div class="imges"><img src="../Seasons/Winter/Zermatt.png" alt="Lapland"></div>
+        <div class="main-content">
+           <h1 class="con-topic">Zermatt</h1>
+           <h2 class="con-loc">📍 Switzerland</h2>
+           <h2 class="con--best-months">🌤️ Best Months: December – March</h2>
+         </div>
+           <div class="content">
+           <p>A charming alpine village beneath the famous Matterhorn peak.</p>
+           <p>Zermatt is one of Europe’s top ski resorts with breathtaking mountain scenery.</p>
+          </div>
+           <div class="things-to-do">
+            <h4>🎯 Things to do:</h4>
+           <ul class="things-to-do-list">
+             <li>Skiing</li>
+             <li>train rides</li>
+             <li>village walks</li>
+             <li>cable cars</li>
+             <li>mountain views</li>
+           </ul>
+           </div>
+            <div class="map">
+           <a href="https://maps.app.goo.gl/8FXbYjEPM6pzYGaZ8" target="_blank">Directions</a>
+         </div>
+      </div>
+
+      <div class="container">
+        <div class="imges"><img src="../Seasons/Winter/St. Moritz.png" alt="Lapland"></div>
+        <div class="main-content">
+           <h1 class="con-topic">St. Moritz</h1>
+           <h2 class="con-loc">📍 Switzerland</h2>
+           <h2 class="con--best-months">🌤️ Best Months: December – March</h2>
+         </div>
+           <div class="content">
+           <p>A luxurious winter resort known for skiing and frozen lakes.</p>
+           <p>St. Moritz is a world-renowned destination for winter sports and luxury. The resort hosted the Winter Olympics twice and attracts visitors from around the world.</p>
+          </div>
+           <div class="things-to-do">
+            <h4>🎯 Things to do:</h4>
+           <ul class="things-to-do-list">
+             <li>Skiing</li>
+             <li>ice skating</li>
+             <li>shopping</li>
+             <li>winter events</li>
+             <li>dining</li>
+           </ul>
+           </div>
+            <div class="map">
+           <a href="https://maps.app.goo.gl/it1ZQ6popwNwi13e7" target="_blank">Directions</a>
+         </div>
+      </div>
+
+      <div class="container">
+        <div class="imges"><img src="../Seasons/Winter/Chamonix.png" alt="Lapland"></div>
+        <div class="main-content">
+           <h1 class="con-topic">Chamonix</h1>
+           <h2 class="con-loc">📍 France</h2>
+           <h2 class="con--best-months">🌤️ Best Months: December – March</h2>
+         </div>
+           <div class="content">
+           <p>A legendary alpine town beneath Mont Blanc.</p>
+           <p>Chamonix is a popular destination for skiing, mountaineering, and other winter sports.</p>
+          </div>
+           <div class="things-to-do">
+            <h4>🎯 Things to do:</h4>
+           <ul class="things-to-do-list">
+             <li>Skiing</li>
+             <li>dining</li>
+             <li>glaciers</li>
+             <li>hiking</li>
+             <li>mountaineering</li>
+           </ul>
+           </div>
+            <div class="map">
+           <a href="https://maps.app.goo.gl/mciD1yEBLJmpamAJ6" target="_blank">Directions</a>
+         </div>
+      </div>
+
+      <div class="container">
+        <div class="imges"><img src="../Seasons/Winter/Innsbruck.png" alt="Lapland"></div>
+        <div class="main-content">
+           <h1 class="con-topic">Innsbruck</h1>
+           <h2 class="con-loc">📍 Austria</h2>
+           <h2 class="con--best-months">🌤️ Best Months: December – February</h2>
+         </div>
+           <div class="content">
+           <p>A historic alpine city surrounded by snowy mountains.</p>
+           <p>Innsbruck hosted the Winter Olympics and combines culture with skiing.</p>
+          </div>
+           <div class="things-to-do">
+            <h4>🎯 Things to do:</h4>
+           <ul class="things-to-do-list">
+             <li>Skiing</li>
+             <li>old town</li>
+             <li>museums</li>
+             <li>cable cars</li>
+             <li>scenic views</li>
+           </ul>
+           </div>
+            <div class="map">
+           <a href="https://maps.app.goo.gl/L685oSm3V18wGRLU7" target="_blank">Directions</a>
+         </div>
+      </div>
+
+      <div class="container">
+        <div class="imges"><img src="../Seasons/Winter/Cortina d’Ampezzo.png" alt="Lapland"></div>
+        <div class="main-content">
+           <h1 class="con-topic">Cortina d’Ampezzo</h1>
+           <h2 class="con-loc">📍 Italy</h2>
+           <h2 class="con--best-months">🌤️ Best Months: December – March</h2>
+         </div>
+           <div class="content">
+           <p>A stylish ski town in the dramatic Dolomite mountains.</p>
+           <p>Famous for luxury resorts, beautiful peaks, and winter sports.</p>
+          </div>
+           <div class="things-to-do">
+            <h4>🎯 Things to do:</h4>
+           <ul class="things-to-do-list">
+             <li>Skiing</li>
+             <li>hiking</li>
+             <li>photography</li>
+             <li>dining</li>
+             <li>mountain views</li>
+           </ul>
+           </div>
+            <div class="map">
+           <a href="https://maps.app.goo.gl/ir7eGGWqWwpBJqyV7" target="_blank">Directions</a>
+         </div>
+      </div>
+
+      <div class="container">
+        <div class="imges"><img src="../Seasons/Winter/Banff.png" alt="Lapland"></div>
+        <div class="main-content">
+           <h1 class="con-topic">Banff</h1>
+           <h2 class="con-loc">📍 Alberta, Canada</h2>
+           <h2 class="con--best-months">🌤️ Best Months: December – March</h2>
+         </div>
+           <div class="content">
+           <p>A winter paradise with frozen lakes and snowy forests.</p>
+           <p>Banff National Park offers skiing, wildlife viewing, and stunning mountain views.</p>
+          </div>
+           <div class="things-to-do">
+            <h4>🎯 Things to do:</h4>
+           <ul class="things-to-do-list">
+             <li>Skiing</li>
+             <li>ice skating</li>
+             <li>hot springs</li>
+             <li>gondola rides</li>
+             <li>snowshoeing</li>
+           </ul>
+           </div>
+              <div class="map">
+           <a href="https://maps.app.goo.gl/cjxRbBozwhLgckxWA" target="_blank">Directions</a>
+         </div>
+      </div>
+
+      <div class="container">
+        <div class="imges"><img src="../Seasons/Winter/Aspen.png" alt="Lapland"></div>
+        <div class="main-content">
+           <h1 class="con-topic">Aspen</h1>
+           <h2 class="con-loc">📍 Colorado, USA</h2>
+           <h2 class="con--best-months">🌤️ Best Months: December – March</h2>
+         </div>
+           <div class="content">
+           <p>A famous ski resort town known for luxury and powder snow.</p>
+           <p>Aspen attracts celebrities and winter sports enthusiasts.</p>
+          </div>
+           <div class="things-to-do">
+            <h4>🎯 Things to do:</h4>
+           <ul class="things-to-do-list">
+             <li>Skiing</li>
+             <li>shopping</li>
+             <li>nightlife</li>
+             <li>dining</li>
+             <li>winter sports</li>
+           </ul>
+           </div>
+            <div class="map">
+           <a href="https://maps.app.goo.gl/2DjobsQ6vaQZBEQd8" target="_blank">Directions</a>
+         </div>
+      </div>
+
+      <div class="container">
+        <div class="imges"><img src="../Seasons/Winter/lake tahoe.png" alt="Lapland"></div>
+        <div class="main-content">
+           <h1 class="con-topic">Lake Tahoe</h1>
+           <h2 class="con-loc">📍 California/Nevada, USA</h2>
+           <h2 class="con--best-months">🌤️ Best Months: December – March</h2>
+         </div>
+           <div class="content">
+           <p>A beautiful alpine lake surrounded by snowy mountains.</p>
+           <p>Tahoe offers skiing, snowboarding, and scenic winter landscapes.</p>
+          </div>
+           <div class="things-to-do">
+            <h4>🎯 Things to do:</h4>
+           <ul class="things-to-do-list">
+             <li>Skiing</li>
+             <li>snowboarding</li>
+             <li>lake views</li>
+             <li>hiking</li>
+             <li>scenic drives</li>
+           </ul>
+           </div>
+           <div class="map">
+           <a href="https://maps.app.goo.gl/zwR1RgatWsz34ix76" target="_blank">Directions</a>
+         </div>
+      </div>
+
+      <div class="container">
+        <div class="imges"><img src="../Seasons/Winter/Niseko.png" alt="Lapland"></div>
+        <div class="main-content">
+           <h1 class="con-topic">Niseko</h1>
+           <h2 class="con-loc">📍 Hokkaido, Japan</h2>
+           <h2 class="con--best-months">🌤️ Best Months: December – February</h2>
+         </div>
+           <div class="content">
+           <p>One of the best places in the world for deep powder snow.</p>
+           <p>Skiers come from around the globe to experience Niseko’s famous snowfall.</p>
+          </div>
+           <div class="things-to-do">
+            <h4>🎯 Things to do:</h4>
+           <ul class="things-to-do-list">
+             <li>Skiing</li>
+             <li>snowboarding</li>
+             <li>onsens</li>
+             <li>nightlife</li>
+             <li>snow activities</li>
+           </ul>
+           </div>
+           <div class="map">
+           <a href="https://maps.app.goo.gl/uwNKH3dDQdBFp8EVA" target="_blank">Directions</a>
+         </div>
+      </div>
+
+      <div class="container">
+        <div class="imges"><img src="../Seasons/Winter/hakuba.png" alt="Lapland"></div>
+        <div class="main-content">
+           <h1 class="con-topic">Hakuba</h1>
+           <h2 class="con-loc">📍 Japan</h2>
+           <h2 class="con--best-months">🌤️ Best Months: December – March</h2>
+         </div>
+           <div class="content">
+           <p>A mountain valley with excellent skiing and alpine views.</p>
+           <p>Hakuba hosted events during the 1998 Winter Olympics.</p>
+          </div>
+           <div class="things-to-do">
+            <h4>🎯 Things to do:</h4>
+           <ul class="things-to-do-list">
+             <li>Skiing</li>
+             <li>snowboarding</li>
+             <li>onsens</li>
+             <li>hiking</li>
+             <li>mountain views</li>
+           </ul>
+           </div>
+            <div class="map">
+           <a href="https://maps.app.goo.gl/6GoxkTr6pqXdJMrVA" target="_blank">Directions</a>
+         </div>
+      </div>
+
+      <h1>🎄 Winter Cities & Christmas Markets</h1>
+
+      <div class="container">
+        <div class="imges"><img src="../Seasons/Winter/Vienna.png" alt="Lapland"></div>
+        <div class="main-content">
+           <h1 class="con-topic">Vienna</h1>
+           <h2 class="con-loc">📍 Austria</h2>
+           <h2 class="con--best-months">🌤️ Best Months: November – December</h2>
+         </div>
+           <div class="content">
+           <p>A city of imperial palaces and festive Christmas markets.</p>
+           <p>Vienna’s markets offer handcrafted gifts, mulled wine, and holiday cheer.</p>
+          </div>
+           <div class="things-to-do">
+            <h4>🎯 Things to do:</h4>
+           <ul class="things-to-do-list">
+             <li>Christmas markets</li>
+             <li>museums</li>
+             <li>concerts</li>
+             <li>cafés</li>
+             <li>palaces</li>
+           </ul>
+           </div>
+              <div class="map">
+           <a href="https://maps.app.goo.gl/FuZVPD4Pb9ibdR4n6" target="_blank">Directions</a>
+         </div>
+      </div>
+
+      <div class="container">
+        <div class="imges"><img src="../Seasons/Winter/Prague.png" alt="Lapland"></div>
+        <div class="main-content">
+           <h1 class="con-topic">Prague</h1>
+           <h2 class="con-loc">📍 Czech Republic</h2>
+           <h2 class="con--best-months">🌤️ Best Months: December – February</h2>
+         </div>
+           <div class="content">
+           <p>A fairytale city with snowy castles and festive markets.</p>
+           <p>Prague’s Old Town Square transforms into a magical winter scene.</p>
+          </div>
+           <div class="things-to-do">
+            <h4>🎯 Things to do:</h4>
+           <ul class="things-to-do-list">
+             <li>Castle</li>
+             <li>bridge</li>
+             <li>markets</li>
+             <li>old town</li>
+             <li>river walks</li>
+           </ul>
+           </div>
+           <div class="map">
+           <a href="https://maps.app.goo.gl/bxAxqNxWsXEW8Pqz5" target="_blank">Directions</a>
+         </div>
+      </div>      
+
+      <div class="container">
+        <div class="imges"><img src="../Seasons/Winter/Salzburg.png" alt="Lapland"></div>
+        <div class="main-content">
+           <h1 class="con-topic">Salzburg</h1>
+           <h2 class="con-loc">📍 Austria</h2>
+           <h2 class="con--best-months">🌤️ Best Months: December – February</h2>
+         </div>
+           <div class="content">
+           <p>A charming alpine city with historic streets and winter charm.</p>
+           <p>Salzburg’s historic center is a UNESCO World Heritage site. The birthplace of Mozart and the setting for The Sound of Music.</p>
+          </div>
+           <div class="things-to-do">
+            <h4>🎯 Things to do:</h4>
+           <ul class="things-to-do-list">
+             <li>Old town</li>
+             <li>markets</li>
+             <li>fortress</li>
+             <li>museums</li>
+             <li>views</li>
+           </ul>
+           </div>
+            <div class="map">
+           <a href="https://maps.app.goo.gl/THipA1SmEuiHiEBRA" target="_blank">Directions</a>
+         </div>
+      </div>
+
+      <div class="container">
+        <div class="imges"><img src="../Seasons/Winter/Strasbourg.png" alt="Lapland"></div>
+        <div class="main-content">
+           <h1 class="con-topic">Strasbourg</h1>
+           <h2 class="con-loc">📍 France</h2>
+           <h2 class="con--best-months">🌤️ Best Months: December</h2>
+         </div>
+           <div class="content">
+           <p>Known as the “Capital of Christmas.”</p>
+           <p>Strasbourg’s Christmas market is one of the oldest and most famous in Europe. Its market dates back to the 16th century.</p>
+          </div>
+           <div class="things-to-do">
+            <h4>🎯 Things to do:</h4>
+           <ul class="things-to-do-list">
+             <li>Markets</li>
+             <li>cathedral</li>
+             <li>canals</li>
+             <li>lights</li>
+             <li>walking tours</li>
+           </ul>
+           </div>
+           <div class="map">
+           <a href="https://maps.app.goo.gl/5RzVjK4TFrCyMyDF9" target="_blank">Directions</a>
+         </div>
+      </div>
+
+      <div class="container">
+        <div class="imges"><img src="../Seasons/Winter/Munich.png" alt="Lapland"></div>
+        <div class="main-content">
+           <h1 class="con-topic">Munich</h1>
+           <h2 class="con-loc">📍 Germany</h2>
+           <h2 class="con--best-months">🌤️ Best Months: December</h2>
+         </div>
+           <div class="content">
+           <p>Traditional Bavarian markets and festive atmosphere.</p>
+           <p>Visitors enjoy warm drinks and handcrafted decorations.</p>
+          </div>
+           <div class="things-to-do">
+            <h4>🎯 Things to do:</h4>
+           <ul class="things-to-do-list">
+             <li>Markets</li>
+             <li>beer halls</li>
+             <li>museums</li>
+             <li>parks</li>
+             <li>shopping</li>
+           </ul>
+           </div>
+            <div class="map">
+           <a href="https://maps.app.goo.gl/cCGvBepUsQTNvx7Y9" target="_blank">Directions</a>
+         </div>
+      </div>
+
+      <div class="container">
+        <div class="imges"><img src="../Seasons/Winter/Cologne.png" alt="Lapland"></div>
+        <div class="main-content">
+           <h1 class="con-topic">Cologne</h1>
+           <h2 class="con-loc">📍 Cologne</h2>
+           <h2 class="con--best-months">🌤️ Best Months: December</h2>
+         </div>
+           <div class="content">
+           <p>Famous Christmas markets beside a towering cathedral.</p>
+           <p>Cologne’s Christmas market is one of the largest in Europe, featuring traditional crafts and mulled wine. Millions visit each year during the holiday season.</p>
+          </div>
+           <div class="things-to-do">
+            <h4>🎯 Things to do:</h4>
+           <ul class="things-to-do-list">
+             <li>Cathedral</li>
+             <li>markets</li>
+             <li>river walks</li>
+             <li>shopping</li>
+             <li>food</li>
+           </ul>
+           </div>
+            <div class="map">
+           <a href="https://maps.app.goo.gl/bxdJcsAXUHe4k5fd7" target="_blank">Directions</a>
+         </div>
+      </div>
+
+      <div class="container">
+        <div class="imges"><img src="../Seasons/Winter/Budapest.png" alt="Lapland"></div>
+        <div class="main-content">
+           <h1 class="con-topic">Budapest</h1>
+           <h2 class="con-loc">📍 Hungary</h2>
+           <h2 class="con--best-months">🌤️ Best Months: December – February</h2>
+         </div>
+           <div class="content">
+           <p>A winter city famous for thermal baths and festive markets.</p>
+           <p>Snowy views along the Danube River make winter magical.</p>
+          </div>
+           <div class="things-to-do">
+            <h4>🎯 Things to do:</h4>
+           <ul class="things-to-do-list">
+             <li>Baths</li>
+             <li>markets</li>
+             <li>castles</li>
+             <li>river cruise</li>
+             <li>viewpoints</li>
+           </ul>
+           </div>
+            <div class="map">
+           <a href="https://maps.app.goo.gl/U5cfTaG1ZHor1TXDA" target="_blank">Directions</a>
+         </div>
+      </div>
+
+      <div class="container">
+        <div class="imges"><img src="../Seasons/Winter/Tallinn.png" alt="Lapland"></div>
+        <div class="main-content">
+           <h1 class="con-topic">Tallinn</h1>
+           <h2 class="con-loc">📍 Estonia</h2>
+           <h2 class="con--best-months">🌤️ Best Months: December – February</h2>
+         </div>
+           <div class="content">
+           <p>A medieval town covered in snow during winter.</p>
+           <p>Tallinn’s Christmas market is one of Europe’s oldest.</p>
+          </div>
+           <div class="things-to-do">
+            <h4>🎯 Things to do:</h4>
+           <ul class="things-to-do-list">
+             <li>Old town</li>
+             <li>markets</li>
+             <li>towers</li>
+             <li>cafés</li>
+             <li>walking tours</li>
+           </ul>
+           </div>
+            <div class="map">
+           <a href="https://maps.app.goo.gl/PQewQumqTd3RsMsN6" target="_blank">Directions</a>
+         </div>
+      </div>
+
+      <div class="container">
+        <div class="imges"><img src="../Seasons/Winter/Copenhagen.png" alt="Lapland"></div>
+        <div class="main-content">
+           <h1 class="con-topic">Copenhagen</h1>
+           <h2 class="con-loc">📍 Denmark</h2>
+           <h2 class="con--best-months">🌤️ Best Months: December</h2>
+         </div>
+           <div class="content">
+           <p>Cozy winter atmosphere and festive lights. Tivoli Gardens becomes a magical Christmas park.</p>           
+          </div>
+           <div class="things-to-do">
+            <h4>🎯 Things to do:</h4>
+           <ul class="things-to-do-list">
+             <li>Tivoli Gardens</li>
+             <li>markets</li>
+             <li>cafés</li>
+             <li>cycling</li>
+             <li>shopping</li>
+           </ul>
+           </div>
+            <div class="map">
+           <a href="https://maps.app.goo.gl/XrTeB1AKPUJLfW1m9" target="_blank">Directions</a>
+         </div>
+      </div>
+
+      <div class="container">
+        <div class="imges"><img src="../Seasons/Winter/Quebec City.png" alt="Lapland"></div>
+        <div class="main-content">
+           <h1 class="con-topic">Quebec City</h1>
+           <h2 class="con-loc">📍 Canada</h2>
+           <h2 class="con--best-months">🌤️ Best Months: December – February</h2>
+         </div>
+           <div class="content">
+           <p>A snowy European-style city in North America.</p>
+           <p>The Winter Carnival is one of the world’s largest winter festivals.</p>
+          </div>
+           <div class="things-to-do">
+            <h4>🎯 Things to do:</h4>
+           <ul class="things-to-do-list">
+             <li>Winter Carnival</li>
+             <li>old town</li>
+             <li>snow activities</li>
+             <li>dining</li>
+           </ul>
+           </div>
+            <div class="map">
+           <a href="https://maps.app.goo.gl/HbAv7cN41H2hTi9Z6" target="_blank">Directions</a>
+         </div>
+      </div>
+
+
+      <h1>Cities</h1>
+
+      <div class="container">
+        <div class="imges"><img src="../Seasons/Winter/Seoul.png" alt="Lapland"></div>
+        <div class="main-content">
+           <h1 class="con-topic">Seoul</h1>
+           <h2 class="con-loc">📍 South Korea</h2>
+           <h2 class="con--best-months">🌤️ Best Months: December – February</h2>
+         </div>
+           <div class="content">
+           <p>A modern city mixed with traditional culture, especially beautiful in winter.</p>
+          </div>
+           <div class="things-to-do">
+            <h4>🎯 Things to do:</h4>
+           <ul class="things-to-do-list">
+             <li>Palaces</li>
+             <li>street food</li>
+             <li>ice skating</li>
+             <li>markets</li>
+             <li>villages</li>
+           </ul>
+           </div>
+            <div class="map">
+           <a href="https://maps.app.goo.gl/mmqbTiTFmJEfM5uB8" target="_blank">Directions</a>
+         </div>
+      </div>
+
+      <div class="container">
+        <div class="imges"><img src="../Seasons/Winter/Tokyo.png" alt="Lapland"></div>
+        <div class="main-content">
+           <h1 class="con-topic">Tokyo</h1>
+           <h2 class="con-loc">📍 Japan</h2>
+           <h2 class="con--best-months">🌤️ Best Months: December – February</h2>
+         </div>
+           <div class="content">
+           <p>A vibrant city with winter lights, culture, and clear skies.</p>
+          </div>
+           <div class="things-to-do">
+            <h4>🎯 Things to do:</h4>
+           <ul class="things-to-do-list">
+             <li>Illuminations</li>
+             <li>temples</li>
+             <li>shopping</li>
+             <li>food</li>
+             <li>day trips</li>
+           </ul>
+           </div>
+            <div class="map">
+           <a href="https://maps.app.goo.gl/bgfLB1hzi56sdJDa6" target="_blank">Directions</a>
+         </div>
+      </div>
+
+      <div class="container">
+        <div class="imges"><img src="../Seasons/Winter/New York City.png" alt="Lapland"></div>
+        <div class="main-content">
+           <h1 class="con-topic">New York City</h1>
+           <h2 class="con-loc">📍 United States</h2>
+           <h2 class="con--best-months">🌤️ Best Months: December – February</h2>
+         </div>
+           <div class="content">
+           <p>A famous city that becomes magical with snow and holiday lights.</p>
+          </div>
+           <div class="things-to-do">
+            <h4>🎯 Things to do:</h4>
+           <ul class="things-to-do-list">
+             <li>Ice skating</li>
+             <li>Central Park</li>
+             <li>Broadway</li>
+             <li>shopping</li>
+             <li>landmarks</li>
+           </ul>
+           </div>
+            <div class="map">
+           <a href="https://maps.app.goo.gl/aqvm9vbLZjNfLTLdA" target="_blank">Directions</a>
+         </div>
+      </div>
+      <div class="container">
+        <div class="imges"><img src="../Seasons/Winter/London.png" alt="Lapland"></div>
+        <div class="main-content">
+           <h1 class="con-topic">London</h1>
+           <h2 class="con-loc">📍 United Kingdom</h2>
+           <h2 class="con--best-months">🌤️ Best Months: December – February</h2>
+         </div>
+           <div class="content">
+           <p>A historic city with festive lights and winter attractions.</p>
+          </div>
+           <div class="things-to-do">
+            <h4>🎯 Things to do:</h4>
+           <ul class="things-to-do-list">
+             <li>Markets</li>
+             <li>museums</li>
+             <li>landmarks</li>
+             <li>parks</li>
+             <li>attractions</li>
+           </ul>
+           </div>
+            <div class="map">
+           <a href="https://maps.app.goo.gl/Mhjq2nUNSUS4d9wA9" target="_blank">Directions</a>
+         </div>
+      </div>
+      <div class="container">
+        <div class="imges"><img src="../Seasons/Winter/Paris.png" alt="Lapland"></div>
+        <div class="main-content">
+           <h1 class="con-topic">Paris</h1>
+           <h2 class="con-loc">📍 France</h2>
+           <h2 class="con--best-months">🌤️ Best Months: December – February</h2>
+         </div>
+           <div class="content">
+           <p>A romantic city with fewer crowds and cozy winter atmosphere.</p>
+          </div>
+           <div class="things-to-do">
+            <h4>🎯 Things to do:</h4>
+           <ul class="things-to-do-list">
+             <li>Eiffel Tower</li>
+             <li>museums</li>
+             <li>cafés</li>
+             <li>river walks</li>
+             <li>shopping</li>
+           </ul>
+           </div>
+            <div class="map">
+           <a href="https://maps.app.goo.gl/yxZrQaSRoMAxECBG7" target="_blank">Directions</a>
+         </div>
+      </div>
+      <div class="container">
+        <div class="imges"><img src="../Seasons/Winter/Rome.png" alt="Lapland"></div>
+        <div class="main-content">
+           <h1 class="con-topic">Rome</h1>
+           <h2 class="con-loc">📍 Italy</h2>
+           <h2 class="con--best-months">🌤️ Best Months: December – February</h2>
+         </div>
+           <div class="content">
+           <p>A historic city with mild winters and fewer tourists.</p>
+          </div>
+           <div class="things-to-do">
+            <h4>🎯 Things to do:</h4>
+           <ul class="things-to-do-list">
+             <li>Colosseum</li>
+             <li>Vatican</li>
+             <li>ruins</li>
+             <li>food</li>
+             <li>walking tours</li>
+           </ul>
+           </div>
+            <div class="map">
+           <a href="https://maps.app.goo.gl/HYUwsMFwxkjxtjtD7" target="_blank">Directions</a>
+         </div>
+      </div>
+      <div class="container">
+        <div class="imges"><img src="../Seasons/Winter/Istanbul.png" alt="Lapland"></div>
+        <div class="main-content">
+           <h1 class="con-topic">Istanbul</h1>
+           <h2 class="con-loc">📍 Turkey</h2>
+           <h2 class="con--best-months">🌤️ Best Months: December – February</h2>
+         </div>
+           <div class="content">
+           <p>A unique city between Europe and Asia with rich culture.</p>
+          </div>
+           <div class="things-to-do">
+            <h4>🎯 Things to do:</h4>
+           <ul class="things-to-do-list">
+             <li>Mosques</li>
+             <li>markets</li>
+             <li>cruises</li>
+             <li>history</li>
+             <li>food</li>
+           </ul>
+           </div>
+            <div class="map">
+           <a href="https://maps.app.goo.gl/ngdvzkhmDtkstqQaA" target="_blank">Directions</a>
+         </div>
+      </div>
+      <div class="container">
+        <div class="imges"><img src="../Seasons/Winter/Beijing.png" alt="Lapland"></div>
+        <div class="main-content">
+           <h1 class="con-topic">Beijing</h1>
+           <h2 class="con-loc">📍 China</h2>
+           <h2 class="con--best-months">🌤️ Best Months: December – February</h2>
+         </div>
+           <div class="content">
+           <p>The capital of China, known for its rich history and cultural landmarks. A historic capital with cold, clear winter weather.</p>
+          </div>
+           <div class="things-to-do">
+            <h4>🎯 Things to do:</h4>
+           <ul class="things-to-do-list">
+             <li>Great Wall</li>
+             <li>Forbidden City</li>
+             <li>temples</li>
+             <li>food</li>
+             <li>tours</li>
+           </ul>
+           </div>
+            <div class="map">
+           <a href="https://maps.app.goo.gl/Amdu8E96BE282CdUA" target="_blank">Directions</a>
+         </div>
+      </div>
+      <div class="container">
+        <div class="imges"><img src="../Seasons/Winter/Moscow.png" alt="Lapland"></div>
+        <div class="main-content">
+           <h1 class="con-topic">Moscow</h1>
+           <h2 class="con-loc">📍 Russia</h2>
+           <h2 class="con--best-months">🌤️ Best Months: December – February</h2>
+         </div>
+           <div class="content">
+           <p>A snowy city with grand architecture and winter beauty.</p>
+          </div>
+           <div class="things-to-do">
+            <h4>🎯 Things to do:</h4>
+           <ul class="things-to-do-list">
+             <li>Red Square</li>
+             <li>skating</li>
+             <li>museums</li>
+             <li>landmarks</li>
+             <li>tours</li>
+           </ul>
+           </div>
+            <div class="map">
+           <a href="https://maps.app.goo.gl/NRwTHLTmbPT4Ckcw5" target="_blank">Directions</a>
+         </div>
+      </div>
+      <div class="container">
+        <div class="imges"><img src="../Seasons/Winter/Berlin.png" alt="Lapland"></div>
+        <div class="main-content">
+           <h1 class="con-topic">Berlin</h1>
+           <h2 class="con-loc">📍 Germany</h2>
+           <h2 class="con--best-months">🌤️ Best Months: December – February</h2>
+         </div>
+           <div class="content">
+           <p>A vibrant city with culture, history, and winter markets.</p>
+          </div>
+           <div class="things-to-do">
+            <h4>🎯 Things to do:</h4>
+           <ul class="things-to-do-list">
+             <li>Museums</li>
+             <li>markets</li>
+             <li>history sites</li>
+             <li>nightlife</li>
+             <li>tours</li>
+           </ul>
+           </div>
+            <div class="map">
+           <a href="https://maps.app.goo.gl/avweBJ9YRX3s5qL68" target="_blank">Directions</a>
+         </div>
+      </div>
+
+      <!--Africa-->
+      <div class="container">
+        <div class="imges"><img src="../Seasons/Winter/Marrakech.png" alt="Lapland"></div>
+        <div class="main-content">
+           <h1 class="con-topic">Marrakech</h1>
+           <h2 class="con-loc">📍 Morocco, Africa</h2>
+           <h2 class="con--best-months">🌤️ Best Months: December – February</h2>
+         </div>
+           <div class="content">
+           <p>Marrakech is a vibrant city filled with colorful markets, historic palaces, and desert surroundings. Winter brings mild temperatures, making it ideal for exploring without extreme heat.</p>
+          </div>
+           <div class="things-to-do">
+            <h4>🎯 Things to do:</h4>
+           <ul class="things-to-do-list">
+             <li>Markets</li>
+             <li>Palaces</li>
+             <li>desert trips</li>
+             <li>gardens</li>
+             <li>mosques</li>
+             <li>food tours</li>
+           </ul>
+           </div>
+            <div class="map">
+           <a href="https://maps.app.goo.gl/avweBJ9YRX3s5qL68" target="_blank">Directions</a>
+         </div>
+      </div>
+
+      <div class="container">
+        <div class="imges"><img src="../Seasons/Winter/Cairo.png" alt="Lapland"></div>
+        <div class="main-content">
+           <h1 class="con-topic">Cairo</h1>
+           <h2 class="con-loc">📍 Egypt, Africa</h2>
+           <h2 class="con--best-months">🌤️ Best Months: December – February</h2>
+         </div>
+           <div class="content">
+           <p>Cairo offers cooler weather in winter, perfect for exploring ancient history and bustling city life along the Nile.</p>
+          </div>
+           <div class="things-to-do">
+            <h4>🎯 Things to do:</h4>
+           <ul class="things-to-do-list">
+             <li>Pyramids</li>
+             <li>Museums</li>
+             <li>Nile cruise</li>
+             <li>bazaars</li>
+             <li>mosques</li>
+             <li>city tours</li>
+           </ul>
+           </div>
+            <div class="map">
+           <a href="https://maps.app.goo.gl/avweBJ9YRX3s5qL68" target="_blank">Directions</a>
+         </div>
+      </div>
+
+      <div class="container">
+        <div class="imges"><img src="../Seasons/Winter/Cape Town.png" alt="Lapland"></div>
+        <div class="main-content">
+           <h1 class="con-topic">Cape Town</h1>
+           <h2 class="con-loc">📍 South Africa, Africa</h2>
+           <h2 class="con--best-months">🌤️ Best Months: December – February</h2>
+         </div>
+           <div class="content">
+           <p>Cape Town offers a unique blend of natural beauty and cultural experiences, making it a great destination even in winter.Cape Town is a coastal city with mountains, beaches, and vineyards, offering warm weather during the northern winter.</p>
+          </div>
+           <div class="things-to-do">
+            <h4>🎯 Things to do:</h4>
+           <ul class="things-to-do-list">
+             <li>Table Mountain</li>
+             <li>beaches</li>
+             <li>vineyards</li>
+             <li>hiking</li>
+             <li>harbor</li>
+             <li>tours</li>
+           </ul>
+           </div>
+            <div class="map">
+           <a href="https://maps.app.goo.gl/avweBJ9YRX3s5qL68" target="_blank">Directions</a>
+         </div>
+      </div>
+
+      <div class="container">
+        <div class="imges"><img src="../Seasons/Winter/Johannesburg.png" alt="Lapland"></div>
+        <div class="main-content">
+           <h1 class="con-topic">Johannesburg</h1>
+           <h2 class="con-loc">📍 South Africa, Africa</h2>
+           <h2 class="con--best-months">🌤️ Best Months: December – February</h2>
+         </div>
+           <div class="content">
+           <p>A major African city known for its history, culture, and access to wildlife experiences.</p>
+          </div>
+           <div class="things-to-do">
+            <h4>🎯 Things to do:</h4>
+           <ul class="things-to-do-list">
+             <li>Museums</li>
+             <li>city tours</li>
+             <li>safaris</li>
+             <li>markets</li>
+             <li>culture</li>
+             <li>food</li>
+           </ul>
+           </div>
+            <div class="map">
+           <a href="https://maps.app.goo.gl/avweBJ9YRX3s5qL68" target="_blank">Directions</a>
+         </div>
+      </div>
+
+      <div class="container">
+        <div class="imges"><img src="../Seasons/Winter/Nairobi.png" alt="Lapland"></div>
+        <div class="main-content">
+           <h1 class="con-topic">Nairobi</h1>
+           <h2 class="con-loc">📍 Kenya, Africa</h2>
+           <h2 class="con--best-months">🌤️ Best Months: December – February</h2>
+         </div>
+           <div class="content">
+           <p>Nairobi blends modern city life with nearby wildlife reserves and natural beauty.</p>
+          </div>
+           <div class="things-to-do">
+            <h4>🎯 Things to do:</h4>
+           <ul class="things-to-do-list">
+             <li>Safari park</li>
+             <li>giraffe center</li>
+             <li>museums</li>
+             <li>markets</li>
+             <li>tours</li>
+             <li>food</li>
+           </ul>
+           </div>
+            <div class="map">
+           <a href="https://maps.app.goo.gl/avweBJ9YRX3s5qL68" target="_blank">Directions</a>
+         </div>
+      </div>
+
+      <div class="container">
+        <div class="imges"><img src="../Seasons/Winter/Berlin.png" alt="Lapland"></div>
+        <div class="main-content">
+           <h1 class="con-topic">Zanzibar City</h1>
+           <h2 class="con-loc">📍 Tanzania, Africa</h2>
+           <h2 class="con--best-months">🌤️ Best Months: December – February</h2>
+         </div>
+           <div class="content">
+           <p>A historic island city with beaches, spice culture, and rich history.</p>
+          </div>
+           <div class="things-to-do">
+            <h4>🎯 Things to do:</h4>
+           <ul class="things-to-do-list">
+             <li>Stone Town</li>
+             <li>beaches</li>
+             <li>spice tours</li>
+             <li>markets</li>
+             <li>snorkeling</li>
+             <li>history</li>
+           </ul>
+           </div>
+            <div class="map">
+           <a href="https://maps.app.goo.gl/avweBJ9YRX3s5qL68" target="_blank">Directions</a>
+         </div>
+      </div>
+
+      <div class="container">
+        <div class="imges"><img src="../Seasons/Winter/Berlin.png" alt="Lapland"></div>
+        <div class="main-content">
+           <h1 class="con-topic">Accra</h1>
+           <h2 class="con-loc">📍 Ghana, Africa</h2>
+           <h2 class="con--best-months">🌤️ Best Months: December – February</h2>
+         </div>
+           <div class="content">
+           <p>A lively coastal capital with culture, beaches, and music scenes.</p>
+          </div>
+           <div class="things-to-do">
+            <h4>🎯 Things to do:</h4>
+           <ul class="things-to-do-list">
+             <li>Beaches</li>
+             <li>markets</li>
+             <li>museums</li>
+             <li>nightlife</li>
+             <li>tours</li>
+             <li>food</li>
+           </ul>
+           </div>
+            <div class="map">
+           <a href="https://maps.app.goo.gl/avweBJ9YRX3s5qL68" target="_blank">Directions</a>
+         </div>
+      </div>
+
+      <div class="container">
+        <div class="imges"><img src="../Seasons/Winter/Berlin.png" alt="Lapland"></div>
+        <div class="main-content">
+           <h1 class="con-topic">Dakar</h1>
+           <h2 class="con-loc">📍 Senegal, Africa</h2>
+           <h2 class="con--best-months">🌤️ Best Months: December – February</h2>
+         </div>
+           <div class="content">
+           <p>A coastal city known for music, art, and Atlantic views.</p>
+          </div>
+           <div class="things-to-do">
+            <h4>🎯 Things to do:</h4>
+           <ul class="things-to-do-list">
+             <li>Museums</li>
+             <li>Beaches</li>
+             <li>islands</li>
+             <li>markets</li>
+             <li>culture</li>
+             <li>tours</li>
+           </ul>
+           </div>
+            <div class="map">
+           <a href="https://maps.app.goo.gl/avweBJ9YRX3s5qL68" target="_blank">Directions</a>
+         </div>
+      </div>
+
+      <div class="container">
+        <div class="imges"><img src="../Seasons/Winter/Berlin.png" alt="Lapland"></div>
+        <div class="main-content">
+           <h1 class="con-topic">Addis Ababa</h1>
+           <h2 class="con-loc">📍 Ethiopia, Africa</h2>
+           <h2 class="con--best-months">🌤️ Best Months: December – February</h2>
+         </div>
+           <div class="content">
+           <p>A high-altitude capital rich in history and culture.</p>
+          </div>
+           <div class="things-to-do">
+            <h4>🎯 Things to do:</h4>
+           <ul class="things-to-do-list">
+             <li>Museums</li>
+             <li>churches</li>
+             <li>markets</li>
+             <li>food</li>
+             <li>history</li>
+             <li>tours</li>
+           </ul>
+           </div>
+            <div class="map">
+           <a href="https://maps.app.goo.gl/avweBJ9YRX3s5qL68" target="_blank">Directions</a>
+         </div>
+      </div>
+
+      <div class="container">
+        <div class="imges"><img src="../Seasons/Winter/Berlin.png" alt="Lapland"></div>
+        <div class="main-content">
+           <h1 class="con-topic">Windhoek</h1>
+           <h2 class="con-loc">📍 Namibia, Africa</h2>
+           <h2 class="con--best-months">🌤️ Best Months: December – February</h2>
+         </div>
+           <div class="content">
+           <p>A peaceful city surrounded by desert landscapes and wildlife areas.</p>
+          </div>
+           <div class="things-to-do">
+            <h4>🎯 Things to do:</h4>
+           <ul class="things-to-do-list">
+             <li>Safaris</li>
+             <li>nature</li>
+             <li>hiking</li>
+             <li>markets</li>
+             <li>museums</li>
+             <li>tours</li>
+           </ul>
+           </div>
+            <div class="map">
+           <a href="https://maps.app.goo.gl/avweBJ9YRX3s5qL68" target="_blank">Directions</a>
+         </div>
+      </div>
+
+      <div class="container">
+        <div class="imges"><img src="../Seasons/Winter/Berlin.png" alt="Lapland"></div>
+        <div class="main-content">
+           <h1 class="con-topic">Casablanca</h1>
+           <h2 class="con-loc">📍 Morocco, Africa</h2>
+           <h2 class="con--best-months">🌤️ Best Months: December – February</h2>
+         </div>
+           <div class="content">
+           <p>A modern coastal city with historic influences and ocean views.</p>
+          </div>
+           <div class="things-to-do">
+            <h4>🎯 Things to do:</h4>
+           <ul class="things-to-do-list">
+             <li>Mosque</li>
+             <li>beaches</li>
+             <li>markets</li>
+             <li>dining</li>
+             <li>tours</li>
+             <li>city walks</li>
+           </ul>
+           </div>
+            <div class="map">
+           <a href="https://maps.app.goo.gl/avweBJ9YRX3s5qL68" target="_blank">Directions</a>
+         </div>
+      </div>
+
+      <div class="container">
+        <div class="imges"><img src="../Seasons/Winter/Berlin.png" alt="Lapland"></div>
+        <div class="main-content">
+           <h1 class="con-topic">Tunis</h1>
+           <h2 class="con-loc">📍 Tunisia, Africa</h2>
+           <h2 class="con--best-months">🌤️ Best Months: December – February</h2>
+         </div>
+           <div class="content">
+           <p>A historic Mediterranean city with ancient ruins and markets.</p>
+          </div>
+           <div class="things-to-do">
+            <h4>🎯 Things to do:</h4>
+           <ul class="things-to-do-list">
+             <li>Medina</li>
+             <li>ruins</li>
+             <li>museums</li>
+             <li>markets</li>
+             <li>tours</li>
+             <li>food</li>
+           </ul>
+           </div>
+            <div class="map">
+           <a href="https://maps.app.goo.gl/avweBJ9YRX3s5qL68" target="_blank">Directions</a>
+         </div>
+      </div>
+
+      <div class="container">
+        <div class="imges"><img src="../Seasons/Winter/Berlin.png" alt="Lapland"></div>
+        <div class="main-content">
+           <h1 class="con-topic">Algiers</h1>
+           <h2 class="con-loc">📍 Algeria, Africa</h2>
+           <h2 class="con--best-months">🌤️ Best Months: December – February</h2>
+         </div>
+           <div class="content">
+           <p>A white-washed coastal city with Ottoman and French influences.</p>
+          </div>
+           <div class="things-to-do">
+            <h4>🎯 Things to do:</h4>
+           <ul class="things-to-do-list">
+             <li>Casbah</li>
+             <li>coastline</li>
+             <li>museums</li>
+             <li>history</li>
+             <li>walking tours</li>
+           </ul>
+           </div>
+            <div class="map">
+           <a href="https://maps.app.goo.gl/avweBJ9YRX3s5qL68" target="_blank">Directions</a>
+         </div>
+      </div>
+
+      <div class="container">
+        <div class="imges"><img src="../Seasons/Winter/Berlin.png" alt="Lapland"></div>
+        <div class="main-content">
+           <h1 class="con-topic">Kigali</h1>
+           <h2 class="con-loc">📍 Rwanda, Africa</h2>
+           <h2 class="con--best-months">🌤️ Best Months: December – February</h2>
+         </div>
+           <div class="content">
+           <p>A clean and modern city surrounded by green hills.</p>
+          </div>
+           <div class="things-to-do">
+            <h4>🎯 Things to do:</h4>
+           <ul class="things-to-do-list">
+             <li>Museums</li>
+             <li>markets</li>
+             <li>culture</li>
+             <li>food</li>
+             <li>tours</li>
+             <li>nature</li>
+           </ul>
+           </div>
+            <div class="map">
+           <a href="https://maps.app.goo.gl/avweBJ9YRX3s5qL68" target="_blank">Directions</a>
+         </div>
+      </div>
+
+      <div class="container">
+        <div class="imges"><img src="../Seasons/Winter/Berlin.png" alt="Lapland"></div>
+        <div class="main-content">
+           <h1 class="con-topic">Gaborone</h1>
+           <h2 class="con-loc">📍 Botswana, Africa</h2>
+           <h2 class="con--best-months">🌤️ Best Months: December – February</h2>
+         </div>
+           <div class="content">
+           <p>A quiet capital with access to wildlife and nature reserves.</p>
+          </div>
+           <div class="things-to-do">
+            <h4>🎯 Things to do:</h4>
+           <ul class="things-to-do-list">
+             <li>Museums</li>
+             <li>markets</li>
+             <li>hiking</li>
+             <li>Reserves</li>
+             <li>tours</li>
+             <li>nature</li>
+           </ul>
+           </div>
+            <div class="map">
+           <a href="https://maps.app.goo.gl/avweBJ9YRX3s5qL68" target="_blank">Directions</a>
+         </div>
+      </div>
+
+      <div class="container">
+        <div class="imges"><img src="../Seasons/Winter/Berlin.png" alt="Lapland"></div>
+        <div class="main-content">
+           <h1 class="con-topic">Maputo</h1>
+           <h2 class="con-loc">📍 Mozambique, Africa</h2>
+           <h2 class="con--best-months">🌤️ Best Months: December – February</h2>
+         </div>
+           <div class="content">
+           <p>A coastal city with Portuguese influence and vibrant culture.</p>
+          </div>
+           <div class="things-to-do">
+            <h4>🎯 Things to do:</h4>
+           <ul class="things-to-do-list">
+             <li>Beaches</li>
+             <li>markets</li>
+             <li>architecture</li>
+             <li>food</li>
+             <li>tours</li>
+             <li>culture</li>
+           </ul>
+           </div>
+            <div class="map">
+           <a href="https://maps.app.goo.gl/avweBJ9YRX3s5qL68" target="_blank">Directions</a>
+         </div>
+      </div>
+
+      <div class="container">
+        <div class="imges"><img src="../Seasons/Winter/Berlin.png" alt="Lapland"></div>
+        <div class="main-content">
+           <h1 class="con-topic">Kampala</h1>
+           <h2 class="con-loc">📍 Uganda, Africa</h2>
+           <h2 class="con--best-months">🌤️ Best Months: December – February</h2>
+         </div>
+           <div class="content">
+           <p>A lively city built across hills with lakes nearby.</p>
+          </div>
+           <div class="things-to-do">
+            <h4>🎯 Things to do:</h4>
+           <ul class="things-to-do-list">
+             <li>lake trips</li>
+             <li>Markets</li>
+             <li>culture</li>
+             <li>food</li>
+             <li>tours</li>
+             <li>nightlife</li>
+           </ul>
+           </div>
+            <div class="map">
+           <a href="https://maps.app.goo.gl/avweBJ9YRX3s5qL68" target="_blank">Directions</a>
+         </div>
+      </div>
+
+      <div class="container">
+        <div class="imges"><img src="../Seasons/Winter/Berlin.png" alt="Lapland"></div>
+        <div class="main-content">
+           <h1 class="con-topic">Fes</h1>
+           <h2 class="con-loc">📍 Morocco, Africa</h2>
+           <h2 class="con--best-months">🌤️ Best Months: December – February</h2>
+         </div>
+           <div class="content">
+           <p>A historic city known for its ancient medina and traditions.</p>
+          </div>
+           <div class="things-to-do">
+            <h4>🎯 Things to do:</h4>
+           <ul class="things-to-do-list">
+             <li>Medina</li>
+             <li>markets</li>
+             <li>tanneries</li>
+             <li>food</li>
+             <li>tours</li>
+             <li>mosques</li>
+           </ul>
+           </div>
+            <div class="map">
+           <a href="https://maps.app.goo.gl/avweBJ9YRX3s5qL68" target="_blank">Directions</a>
+         </div>
+      </div>
+
+      <div class="container">
+        <div class="imges"><img src="../Seasons/Winter/Berlin.png" alt="Lapland"></div>
+        <div class="main-content">
+           <h1 class="con-topic">Luxor</h1>
+           <h2 class="con-loc">📍 Egypt, Africa</h2>
+           <h2 class="con--best-months">🌤️ Best Months: December – February</h2>
+         </div>
+           <div class="content">
+           <p>An open-air museum filled with ancient temples and tombs.</p>
+          </div>
+           <div class="things-to-do">
+            <h4>🎯 Things to do:</h4>
+           <ul class="things-to-do-list">
+             <li>Temples</li>
+             <li>tombs</li>
+             <li>Nile cruise</li>
+             <li>history</li>
+             <li>tours</li>
+             <li>sunrise views</li>
+           </ul>
+           </div>
+            <div class="map">
+           <a href="https://maps.app.goo.gl/avweBJ9YRX3s5qL68" target="_blank">Directions</a>
+         </div>
+      </div>
+
+      <div class="container">
+        <div class="imges"><img src="../Seasons/Winter/Berlin.png" alt="Lapland"></div>
+        <div class="main-content">
+           <h1 class="con-topic">Arusha</h1>
+           <h2 class="con-loc">📍 Tanzania, Africa</h2>
+           <h2 class="con--best-months">🌤️ Best Months: December – February</h2>
+         </div>
+           <div class="content">
+           <p>A gateway city to famous African safaris and Mount Kilimanjaro.</p>
+          </div>
+           <div class="things-to-do">
+            <h4>🎯 Things to do:</h4>
+           <ul class="things-to-do-list">
+             <li>Safaris</li>
+             <li>markets</li>
+             <li>nature</li>
+             <li>hiking</li>
+             <li>tours</li>
+             <li>culture</li>
+           </ul>
+           </div>
+            <div class="map">
+           <a href="https://maps.app.goo.gl/avweBJ9YRX3s5qL68" target="_blank">Directions</a>
+         </div>
+      </div>
+
+      <!--Natural Wonders-->
+      <div class="container">
+        <div class="imges"><img src="../Seasons/Winter/Berlin.png" alt="Lapland"></div>
+        <div class="main-content">
+           <h1 class="con-topic">Victoria Falls</h1>
+           <h2 class="con-loc">📍 Zambia/Zimbabwe, Africa</h2>
+           <h2 class="con--best-months">🌤️ Best Months: December – February</h2>
+         </div>
+           <div class="content">
+           <p>A breathtaking waterfall on the Zambezi River, straddling the border between Zambia and Zimbabwe. One of the largest waterfalls in the world, creating a powerful and misty landscape.</p>
+          </div>
+           <div class="things-to-do">
+            <h4>🎯 Things to do:</h4>
+           <ul class="things-to-do-list">
+             <li>Viewing points</li>
+             <li>helicopter rides</li>
+             <li>rafting</li>
+             <li>walking trails</li>
+             <li>photography</li>
+             <li>river cruises</li>
+           </ul>
+           </div>
+            <div class="map">
+           <a href="https://maps.app.goo.gl/avweBJ9YRX3s5qL68" target="_blank">Directions</a>
+         </div>
+      </div>
+
+      <div class="container">
+        <div class="imges"><img src="../Seasons/Winter/Berlin.png" alt="Lapland"></div>
+        <div class="main-content">
+           <h1 class="con-topic">Sahara Desert</h1>
+           <h2 class="con-loc">📍 Mauritania, Africa</h2>
+           <h2 class="con--best-months">🌤️ Best Months: December – February</h2>
+         </div>
+           <div class="content">
+           <p>The largest hot desert in the world, known for its vast sand dunes and unique ecosystem. The world’s largest hot desert with endless sand dunes and dramatic landscapes.</p>
+          </div>
+           <div class="things-to-do">
+            <h4>🎯 Things to do:</h4>
+           <ul class="things-to-do-list">
+             <li>Camel rides</li>
+             <li>desert camps</li>
+             <li>stargazing</li>
+             <li>dune walks</li>
+             <li>photography</li>
+             <li>tours</li>
+           </ul>
+           </div>
+            <div class="map">
+           <a href="https://maps.app.goo.gl/avweBJ9YRX3s5qL68" target="_blank">Directions</a>
+         </div>
+      </div>
