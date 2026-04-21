@@ -104,9 +104,9 @@ position: relative;
   width: 600px;
   height: auto;
 
-  top: 50%;
+  top: 65%;
   left: 50%;
-  transform: translate(-50%, -50%) scale(1); /* THIS centers it perfectly */
+  transform: translate(-45%, -45%) scale(1); /* THIS centers it perfectly */
 
   padding: 40px 60px;
   border-radius: 12px;

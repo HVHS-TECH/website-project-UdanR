@@ -7,13 +7,12 @@ Flaticon (Mapleleafe) - <a href="https://www.flaticon.com/free-icons/autumn" tit
 
 
 
-Continent-Main-Asia-Img - https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fwww.catherinelutours.com%2Fblogs%2Fgreat-places-to-visit-in-china-complete-guide.html&ved=0CBoQjhxqFwoTCNDr6uukrpMDFQAAAAAdAAAAABBV&opi=89978449
 Continent-Main-Africa-Img - https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3AMoschee_von_Bobo-Dioulasso.jpg&ved=0CBoQjhxqFwoTCPjljcqlrpMDFQAAAAAdAAAAABAG&opi=89978449
 Continent-Main-Europe-Img - https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fwww.pexels.com%2Fphoto%2Fscenic-view-of-paris-iconic-landmarks-35135151%2F&ved=0CBoQjhxqFwoTCLiZ8--lrpMDFQAAAAAdAAAAABA4&opi=89978449
 Continent-Main-South America-Img - https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fwww.pexels.com%2Fphoto%2Fan-aerial-photography-of-a-machu-picchu-near-the-mountain-10511343%2F&ved=0CBoQjhxqFwoTCICppq6mrpMDFQAAAAAdAAAAABA4&opi=89978449
-Continent-Main-North America-Img - https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FTimes_Square&ved=0CBoQjhxqFwoTCODu4ZqnrpMDFQAAAAAdAAAAABAf&opi=89978449
-Continent-Main-Australia-Img - https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fairial.travel%2Fattractions%2Faustralia%2Fthe-rocks%2Fthe-rocks-sydney-Q5LZFoJ2&ved=0CBoQjhxqFwoTCOjJ59inrpMDFQAAAAAdAAAAABBS&opi=89978449
-Continent-Main-Antarctica-Img - https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fwww.antarcticaguide.com%2Fblog%2F5-reasons-include-south-georgia-your-antarctic-cruise&ved=0CBoQjhxqFwoTCJj2y66orpMDFQAAAAAdAAAAABAG&opi=89978449
+Continent-Main-North America-Img - https://www.pexels.com/photo/vibrant-new-york-city-skyscraper-street-scene-30533305/
+Continent-Main-Australia-Img - https://www.pexels.com/photo/rocky-coast-with-crashing-waves-14783794/
+Continent-Main-Antarctica-Img - https://www.pexels.com/photo/breathtaking-antarctic-iceberg-and-snowy-landscape-31308014/
 
 
 
@@ -167,7 +166,7 @@ Cancun - https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fcomm
 Denali - https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3AMt._McKinley%2C_Denali_National_Park.jpg&ved=0CBkQjhxqFwoTCIjs4b6z4JMDFQAAAAAdAAAAABAk&authuser=1&opi=89978449
 Yosemite Valley - https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3AYosemite_Valley_from_Wawona_Tunnel_view%2C_vista_point.jpg&ved=0CBkQjhxqFwoTCLjj4dmz4JMDFQAAAAAdAAAAABAH&authuser=1&opi=89978449
 Whistler Mountain - https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3AWhistler_Mountain_7790%27_North_Cascades.jpg&ved=0CBkQjhxqFwoTCLD8zvSz4JMDFQAAAAAdAAAAABAH&authuser=1&opi=89978449
-
+Done!
 
 
 
@@ -180,20 +179,20 @@ Machu Picchu - https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%
 Iguazu Falls - https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fwww.pexels.com%2Fphoto%2Faerial-view-of-iguacu-falls-in-brazil-5919667%2F&ved=0CBkQjhxqFwoTCOij_4_S4pMDFQAAAAAdAAAAABAJ&authuser=1&opi=89978449
 Lima - https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3ALima_Per%25C3%25BA_paisaje_urbano_del_invierno_-_Lima_Peru_winter_cityscape_04.jpg&ved=0CBkQjhxqFwoTCOjel7nS4pMDFQAAAAAdAAAAABAi&authuser=1&opi=89978449
 Rio de Janeiro - https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3ACopacabana_Beach.jpg&ved=0CBkQjhxqFwoTCPjHxNHS4pMDFQAAAAAdAAAAABAi&authuser=1&opi=89978449
-Atacama Desert - https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3AA_Dusting_of_Snow_in_the_Atacama_desert.jpg&ved=0CBkQjhxqFwoTCNj1wYHT4pMDFQAAAAAdAAAAABAi&authuser=1&opi=89978449
+Atacama Desert - https://www.pexels.com/photo/scenic-landscape-with-a-mountain-at-sunset-5152406/
 Patagonia - https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fwww.pexels.com%2Fphoto%2Fperito-moreno-glacier-in-patagonia-27180675%2F&ved=0CBkQjhxqFwoTCOCx6pvT4pMDFQAAAAAdAAAAABAH&authuser=1&opi=89978449
 Cusco - https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3AFlickr_-_Nicholas_T_-_Endless_Mountains_Landscape_(2).jpg&ved=0CBkQjhxqFwoTCNCZ0NPd4pMDFQAAAAAdAAAAABAJ&authuser=1&opi=89978449
 Valparaiso - https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3ALaguna_Quillelhue%2C_Curarrehue-Puesco_-_Flickr_-_Pato_Novoa.jpg&ved=0CBkQjhxqFwoTCJCnyOnd4pMDFQAAAAAdAAAAABAH&authuser=1&opi=89978449
-Bogota - https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3AAutumn_forest_on_a_slope_(Unsplash).jpg&ved=0CBkQjhxqFwoTCKj8q5Le4pMDFQAAAAAdAAAAABAH&authuser=1&opi=89978449
+Bogota - https://www.pexels.com/photo/shallow-focus-photography-of-green-leafed-plant-385976/
 Mendoza - https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fwww.pexels.com%2Fphoto%2Fview-of-a-street-between-autumnal-trees-25067612%2F&ved=0CBkQjhxqFwoTCLDShKje4pMDFQAAAAAdAAAAABAi&authuser=1&opi=89978449
 Quito - https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3AMilitar_la_Cima_de_la_Libertad%2C_Quito_(vista)%2C_view_of_Quito_(pic._b2).jpg&ved=0CBkQjhxqFwoTCOjdls3e4pMDFQAAAAAdAAAAABA7&authuser=1&opi=89978449
 Buenos Aires - https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3ABuenos_Aires_-_Jacarand%25C3%25A1.jpg&ved=0CBkQjhxqFwoTCOD8v_3e4pMDFQAAAAAdAAAAABAH&authuser=1&opi=89978449
 Santiago - https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fwww.flickr.com%2Fphotos%2Farmandolobos%2F49004203481&ved=0CBkQjhxqFwoTCIDtm6rf4pMDFQAAAAAdAAAAABBU&authuser=1&opi=89978449
 Andes Mountains - https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3AAndes_mountains_from_35%2C000_feet_(24495877342).jpg&ved=0CBkQjhxqFwoTCMD_iNHf4pMDFQAAAAAdAAAAABAH&authuser=1&opi=89978449
 Torres del Paine - https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fwww.pexels.com%2Fphoto%2Fscenic-view-of-the-torres-del-paine-massif-in-patagonia-chile-25067987%2F&ved=0CBkQjhxqFwoTCNDXhe3f4pMDFQAAAAAdAAAAABAJ&authuser=1&opi=89978449
-Mount Fitz Roy - https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3AFitz_Roy_Chalten_Argentina_Todor_Bozhinov_2013.jpg&ved=0CBkQjhxqFwoTCKj8ipfg4pMDFQAAAAAdAAAAABAH&authuser=1&opi=89978449
+Mount Fitz Roy - https://www.pexels.com/photo/majestic-fitz-roy-mountain-in-argentina-30530387/
 Cotopaxi - https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3AV%25C3%25B3lcan_Cotopaxi.jpg&ved=0CBkQjhxqFwoTCLDmjKvg4pMDFQAAAAAdAAAAABAH&authuser=1&opi=89978449
-
+Done!
 
 
 
@@ -215,10 +214,10 @@ Canberra - https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fco
 Adelaide - https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3ARymill_Park_in_autumn.jpg&ved=0CBkQjhxqFwoTCJCap4Ps4pMDFQAAAAAdAAAAABAJ&authuser=1&opi=89978449
 Brisbane - https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3ASpring_in_Brisbane_with_Brisbane_Skytower_under_construction_in_September_2018.jpg&ved=0CBkQjhxqFwoTCPCbv6Hs4pMDFQAAAAAdAAAAABAH&authuser=1&opi=89978449
 Mount Cook - https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3AAoraki-Mount_Cook_from_Hooker_Valley.jpg&ved=0CBkQjhxqFwoTCJjyxbns4pMDFQAAAAAdAAAAABAH&authuser=1&opi=89978449
-Mount Ruapehu - https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3AMount_Ruapehu_(51620400176).jpg&ved=0CBkQjhxqFwoTCPiR8s3s4pMDFQAAAAAdAAAAABBQ&authuser=1&opi=89978449
+Mount Ruapehu - https://commons.wikimedia.org/wiki/File:Tongariro_Northern_Circuit,_New_Zealand_%285%29.JPG
 Blue Mountains - https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3ABlue_Mountains_Sunset.jpg&ved=0CBkQjhxqFwoTCIjK2Obs4pMDFQAAAAAdAAAAABAH&authuser=1&opi=89978449
 Mount Taranaki - https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3AMount_taranaki_photographed_from_near_the_sea_cliffs_at_Tapuae.jpg&ved=0CBkQjhxqFwoTCIDgyYDt4pMDFQAAAAAdAAAAABAH&authuser=1&opi=89978449
-
+Done!
 
 
 
@@ -228,3 +227,4 @@ South Shetland Islands - https://www.google.com/url?sa=t&source=web&rct=j&url=ht
 Antarctic Peninsula - https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3AWaning_gibbous_moon_at_Port_Lockroy%2C_Antarctica.jpg&ved=0CBkQjhxqFwoTCOiY2-Hu4pMDFQAAAAAdAAAAABAe&authuser=1&opi=89978449
 Deception Island - https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3AExcursion_No._12._into_the_old_caldera_of_Deception_Island.it%27s_absolutely_amazing_what_humans_will_do_for_fun.the_Polar_plunge%2C_witnessed_by_an_array_of_chicken_photographers_and_a_few_bewildered_(25715166140).jpg&ved=0CBkQjhxqFwoTCPjoiYrv4pMDFQAAAAAdAAAAABBr&authuser=1&opi=89978449
 Paradise Bay - https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fwww.flickr.com%2Fphotos%2Fdavidstanleytravel%2F52168087411&ved=0CBkQjhxqFwoTCOjBja7v4pMDFQAAAAAdAAAAABAH&authuser=1&opi=89978449
+Done!
