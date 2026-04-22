@@ -18,8 +18,12 @@ scroll-behavior: smooth;
             <a href="index.html"><img src="airplane-Freepik.gif" alt="site-logo"></a>
         </div>
         <h1 class="site-name">JetSetGo!</h1>
-            <img src="search.png" class="search-icon" alt="Search-Icon">
+        <div class="search-container">
+            <input type="text" class="search-bar" id="searchInput" placeholder="Search seasons, continents...">
+            <div class="suggestions" id="suggestions"></div>
 
+            <img src="search.png" class="search-icon" alt="Search-Icon">
+        </div>
     </header>
     <nav>
       <a href="index.html" class="navigate-norm">Home</a>
@@ -44,18 +48,18 @@ scroll-behavior: smooth;
 <div class="container">
   <div class="con-main-text show"><p>Top-Picks</p></div>
   <div class="viewall show"><a href="top-picks.html" class="view-all">View All →</a></div>
-  <div class="header"><img src="images/eiffel-tower.png"><h2 class="con-topic">Mount Fuji</h2><h3 class="con-loc">📍 Location: Japan</h3><p>Japan’s most famous mountain and a sacred symbol of the country.</p></div>
-  <div class="great-wall-con"><img src="images/great-wall.png"><h2 class="con-topic">Great Wall</h2><h3 class="con-loc">📍 Location: Northern China</h3><p>An ancient wall stretching thousands of kilometers across mountains and valleys.</p></div>
-  <div class="colosseum-con-1"><img src="images/colosseum.png"><h2 class="con-topic">Colosseum</h2><h3 class="con-loc">📍 Location: Rome, Italy</h3><p>The largest ancient amphitheater ever built in the Roman Empire.</p></div>
-  <div class="patra-con"><img src="images/petra.png"><h2 class="con-topic">Patra</h2><h3 class="con-loc">📍 Location: Southern Jordan</h3><p>An ancient city carved directly into red desert cliffs.</p></div>
+  <div class="header"><img src="Continents/South-America/Machu-Picchu.jpeg" alt="Machu Picchu"><h2 class="con-topic">Machu Picchu</h2><h3 class="con-loc">📍 Location: Peru</h3><p>An ancient Incan citadel set high in the Andes Mountains.</p><a href="top-picks.html#Machu-Picchu"></a></div>
+  <div class="great-wall-con"><img src="Continents/Australia/Great-Barrier-Reef.jpeg" alt="Great Barrier Reef"><h2 class="con-topic">Great Barrier Reef</h2><h3 class="con-loc">📍 Location: Queensland, Australia</h3><p>The world's largest coral reef system, known for its incredible marine biodiversity.</p><a href="top-picks.html#Great-Barrier-Reef"></a></div>
+  <div class="colosseum-con-1"><img src="Continents/Africa/Serengeti-National-Park.jpeg" alt="Serengeti National Park"><h2 class="con-topic">Serengeti National Park</h2><h3 class="con-loc">📍 Location: Serengeti, Tanzania</h3><p>The Serengeti National Park is a vast wilderness area in Tanzania, known for its incredible biodiversity and the Great Migration of wildebeest and zebra.</p><a href="top-picks.html#Serengeti-National-Park"></a></div>
+  <div class="patra-con"><img src="Continents/Europe/Swiss-Alps.jpeg" alt="Swiss Alps"><h2 class="con-topic">Swiss Alps</h2><h3 class="con-loc">📍 Location: Switzerland</h3><p>The Swiss Alps are a mountain range in the heart of Europe, known for their stunning landscapes and outdoor activities.</p><a href="top-picks.html#Swiss-Alps"></a></div>
 </div>
 
 <div class="container">
   <div class="con-main-text show"><p>Winter</p></div>
   <div class="viewall show"><a href="Seasons/winter.html" class="view-all">View All →</a></div>
   <div class="header"><img src="Continents/Asia/Hokkaido.jpeg" alt="Hokkaido"><h2 class="con-topic">Hokkaido</h2><h3 class="con-loc">📍 Location: Japan</h3><p>Hokkaido is Japan's northernmost island, known for its natural beauty and outdoor activities.</p><a href="Seasons/winter.html#Hokkaido"></a></div>
-  <div class="great-wall-con"><img src="Continents/Africa/Serengeti National Park.jpeg" alt="Serengeti National Park">><h2 class="con-topic">Serengeti National Park</h2><h3 class="con-loc">📍 Location: Serengeti, Tanzania</h3><p>The Serengeti National Park is a vast wilderness area in Tanzania, known for its incredible biodiversity and the Great Migration of wildebeest and zebra.</p><a href="Seasons/winter.html#Serengeti-National-Park"></a></div>
-  <div class="colosseum-con-1"><img src="Continents/North-America/New York City.jpeg" alt="New York City"><h2 class="con-topic">New York City</h2><h3 class="con-loc">📍 Location: United States</h3><p>New York City is a bustling metropolis known for its iconic landmarks, vibrant culture, and endless entertainment options.</p><a href="Seasons/winter.html#New York City"></a></div>
+  <div class="great-wall-con"><img src="Continents/Africa/Serengeti-National-Park.jpeg" alt="Serengeti National Park">><h2 class="con-topic">Serengeti National Park</h2><h3 class="con-loc">📍 Location: Serengeti, Tanzania</h3><p>The Serengeti National Park is a vast wilderness area in Tanzania, known for its incredible biodiversity and the Great Migration of wildebeest and zebra.</p><a href="Seasons/winter.html#Serengeti-National-Park"></a></div>
+  <div class="colosseum-con-1"><img src="Continents/North-America/New-York-City.jpeg" alt="New York City"><h2 class="con-topic">New York City</h2><h3 class="con-loc">📍 Location: United States</h3><p>New York City is a bustling metropolis known for its iconic landmarks, vibrant culture, and endless entertainment options.</p><a href="Seasons/winter.html#New-York-City"></a></div>
   <div class="patra-con"><img src="Continents/Europe/Lapland.jpeg" alt="Lapland"><h2 class="con-topic">Lapland</h2><h3 class="con-loc">📍 Location: Northern Europe</h3><p>A region known for its pristine wilderness, reindeer herding, and the chance to see the Northern Lights.</p><a href="Seasons/winter.html#Lapland"></a></div>
 </div>
 
@@ -63,9 +67,9 @@ scroll-behavior: smooth;
   <div class="con-main-text show"><p>Summer</p></div>
   <div class="viewall show"><a href="Seasons/summer.html" class="view-all">View All →</a></div>
   <div class="header"><img src="Continents/Asia/Bali.jpeg" alt="Bali"><h2 class="con-topic">Bali</h2><h3 class="con-loc">📍 Location: Indonesia</h3><p>Bali is a tropical island paradise known for its beautiful beaches, vibrant culture, and lush landscapes.</p><a href="Seasons/summer.html#Bali"></a></div>
-  <div class="great-wall-con"><img src="Continents/Africa/Cape Town.jpeg" alt="Cape Town"><h2 class="con-topic">Cape Town</h2><h3 class="con-loc">📍 Location: South Africa</h3><p>A coastal city known for its natural beauty, Table Mountain, and vibrant culture.</p><a href="Seasons/summer.html#Cape-Town"></a></div>
-  <div class="colosseum-con-1"><img src="Continents/South America/Machu Picchu.jpeg" alt="Machu Picchu"><h2 class="con-topic">Machu Picchu</h2><h3 class="con-loc">📍 Location: Peru</h3><p>An ancient Incan citadel set high in the Andes Mountains.</p><a href="Seasons/summer.html#Machu-Picchu"></a></div>
-  <div class="patra-con"><img src="Continents/South America/Buenos Aires.jpeg" alt="Buenos Aires"><h2 class="con-topic">Buenos Aires</h2><h3 class="con-loc">📍 Location: Argentina</h3><p>The capital city of Argentina, known for its European architecture and vibrant cultural scene.</p><a href="Seasons/summer.html#Buenos-Aires"></a></div>
+  <div class="great-wall-con"><img src="Continents/Africa/Cape-Town.jpeg" alt="Cape Town"><h2 class="con-topic">Cape Town</h2><h3 class="con-loc">📍 Location: South Africa</h3><p>A coastal city known for its natural beauty, Table Mountain, and vibrant culture.</p><a href="Seasons/summer.html#Cape-Town"></a></div>
+  <div class="colosseum-con-1"><img src="Continents/South-America/Machu-Picchu.jpeg" alt="Machu Picchu"><h2 class="con-topic">Machu Picchu</h2><h3 class="con-loc">📍 Location: Peru</h3><p>An ancient Incan citadel set high in the Andes Mountains.</p><a href="Seasons/summer.html#Machu-Picchu"></a></div>
+  <div class="patra-con"><img src="Continents/South-America/Buenos-Aires.jpeg" alt="Buenos Aires"><h2 class="con-topic">Buenos Aires</h2><h3 class="con-loc">📍 Location: Argentina</h3><p>The capital city of Argentina, known for its European architecture and vibrant cultural scene.</p><a href="Seasons/summer.html#Buenos-Aires"></a></div>
 </div>
 
 <div class="container">
@@ -74,16 +78,16 @@ scroll-behavior: smooth;
   <div class="header"><img src="Continents/Asia/Seoul(Autumn).jpeg" alt="Seoul"><h2 class="con-topic">Seoul</h2><h3 class="con-loc">📍 Location: South Korea</h3><p>Seoul is the capital and largest city of South Korea, known for its blend of traditional culture and modernity.</p><a href="Seasons/autumn.html#Seoul"></a></div>
   <div class="great-wall-con"><img src="Continents/Australia/Melbourne.jpeg" alt="Melbourne"><h2 class="con-topic">Melbourne</h2><h3 class="con-loc">📍 Location: Australia</h3><p>Melbourne is the capital and largest city of the Australian state of Victoria.</p><a href="Seasons/autumn.html#Melbourne"></a></div>
   <div class="colosseum-con-1"><img src="Continents/Europe/Prague(Autumn).jpeg" alt="Prague"><h2 class="con-topic">Prague</h2><h3 class="con-loc">📍 Location: Czech Republic</h3><p>The capital and largest city of the Czech Republic, known for its well-preserved medieval architecture and vibrant cultural scene.</p><a href="Seasons/autumn.html#Prague"></a></div>
-  <div class="patra-con"><img src="Continents/Asia/Zhangjiajie National Forest Park.jpeg" alt="Zhangjiajie National Forest Park"><h2 class="con-topic">Zhangjiajie National Forest Park</h2><h3 class="con-loc">📍 Location: China</h3><p>Zhangjiajie is known for its towering sandstone pillars and misty landscapes.</p><a href="Seasons/autumn.html#Zhangjiajie-National-Forest-Park"></a></div>
+  <div class="patra-con"><img src="Continents/Asia/Zhangjiajie-National-Forest-Park.jpeg" alt="Zhangjiajie National Forest Park"><h2 class="con-topic">Zhangjiajie National Forest Park</h2><h3 class="con-loc">📍 Location: China</h3><p>Zhangjiajie is known for its towering sandstone pillars and misty landscapes.</p><a href="Seasons/autumn.html#Zhangjiajie-National-Forest-Park"></a></div>
 </div>
 
 <div class="container">
   <div class="con-main-text show"><p>Spring</p></div>
   <div class="viewall show"><a href="Seasons/spring.html" class="view-all">View All →</a></div>
-  <div class="header"><img src="Continents/Asia/Kashmir.jpeg"><h2 class="con-topic">Kashmir</h2><h3 class="con-loc">📍 Location: China</h3><p>Mountain region with blooming flowers, lakes, and stunning scenery.</p><a href="Continents/asia.html#Kashmir"></a></div>
-  <div class="great-wall-con"><img src="Continents/Europe/Rome.jpeg"><h2 class="con-topic">Rome</h2><h3 class="con-loc">📍 Location: Italy</h3><p>Rome is a historic Italian city famed for ancient ruins, art, vibrant culture, and timeless architecture.</p><a href="Seasons/spring.html#Rome"></a></div>
-  <div class="colosseum-con-1"><img src="Continents/North-America/Washington DC.jpeg"><h2 class="con-topic">Washington DC</h2><h3 class="con-loc">📍 Location: United States</h3><p>Washington, D.C. is the U.S. capital, known for iconic monuments, museums, government institutions, and rich historical significance.</p><a href="Seasons/spring.html#Washington DC"></a></div>
-  <div class="patra-con"><img src="Continents/North-America/Orlando.jpeg"><h2 class="con-topic">Orlando</h2><h3 class="con-loc">📍 Location: United States</h3><p>The United States is a diverse country known for vast landscapes, vibrant cities, innovation, and rich cultural influences.</p><a href="Seasons/spring.html#Orlando"></a></div>
+  <div class="header"><img src="Continents/Asia/Kashmir.jpeg" alt="Kashmir"><h2 class="con-topic">Kashmir</h2><h3 class="con-loc">📍 Location: India</h3><p>Mountain region with blooming flowers, lakes, and stunning scenery.</p><a href="Continents/asia.html#Kashmir"></a></div>
+  <div class="great-wall-con"><img src="Continents/Europe/Rome.jpeg" alt="Rome"><h2 class="con-topic">Rome</h2><h3 class="con-loc">📍 Location: Italy</h3><p>Rome is a historic Italian city famed for ancient ruins, art, vibrant culture, and timeless architecture.</p><a href="Seasons/spring.html#Rome"></a></div>
+  <div class="colosseum-con-1"><img src="Continents/North-America/Washington-DC.jpeg" alt="Washington DC"><h2 class="con-topic">Washington DC</h2><h3 class="con-loc">📍 Location: United States</h3><p>Washington, D.C. is the U.S. capital, known for iconic monuments, museums, government institutions, and rich historical significance.</p><a href="Seasons/spring.html#Washington-DC"></a></div>
+  <div class="patra-con"><img src="Continents/North-America/Orlando.jpeg" alt="Orlando"><h2 class="con-topic">Orlando</h2><h3 class="con-loc">📍 Location: United States</h3><p>The United States is a diverse country known for vast landscapes, vibrant cities, innovation, and rich cultural influences.</p><a href="Seasons/spring.html#Orlando"></a></div>
 </div>
 
 <div class="container">
@@ -99,40 +103,40 @@ scroll-behavior: smooth;
 <div class="container">
   <div class="con-main-text show"><p>Africa</p></div>
   <div class="viewall show"><a href="Continents/africa.html" class="view-all">View All →</a></div>
-  <div class="header"><img src="Continents/Africa/Serengeti National Park.jpeg" alt="Serengeti National Park"><h2 class="con-topic">Serengeti National Park</h2><h3 class="con-loc">📍 Location: Tanzania</h3><p>World-famous safari park with huge animal migrations and incredible wildlife viewing opportunities.</p><a href="Continents/africa.html#Serengeti National Park"></a></div>
-  <div class="great-wall-con"><img src="Continents/Africa/Victoria Falls.jpg" alt="Victoria Falls"><h2 class="con-topic">Victoria Falls</h2><h3 class="con-loc">📍 Location: Zambia/Zimbabwe</h3><p>Victoria Falls is one of the largest and most powerful waterfalls in the world.</p><a href="Continents/africa.html#Victoria Falls"></a></div>
-  <div class="colosseum-con-1"><img src="Continents/Africa/Sahara Desert.jpeg" alt="Sahara Desert"><h2 class="con-topic">Sahara Desert</h2><h3 class="con-loc">📍 Location: North Africa</h3><p>The Sahara Desert is the largest hot desert in the world, known for its vast golden dunes and endless horizons.</p><a href="Continents/africa.html#Sahara Desert"></a></div>
-  <div class="patra-con"><img src="Continents/Africa/Masai Mara National Reserve.jpeg" alt="Masai Mara National Reserve"><h2 class="con-topic">Masai Mara National Reserve</h2><h3 class="con-loc">📍 Location: Kenya</h3><p>Famous safari reserve with rich wildlife and incredible animal viewing.</p><a href="Continents/africa.html#Masai Mara National Reserve"></a></div>
+  <div class="header"><img src="Continents/Africa/Serengeti-National-Park.jpeg" alt="Serengeti National Park"><h2 class="con-topic">Serengeti National Park</h2><h3 class="con-loc">📍 Location: Tanzania</h3><p>World-famous safari park with huge animal migrations and incredible wildlife viewing opportunities.</p><a href="Continents/africa.html#Serengeti-National-Park"></a></div>
+  <div class="great-wall-con"><img src="Continents/Africa/Victoria-Falls.jpg" alt="Victoria Falls"><h2 class="con-topic">Victoria Falls</h2><h3 class="con-loc">📍 Location: Zambia/Zimbabwe</h3><p>Victoria Falls is one of the largest and most powerful waterfalls in the world.</p><a href="Continents/africa.html#Victoria-Falls"></a></div>
+  <div class="colosseum-con-1"><img src="Continents/Africa/Sahara-Desert.jpeg" alt="Sahara Desert"><h2 class="con-topic">Sahara Desert</h2><h3 class="con-loc">📍 Location: North Africa</h3><p>The Sahara Desert is the largest hot desert in the world, known for its vast golden dunes and endless horizons.</p><a href="Continents/africa.html#Sahara-Desert"></a></div>
+  <div class="patra-con"><img src="Continents/Africa/Masai-Mara-National-Reserve.jpeg" alt="Masai Mara National Reserve"><h2 class="con-topic">Masai Mara National Reserve</h2><h3 class="con-loc">📍 Location: Kenya</h3><p>Famous safari reserve with rich wildlife and incredible animal viewing.</p><a href="Continents/africa.html#Masai-Mara-National-Reserve"></a></div>
 
 </div>
 
 <div class="container">
   <div class="con-main-text show"><p>North America</p></div>
   <div class="viewall show"><a href="Continents/north-america.html" class="view-all">View All →</a></div>
-  <div class="header"><img src="Continents/North-America/New York City.jpeg" alt="New York City"><h2 class="con-topic">New York City</h2><h3 class="con-loc">📍 Location: New York, USA</h3><p>The largest city in the United States, known for its iconic landmarks, vibrant culture, and endless entertainment options.</p><a href="Continents/north-america.html#New York City"></a></div>
-  <div class="great-wall-con"><img src="Continents/North-America/Yellowstone National Park.jpeg" alt="Yellowstone National Park"><h2 class="con-topic">Yellowstone National Park</h2><h3 class="con-loc">📍 Location: United States</h3><p>Famous park with geysers, wildlife, and unique geothermal features.</p><a href="Continents/north-america.html#Yellowstone National Park"></a></div>
+  <div class="header"><img src="Continents/North-America/New-York-City.jpeg" alt="New York City"><h2 class="con-topic">New York City</h2><h3 class="con-loc">📍 Location: New York, USA</h3><p>The largest city in the United States, known for its iconic landmarks, vibrant culture, and endless entertainment options.</p><a href="Continents/north-america.html#New-York-City"></a></div>
+  <div class="great-wall-con"><img src="Continents/North-America/Yellowstone-National-Park.jpeg" alt="Yellowstone National Park"><h2 class="con-topic">Yellowstone National Park</h2><h3 class="con-loc">📍 Location: United States</h3><p>Famous park with geysers, wildlife, and unique geothermal features.</p><a href="Continents/north-america.html#Yellowstone-National-Park"></a></div>
   <div class="colosseum-con-1"><img src="Continents/North-America/Toronto.jpeg" alt="Toronto"><h2 class="con-topic">Toronto</h2><h3 class="con-loc">📍 Location: Ontario, Canada</h3><p>The largest city in Canada, known for its diverse culture, beautiful architecture, and vibrant arts scene.</p><a href="Continents/north-america.html#Toronto"></a></div>
-  <div class="patra-con"><img src="Continents/North-America/Washington DC.jpeg" alt="Washington DC"><h2 class="con-topic">Washington DC</h2><h3 class="con-loc">📍 Location: District of Columbia, USA</h3><p>The capital city of the United States, known for its historical landmarks and political significance.</p><a href="Continents/north-america.html#Washington DC"></a></div>
+  <div class="patra-con"><img src="Continents/North-America/Washington-DC.jpeg" alt="Washington DC"><h2 class="con-topic">Washington DC</h2><h3 class="con-loc">📍 Location: District of Columbia, USA</h3><p>The capital city of the United States, known for its historical landmarks and political significance.</p><a href="Continents/north-america.html#Washington-DC"></a></div>
 
 </div>
 
 <div class="container">
   <div class="con-main-text show"><p>South America</p></div>
   <div class="viewall show"><a href="Continents/south-america.html" class="view-all">View All →</a></div>
-  <div class="header"><img src="Continents/South America/Patagonia.jpeg" alt="Patagonia"><h2 class="con-topic">Patagonia</h2><h3 class="con-loc">📍 Location: Chile & Argentina</h3><p>Remote region with mountains, glaciers, and dramatic winter landscapes.</p><a href="Continents/south-america.html#Patagonia"></a></div>
-  <div class="great-wall-con"><img src="Continents/South America/Machu Picchu.jpeg" alt="Machu Picchu"><h2 class="con-topic">Machu Picchu</h2><h3 class="con-loc">📍 Location: Peru</h3><p>Ancient mountain ruins with incredible views and history.</p><a href="Continents/south-america.html#Machu Picchu"></a></div>
-  <div class="colosseum-con-1"><img src="Continents/South America/Buenos Aires(Spring).jpeg" alt="Buenos Aires"><h2 class="con-topic">Buenos Aires</h2><h3 class="con-loc">📍 Location: Argentina</h3><p>Cultural city with tango, food, and vibrant atmosphere.</p><a href="Continents/south-america.html#Buenos Aires"></a></div>
-  <div class="patra-con"><img src="Continents/South America/Mendoza.jpeg" alt="Mendoza"><h2 class="con-topic">Mendoza</h2><h3 class="con-loc">📍 Location: Argentina</h3><p>Wine region with mountains and autumn harvest beauty.</p><a href="Continents/south-america.html#Mendoza"></a></div>
+  <div class="header"><img src="Continents/South-America/Patagonia.jpeg" alt="Patagonia"><h2 class="con-topic">Patagonia</h2><h3 class="con-loc">📍 Location: Chile & Argentina</h3><p>Remote region with mountains, glaciers, and dramatic winter landscapes.</p><a href="Continents/south-america.html#Patagonia"></a></div>
+  <div class="great-wall-con"><img src="Continents/South-America/Machu-Picchu.jpeg" alt="Machu Picchu"><h2 class="con-topic">Machu Picchu</h2><h3 class="con-loc">📍 Location: Peru</h3><p>Ancient mountain ruins with incredible views and history.</p><a href="Continents/south-america.html#Machu-Picchu"></a></div>
+  <div class="colosseum-con-1"><img src="Continents/South-America/Buenos-Aires(Spring).jpeg" alt="Buenos Aires"><h2 class="con-topic">Buenos Aires</h2><h3 class="con-loc">📍 Location: Argentina</h3><p>Cultural city with tango, food, and vibrant atmosphere.</p><a href="Continents/south-america.html#Buenos-Aires"></a></div>
+  <div class="patra-con"><img src="Continents/South-America/Mendoza.jpeg" alt="Mendoza"><h2 class="con-topic">Mendoza</h2><h3 class="con-loc">📍 Location: Argentina</h3><p>Wine region with mountains and autumn harvest beauty.</p><a href="Continents/south-america.html#Mendoza"></a></div>
 
 </div>
 
 <div class="container">
   <div class="con-main-text show"><p>Antarctica</p></div>
   <div class="viewall show"><a href="Continents/antarctica.html" class="view-all">View All →</a></div>
-  <div class="header"><img src="Continents/Antarctica/South Shetland Islands.png" alt="South Shetland Islands"><h2 class="con-topic">South Shetland Islands</h2><h3 class="con-loc">📍 Location: Antarctica</h3><p>A group of islands located in the Antarctic Ocean, south of the Antarctic Peninsula.</p><a href="Continents/antarctica.html#South Shetland Islands"></a></div>
-  <div class="great-wall-con"><img src="Continents/Antarctica/Antarctic Peninsula.jpeg" alt="Antarctic Peninsula"><h2 class="con-topic">Antarctic Peninsula</h2><h3 class="con-loc">📍 Location: Antarctica</h3><p>A stunning icy wilderness filled with glaciers, penguins, and dramatic landscapes.</p><a href="Continents/antarctica.html#Antarctic Peninsula"></a></div>
-  <div class="colosseum-con-1"><img src="Continents/Antarctica/Deception Island.jpeg" alt="Deception Island"><h2 class="con-topic">Deception Island</h2><h3 class="con-loc">📍 Location: Antarctica</h3><p>A volcanic island in the South Shetland Islands, Antarctica.</p><a href="Continents/antarctica.html#Deception Island"></a></div>
-  <div class="patra-con"><img src="Continents/Antarctica/Paradise Bay.png" alt="Paradise Bay"><h2 class="con-topic">Paradise Bay</h2><h3 class="con-loc">📍 Location: Antarctica</h3><p>A stunning destination in Antarctica, known for its pristine beaches and crystal-clear waters.</p><a href="Continents/antarctica.html#Paradise Bay"></a></div>
+  <div class="header"><img src="Continents/Antarctica/South-Shetland-Islands.png" alt="South Shetland Islands"><h2 class="con-topic">South Shetland Islands</h2><h3 class="con-loc">📍 Location: Antarctica</h3><p>A group of islands located in the Antarctic Ocean, south of the Antarctic Peninsula.</p><a href="Continents/antarctica.html#South-Shetland-Islands"></a></div>
+  <div class="great-wall-con"><img src="Continents/Antarctica/Antarctic-Peninsula.jpeg" alt="Antarctic Peninsula"><h2 class="con-topic">Antarctic Peninsula</h2><h3 class="con-loc">📍 Location: Antarctica</h3><p>A stunning icy wilderness filled with glaciers, penguins, and dramatic landscapes.</p><a href="Continents/antarctica.html#Antarctic-Peninsula"></a></div>
+  <div class="colosseum-con-1"><img src="Continents/Antarctica/Deception-Island.jpeg" alt="Deception Island"><h2 class="con-topic">Deception Island</h2><h3 class="con-loc">📍 Location: Antarctica</h3><p>A volcanic island in the South Shetland Islands, Antarctica.</p><a href="Continents/antarctica.html#Deception-Island"></a></div>
+  <div class="patra-con"><img src="Continents/Antarctica/Paradise-Bay.png" alt="Paradise Bay"><h2 class="con-topic">Paradise Bay</h2><h3 class="con-loc">📍 Location: Antarctica</h3><p>A stunning destination in Antarctica, known for its pristine beaches and crystal-clear waters.</p><a href="Continents/antarctica.html#Paradise-Bay"></a></div>
 
 </div>
 
@@ -150,7 +154,7 @@ scroll-behavior: smooth;
   <div class="con-main-text show"><p>Australia</p></div>
   <div class="viewall show"><a href="Continents/australia.html" class="view-all">View All →</a></div>
   <div class="header"><img src="Continents/Australia/Queenstown.jpeg" alt="Queenstown"><h2 class="con-topic">Queenstown</h2><h3 class="con-loc">📍 Location: New Zealand</h3><p>A top adventure destination surrounded by mountains and lakes.</p><a href="Continents/australia.html#Queenstown"></a></div>
-  <div class="great-wall-con"><img src="Continents/Australia/Great Barrier Reef.jpeg" alt="Great Barrier Reef"><h2 class="con-topic">Great Barrier Reef</h2><h3 class="con-loc">📍 Location: Australia</h3><p>The world's largest coral reef system, stretching over 2,300 kilometers along the coast of Queensland, Australia.</p><a href="Continents/australia.html#Great Barrier Reef"></a></div>
+  <div class="great-wall-con"><img src="Continents/Australia/Great-Barrier-Reef.jpeg" alt="Great Barrier Reef"><h2 class="con-topic">Great Barrier Reef</h2><h3 class="con-loc">📍 Location: Australia</h3><p>The world's largest coral reef system, stretching over 2,300 kilometers along the coast of Queensland, Australia.</p><a href="Continents/australia.html#Great-Barrier-Reef"></a></div>
   <div class="colosseum-con-1"><img src="Continents/Australia/Sydney.jpeg" alt="Sydney"><h2 class="con-topic">Sydney</h2><h3 class="con-loc">📍 Location: New South Wales, Australia</h3><p>The capital and largest city of Australia, known for its rich cultural heritage and beautiful architecture.</p><a href="Continents/australia.html#Sydney"></a></div>
   <div class="patra-con"><img src="Continents/Australia/Tasmania.jpeg" alt="Tasmania"><h2 class="con-topic">Tasmania</h2><h3 class="con-loc">📍 Location: Australia</h3><p>An island state of Australia known for its rugged landscapes, pristine wilderness, and rich cultural heritage.</p><a href="Continents/australia.html#Tasmania"></a></div>
 
@@ -159,10 +163,10 @@ scroll-behavior: smooth;
 <div class="container">
   <div class="con-main-text show"><p>Mountains</p></div>
   <div class="viewall show"><a href="mountain.html" class="view-all">View All →</a></div>
-  <div class="header"><img src="Continents/Asia/Mount Everest.jpeg" alt="Mount Everest"><h2 class="con-topic">Mount Everest</h2><h3 class="con-loc">📍 Location: Nepal/Tibet</h3><p>The highest mountain in the world, located in the Himalayas.</p><a href="mountain.html#Mount-Everest"></a></div>
-  <div class="great-wall-con"><img src="Continents/Asia/Mount Fuji.jpeg" alt="Mount Fuji"><h2 class="con-topic">Mount Fuji</h2><h3 class="con-loc">📍 Location: Japan</h3><p>Mount Fuji is Japan’s most iconic mountain, known for its symmetrical shape.</p><a href="mountain.html#Mount-Fuji"></a></div>
-  <div class="colosseum-con-1"><img src="Continents/North-America/Whistler Mountain.jpeg" alt="Whistler Mountain"><h2 class="con-topic">Whistler Mountain</h2><h3 class="con-loc">📍 Location: British Columbia, Canada</h3><p>A popular ski resort and hiking destination in the Coast Mountains.</p><a href="mountain.html#Whistler-Mountain"></a></div>
-  <div class="patra-con"><img src="Continents/Australia/Mount Taranaki.jpeg" alt="Mount Taranaki"><h2 class="con-topic">Mount Taranaki</h2><h3 class="con-loc">📍 Location: New Zealand</h3><p>A dormant volcano and popular hiking destination in the North Island.</p><a href="mountain.html#Mount-Taranaki"></a></div>
+  <div class="header"><img src="Continents/Asia/Mount-Everest.jpeg" alt="Mount Everest"><h2 class="con-topic">Mount Everest</h2><h3 class="con-loc">📍 Location: Nepal/Tibet</h3><p>The highest mountain in the world, located in the Himalayas.</p><a href="mountain.html#Mount-Everest"></a></div>
+  <div class="great-wall-con"><img src="Continents/Asia/Mount-Fuji.jpeg" alt="Mount Fuji"><h2 class="con-topic">Mount Fuji</h2><h3 class="con-loc">📍 Location: Japan</h3><p>Mount Fuji is Japan’s most iconic mountain, known for its symmetrical shape.</p><a href="mountain.html#Mount-Fuji"></a></div>
+  <div class="colosseum-con-1"><img src="Continents/North-America/Whistler-Mountain.jpeg" alt="Whistler Mountain"><h2 class="con-topic">Whistler Mountain</h2><h3 class="con-loc">📍 Location: British Columbia, Canada</h3><p>A popular ski resort and hiking destination in the Coast Mountains.</p><a href="mountain.html#Whistler-Mountain"></a></div>
+  <div class="patra-con"><img src="Continents/Australia/Mount-Taranaki.jpeg" alt="Mount Taranaki"><h2 class="con-topic">Mount Taranaki</h2><h3 class="con-loc">📍 Location: New Zealand</h3><p>A dormant volcano and popular hiking destination in the North Island.</p><a href="mountain.html#Mount-Taranaki"></a></div>
 </div>
 </main>
 
@@ -174,6 +178,8 @@ scroll-behavior: smooth;
 </footer>
 </body>
 <script src="Layout/Containor-(4-items).js"></script>
+<script src="Layout/Search-Suggestions-Mainfile.js"></script>
+<script src="Layout/Search.js"></script>
 </html>
 
 

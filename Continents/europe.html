@@ -15,8 +15,12 @@ scroll-behavior: smooth;
             <a href="../index.html"><img src="../airplane-Freepik.gif" alt="site-logo"></a>
         </div>
         <h1 class="site-name">JetSetGo!</h1>
-            <img src="../search.png" class="search-icon" alt="Search-Icon">
+        <div class="search-container">
+            <input type="text" class="search-bar" id="searchInput" placeholder="Search seasons, continents...">
+            <div class="suggestions" id="suggestions"></div>
 
+            <img src="../search.png" class="search-icon" alt="Search-Icon">
+        </div>
     </header>
     <nav>
       <a href="../index.html" class="navigate-norm">Home</a>
@@ -40,7 +44,7 @@ scroll-behavior: smooth;
 
 <!--Winter Season-->
       <div class="container">
-        <div class="imges"><img src="../Continents/Europe/Swiss Alps.jpeg" alt="Swiss Alps"></div>
+        <div class="imges"><img src="../Continents/Europe/Swiss-Alps.jpeg" alt="Swiss Alps"></div>
   <div class="main-content">
     <h1 class="con-topic">Swiss Alps</h1>
     <h2 class="con-loc">📍 Location: Switzerland</h2>
@@ -173,7 +177,7 @@ scroll-behavior: smooth;
       </div>
 
       <div class="container">
-        <div class="imges"><img src="../Continents/Europe/Amalfi Coast.jpeg" alt="Amalfi Coast"></div>
+        <div class="imges"><img src="../Continents/Europe/Amalfi-Coast.jpeg" alt="Amalfi Coast"></div>
   <div class="main-content">
     <h1 class="con-topic">Amalfi Coast</h1>
     <h2 class="con-loc">📍 Location: Italy</h2>
@@ -464,7 +468,7 @@ scroll-behavior: smooth;
 
       <!--Mountains-->
       <div class="container">
-        <div class="imges"><img src="../Continents/Europe/Mont Blanc.jpeg" alt="Mont Blanc"></div>
+        <div class="imges"><img src="../Continents/Europe/Mont-Blanc.jpeg" alt="Mont Blanc"></div>
   <div class="main-content">
     <h1 class="con-topic">Mont Blanc</h1>
     <h2 class="con-loc">📍 Location: France</h2>
@@ -542,7 +546,7 @@ scroll-behavior: smooth;
       </div>
 
       <div class="container">
-        <div class="imges"><img src="../Continents/Europe/Scottish Highlands.jpeg" alt="Scottish Highlands"></div>
+        <div class="imges"><img src="../Continents/Europe/Scottish-Highlands.jpeg" alt="Scottish Highlands"></div>
   <div class="main-content">
     <h1 class="con-topic">Scottish Highlands</h1>
     <h2 class="con-loc">📍 Location: Scotland</h2>
@@ -574,6 +578,8 @@ scroll-behavior: smooth;
 </div>
 </footer>
 <script src="../Layout/Containor-(1-item).js"></script>
+<script src="../Layout/Search-Suggestions-Subfile.js"></script>
+<script src="../Layout/Search.js"></script>
 </body>
 </html>
 

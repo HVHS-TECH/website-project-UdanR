@@ -1,5 +1,6 @@
 html, body{background-color: hsl(204, 48%, 53%);}
 
+
 .site-header{
   background-color: #97cbff;
   position: sticky;
@@ -12,6 +13,7 @@ html, body{background-color: hsl(204, 48%, 53%);}
   display: flex;
   justify-content: space-between;
   align-items: center;
+  z-index: 500;
 }
 
 nav{
@@ -21,17 +23,7 @@ border-radius: 5px;
 animation: zoom1 1.2s ease-out forwards;
 outline: 1px solid white;
 height: 30px; 
-z-index: 800;
-}
-
-.nav{
-background-color: #97cbff;    
-position: sticky;
-border-radius: 5px;
-animation: zoom1 1.2s ease-out forwards;
-outline: 1px solid white;
-height: 30px; 
-z-index: 800;
+z-index: 400;
 }
 
 .navigate-norm{
@@ -80,35 +72,33 @@ z-index: 800;
   color: white; 
 }
 
-.search-icon{
-  width: 35px;
-  height: 35px;
-  padding-right: 20px;
-  filter: invert(100%);
-}
+
 
 
 /*header*/
 .index-img {
 position: relative;
+filter: brightness(70%);
+
 }
 
 .index-img img {
-  width:100%;
-  height: auto;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
   display: block;
 }
 
 .main-title {
   position: absolute;
-  width: 600px;
+  width: min(600px, 90%);
   height: auto;
 
   top: 65%;
   left: 50%;
   transform: translate(-45%, -45%) scale(1); /* THIS centers it perfectly */
 
-  padding: 40px 60px;
+  padding: clamp(20px, 4vw, 40px);
   border-radius: 12px;
 
   background: rgba(255, 255, 255, 0.15);
@@ -129,7 +119,7 @@ position: relative;
 }
 
 #index-title {
-  font-size: 75px;
+  font-size: clamp(32px, 6vw, 75px);
   color: white;
   margin: 0;
   font-family: 'Courier New', Courier, monospace;
@@ -137,10 +127,10 @@ position: relative;
 }
 
 #index-catchline {
-  font-size: 35px;
+  font-size: clamp(16px, 3.5vw, 35px);
   color: white;
   margin-top: 10px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 @keyframes move-up{
@@ -152,4 +142,76 @@ position: relative;
   opacity: 1;
     transform: translate(-50%, -50%) scale(1);
 }
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+  z-index: 10000;
+}
+
+/* hidden search bar initially */
+.search-bar {
+  width: 0;
+  opacity: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  transition: all 0.8s ease;
+  border-radius: 20px;
+  font-size: 16px;
+  margin-right: 0;
+  position: relative;
+}
+
+/* when active */
+.search-container.active .search-bar {
+  width: 220px;
+  opacity: 1;
+  padding: 6px 12px;
+  margin-right: -10px;
+  border: 1px solid white;
+  background: white;
+  color: black;
+}
+
+/* icon animation */
+.search-icon {
+  width: 30px;
+  height: 30px;
+  padding-right: 20px;
+  filter: invert(100%);
+  cursor: pointer;
+  transition: transform 0.8s ease;
+}
+
+/* when active → spin + move left */
+.search-container.active .search-icon {
+  transform: translateX(-275px);
+}
+
+.suggestions {
+  position: absolute;
+  top: 45px;
+  left: 0;
+  background: white;
+  width: 250px;
+  border-radius: 10px;
+  overflow: hidden;
+  display: none;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  z-index: 9999;
+}
+
+/* each suggestion */
+.suggestion-item {
+  padding: 10px;
+  cursor: pointer;
+  font-family: Arial, sans-serif;
+}
+
+.suggestion-item:hover {
+  background: #97cbff;
+  color: white;
 }

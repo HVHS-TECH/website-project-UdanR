@@ -11,14 +11,17 @@ scroll-behavior: smooth;
 }</style>
 </head>
 <body>
-<main>
     <header class="site-header">
         <div class="site-logo">
             <a href="index.html"><img src="airplane-Freepik.gif" alt="site-logo"></a>
         </div>
         <h1 class="site-name">JetSetGo!</h1>
-            <img src="search.png" class="search-icon" alt="Search-Icon">
+        <div class="search-container">
+            <input type="text" class="search-bar" id="searchInput" placeholder="Search seasons, continents...">
+            <div class="suggestions" id="suggestions"></div>
 
+            <img src="search.png" class="search-icon" alt="Search-Icon">
+        </div>
     </header>
     <nav>
       <a href="index.html" class="navigate-norm">Home</a>
@@ -39,11 +42,11 @@ scroll-behavior: smooth;
       <h2 id="index-catchline">Rise above it all and discover the beauty of the mountains.</h2> 
       </div>
       </div>
-
+<h3></h3>
       <!--Asia-->
       <div id="Mount-Everest"></div>
       <div class="container">
-        <div class="imges"><img src="Continents/Asia/Mount Everest.jpeg" alt="Mount Everest"></div>
+        <div class="imges"><img src="Continents/Asia/Mount-Everest.jpeg" alt="Mount Everest"></div>
   <div class="main-content">
     <h1 class="con-topic">Mount Everest</h1>
     <h2 class="con-loc">📍 Location: Nepal/Tibet</h2>
@@ -69,7 +72,7 @@ scroll-behavior: smooth;
       </div>
       <div id="Mount-Fuji"></div>
       <div class="container">
-        <div class="imges"><img src="Continents/Asia/Mount Fuji.jpeg" alt="Mount Fuji"></div>
+        <div class="imges"><img src="Continents/Asia/Mount-Fuji.jpeg" alt="Mount Fuji"></div>
   <div class="main-content">
     <h1 class="con-topic">Mount Fuji</h1>
     <h2 class="con-loc">📍 Location: Japan</h2>
@@ -95,7 +98,7 @@ scroll-behavior: smooth;
       </div>
 
       <div class="container">
-        <div class="imges"><img src="Continents/Asia/Annapurna Range.jpeg" alt="Annapurna Range"></div>
+        <div class="imges"><img src="Continents/Asia/Annapurna-Range.jpeg" alt="Annapurna Range"></div>
   <div class="main-content">
     <h1 class="con-topic">Annapurna Range</h1>
     <h2 class="con-loc">📍 Location: Nepal</h2>
@@ -121,7 +124,7 @@ scroll-behavior: smooth;
       </div>
 
       <div class="container">
-        <div class="imges"><img src="Continents/Asia/Zhangjiajie Mountains.jpeg" alt="Zhangjiajie Mountains"></div>
+        <div class="imges"><img src="Continents/Asia/Zhangjiajie-Mountains.jpeg" alt="Zhangjiajie Mountains"></div>
   <div class="main-content">
     <h1 class="con-topic">Zhangjiajie Mountains</h1>
     <h2 class="con-loc">📍Location: China</h2>
@@ -148,7 +151,7 @@ scroll-behavior: smooth;
 
       <!--Africa-->
       <div class="container">
-        <div class="imges"><img src="Continents/Africa/Mount Kilimanjaro.jpeg" alt="Mount Kilimanjaro"></div>
+        <div class="imges"><img src="Continents/Africa/Mount-Kilimanjaro.jpeg" alt="Mount Kilimanjaro"></div>
   <div class="main-content">
     <h1 class="con-topic">Mount Kilimanjaro</h1>
     <h2 class="con-loc">📍 Location: Tanzania</h2>
@@ -174,7 +177,7 @@ scroll-behavior: smooth;
       </div>
 
       <div class="container">
-        <div class="imges"><img src="Continents/Africa/Mount Kenya.jpeg" alt="Mount Kenya"></div>
+        <div class="imges"><img src="Continents/Africa/Mount-Kenya.jpeg" alt="Mount Kenya"></div>
   <div class="main-content">
     <h1 class="con-topic">Mount Kenya</h1>
     <h2 class="con-loc">📍 Location: Kenya</h2>
@@ -200,7 +203,7 @@ scroll-behavior: smooth;
       </div>
 
       <div class="container">
-        <div class="imges"><img src="Continents/Africa/Atlas Mountains.jpeg" alt="Atlas Mountains"></div>
+        <div class="imges"><img src="Continents/Africa/Atlas-Mountains.jpeg" alt="Atlas Mountains"></div>
   <div class="main-content">
     <h1 class="con-topic">Atlas Mountains</h1>
     <h2 class="con-loc">📍 Location: Morocco</h2>
@@ -226,7 +229,7 @@ scroll-behavior: smooth;
       </div>
 
       <div class="container">
-        <div class="imges"><img src="Continents/Africa/Drakensberg Mountains.jpeg" alt="Drakensberg Mountains"></div>
+        <div class="imges"><img src="Continents/Africa/Drakensberg-Mountains.jpeg" alt="Drakensberg Mountains"></div>
   <div class="main-content">
     <h1 class="con-topic">Drakensberg Mountains</h1>
     <h2 class="con-loc">📍 Location: South Africa</h2>
@@ -253,7 +256,7 @@ scroll-behavior: smooth;
 
 <!--North America-->
       <div class="container">
-        <div class="imges"><img src="Continents/North-America/Rocky Mountains.jpeg" alt="Rocky Mountains"></div>
+        <div class="imges"><img src="Continents/North-America/Rocky-Mountains.jpeg" alt="Rocky Mountains"></div>
   <div class="main-content">
     <h1 class="con-topic">Rocky Mountains</h1>
     <h2 class="con-loc">📍 Location: United States</h2>
@@ -305,7 +308,7 @@ scroll-behavior: smooth;
       </div>
 
       <div class="container">
-        <div class="imges"><img src="Continents/North-America/Yosemite Valley.jpeg" alt="Yosemite Valley"></div>
+        <div class="imges"><img src="Continents/North-America/Yosemite-Valley.jpeg" alt="Yosemite Valley"></div>
   <div class="main-content">
     <h1 class="con-topic">Yosemite Valley</h1>
     <h2 class="con-loc">📍 Location: California, USA</h2>
@@ -332,7 +335,7 @@ scroll-behavior: smooth;
 
       <div id="Whistler-Mountain"></div>
       <div class="container">
-        <div class="imges"><img src="Continents/North-America/Whistler Mountain.jpeg" alt="Whistler Mountain"></div>
+        <div class="imges"><img src="Continents/North-America/Whistler-Mountain.jpeg" alt="Whistler Mountain"></div>
   <div class="main-content">
     <h1 class="con-topic">Whistler Mountain</h1>
     <h2 class="con-loc">📍 Location: British Columbia, Canada</h2>
@@ -359,7 +362,7 @@ scroll-behavior: smooth;
 
 <!--South America-->
       <div class="container">
-        <div class="imges"><img src="Continents/South America/Andes Mountains.jpeg" alt="Andes Mountains"></div>
+        <div class="imges"><img src="Continents/South-America/Andes-Mountains.jpeg" alt="Andes Mountains"></div>
   <div class="main-content">
     <h1 class="con-topic">Andes Mountains</h1>
     <h2 class="con-loc">📍 Location: South America</h2>
@@ -385,7 +388,7 @@ scroll-behavior: smooth;
       </div>
 
       <div class="container">
-        <div class="imges"><img src="Continents/South America/Torres del Paine.jpeg" alt="Torres del Paine"></div>
+        <div class="imges"><img src="Continents/South-America/Torres-del-Paine.jpeg" alt="Torres del Paine"></div>
   <div class="main-content">
     <h1 class="con-topic">Torres del Paine</h1>
     <h2 class="con-loc">📍 Location: Chile's Patagonia region</h2>
@@ -411,7 +414,7 @@ scroll-behavior: smooth;
       </div>
 
       <div class="container">
-        <div class="imges"><img src="Continents/South America/Mount Fitz Roy.jpeg" alt="Mount Fitz Roy"></div>
+        <div class="imges"><img src="Continents/South-America/Mount-Fitz-Roy.jpeg" alt="Mount Fitz Roy"></div>
   <div class="main-content">
     <h1 class="con-topic">Mount Fitz Roy</h1>
     <h2 class="con-loc">📍 Location: Between Chile and Argentina</h2>
@@ -437,7 +440,7 @@ scroll-behavior: smooth;
       </div>
 
       <div class="container">
-        <div class="imges"><img src="Continents/South America/Cotopaxi.jpeg" alt="Cotopaxi"></div>
+        <div class="imges"><img src="Continents/South-America/Cotopaxi.jpeg" alt="Cotopaxi"></div>
   <div class="main-content">
     <h1 class="con-topic">Cotopaxi</h1>
     <h2 class="con-loc">📍 Location: Ecuador</h2>
@@ -464,7 +467,7 @@ scroll-behavior: smooth;
 
       <!--Europe-->
       <div class="container">
-        <div class="imges"><img src="Continents/Europe/Mont Blanc.jpeg" alt="Mont Blanc"></div>
+        <div class="imges"><img src="Continents/Europe/Mont-Blanc.jpeg" alt="Mont Blanc"></div>
   <div class="main-content">
     <h1 class="con-topic">Mont Blanc</h1>
     <h2 class="con-loc">📍 Location: France</h2>
@@ -542,7 +545,7 @@ scroll-behavior: smooth;
       </div>
 
       <div class="container">
-        <div class="imges"><img src="Continents/Europe/Scottish Highlands.jpeg" alt="Scottish Highlands"></div>
+        <div class="imges"><img src="Continents/Europe/Scottish-Highlands.jpeg" alt="Scottish Highlands"></div>
   <div class="main-content">
     <h1 class="con-topic">Scottish Highlands</h1>
     <h2 class="con-loc">📍 Location: Scotland</h2>
@@ -569,7 +572,7 @@ scroll-behavior: smooth;
 
 <!--Australia-->
       <div class="container">
-        <div class="imges"><img src="Continents/Australia/Mount Cook.jpeg" alt="Mount Cook"></div>
+        <div class="imges"><img src="Continents/Australia/Mount-Cook.jpeg" alt="Mount Cook"></div>
   <div class="main-content">
     <h1 class="con-topic">Mount Cook</h1>
     <h2 class="con-loc">📍 Location: New Zealand</h2>
@@ -595,7 +598,7 @@ scroll-behavior: smooth;
       </div>
 
       <div class="container">
-        <div class="imges"><img src="Continents/Australia/Mount Ruapehu.jpeg" alt="Mount Ruapehu"></div>
+        <div class="imges"><img src="Continents/Australia/Mount-Ruapehu.jpeg" alt="Mount Ruapehu"></div>
   <div class="main-content">
     <h1 class="con-topic">Mount Ruapehu</h1>
     <h2 class="con-loc">📍 Location: New Zealand</h2>
@@ -621,7 +624,7 @@ scroll-behavior: smooth;
       </div>
 
       <div class="container">
-        <div class="imges"><img src="Continents/Australia/Blue Mountains.jpeg" alt="Blue Mountains"></div>
+        <div class="imges"><img src="Continents/Australia/Blue-Mountains.jpeg" alt="Blue Mountains"></div>
   <div class="main-content">
     <h1 class="con-topic">Blue Mountains</h1>
     <h2 class="con-loc">📍 Location: Australia</h2>
@@ -648,10 +651,10 @@ scroll-behavior: smooth;
 
       <div id="Mount-Taranaki"></div>
       <div class="container">
-        <div class="imges"><img src="Continents/Australia/Mount Taranaki.jpeg" alt="Mount Taranaki"></div>
+        <div class="imges"><img src="Continents/Australia/Mount-Taranaki.jpeg" alt="Mount Taranaki"></div>
   <div class="main-content">
     <h1 class="con-topic">Mount Taranaki</h1>
-    <h2 class="con-loc">📍 Location: Victoria, Australia</h2>
+    <h2 class="con-loc">📍 Location: West Coast, New Zealand</h2>
     <h2>🌤️ Best Months: December – April</h2>
   </div>
   <div class="content">
@@ -682,6 +685,8 @@ scroll-behavior: smooth;
 </div>
 </footer>
 <script src="Layout/Containor-(1-item).js"></script>
+<script src="Layout/Search-Suggestions-Mainfile.js"></script>
+<script src="Layout/Search.js"></script>
 </body>
 </html>
 
