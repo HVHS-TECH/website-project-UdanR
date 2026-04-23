@@ -7,9 +7,7 @@
 
 const input = document.getElementById("searchInput");
 const suggestionsBox = document.getElementById("suggestions");
-
 const suggestionList = Object.keys(pages);
-
 input.addEventListener("input", () => {
   const value = input.value.toLowerCase().trim();
   suggestionsBox.innerHTML = "";
@@ -18,7 +16,6 @@ input.addEventListener("input", () => {
     suggestionsBox.style.display = "none";
     return;
   }
-
   const matches = suggestionList.filter(item =>
     item.includes(value)
   );
@@ -27,23 +24,17 @@ input.addEventListener("input", () => {
     suggestionsBox.style.display = "none";
     return;
   }
-
   matches.forEach(match => {
     const div = document.createElement("div");
     div.classList.add("suggestion-item");
     div.textContent = match;
-
     div.onclick = () => {
       window.location.href = pages[match];
     };
-
     suggestionsBox.appendChild(div);
   });
-
   suggestionsBox.style.display = "block";
 });
-
-// 🚀 press Enter to navigate
 input.addEventListener("keydown", (e) => {
   if (e.key === "Enter") {
     const value = input.value.toLowerCase().trim();
@@ -53,8 +44,6 @@ input.addEventListener("keydown", (e) => {
     }
   }
 });
-
-// ❌ close dropdown when clicking outside
 document.addEventListener("click", (e) => {
   if (!e.target.closest(".search-container")) {
     suggestionsBox.style.display = "none";
