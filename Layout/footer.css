@@ -41,6 +41,7 @@
 .footer-con div.footer-R {
   grid-area: footer-R;
   text-align: center;
+  place-items: center;
 }
 
 #footer-credits {
